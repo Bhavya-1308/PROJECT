@@ -1,0 +1,2001 @@
+order_id,city,restaurant,food_category,order_hour,distance_km,traffic,weather,prep_time_min,delivery_time_min,status,rating,time_window
+1001,Pune,Restaurant_7,Dessert,17,1.7,Low,Rainy,8.0,17.0,Delivered,5.0,Evening
+1002,Chennai,Restaurant_10,Pizza,13,12.2,High,Clear,18.0,45.0,Delivered,3.0,Afternoon
+1003,Bangalore,Restaurant_9,Burger,20,11.7,Low,Clear,13.0,37.0,Delivered,5.0,Night
+1004,Chennai,Restaurant_9,Biryani,9,13.8,Medium,Clear,25.0,36.0,Delivered,4.0,Morning
+1005,Chennai,Restaurant_9,Dessert,18,12.9,High,Rainy,10.0,60.0,Delivered,2.0,Evening
+1006,Mumbai,Restaurant_2,Burger,22,10.4,Low,Clear,11.0,36.0,Delivered,4.0,Night
+1007,Bangalore,Restaurant_3,Dessert,11,1.3,Low,Clear,8.0,20.0,Delivered,5.0,Morning
+1008,Bangalore,Restaurant_7,Burger,17,11.9,Medium,Clear,7.0,42.0,Delivered,4.0,Evening
+1009,Bangalore,Restaurant_5,Biryani,10,12.8,High,Clear,24.0,54.0,Delivered,2.0,Morning
+1010,Chennai,Restaurant_2,Biryani,19,12.1,Medium,Clear,31.0,39.0,Delivered,5.0,Evening
+1011,Pune,Restaurant_3,Chinese,18,7.9,Medium,Rainy,16.0,37.0,Delivered,4.0,Evening
+1012,Bangalore,Restaurant_10,South Indian,16,3.9,Low,Clear,14.0,10.0,Delivered,5.0,Evening
+1013,Chennai,Restaurant_6,Burger,18,12.8,High,Rainy,20.0,57.0,Cancelled,,Evening
+1014,Mumbai,Restaurant_7,Chinese,21,11.0,High,Clear,10.0,46.0,Cancelled,,Night
+1015,Pune,Restaurant_9,Burger,12,14.7,Medium,Rainy,8.0,57.0,Delivered,2.0,Afternoon
+1016,Mumbai,Restaurant_1,Chinese,9,2.8,High,Rainy,22.0,30.0,Delivered,4.0,Morning
+1017,Pune,Restaurant_7,Biryani,21,3.8,Medium,Clear,25.0,23.0,Delivered,5.0,Night
+1018,Chennai,Restaurant_8,Dessert,18,3.6,Medium,Rainy,7.0,26.0,Delivered,5.0,Evening
+1019,Delhi,Restaurant_3,Chinese,21,12.0,Low,Foggy,10.0,40.0,Delivered,4.0,Night
+1020,Pune,Restaurant_4,Burger,18,3.2,Medium,Clear,14.0,21.0,Delivered,5.0,Evening
+1021,Mumbai,Restaurant_10,Burger,20,1.5,Medium,Clear,14.0,17.0,Delivered,5.0,Night
+1022,Chennai,Restaurant_6,South Indian,16,15.0,Low,Rainy,10.0,55.0,Delivered,2.0,Evening
+1023,Pune,Restaurant_10,Biryani,20,0.9,Medium,Clear,24.0,15.0,Delivered,5.0,Night
+1024,Delhi,Restaurant_7,Burger,21,12.6,High,Clear,11.0,50.0,Delivered,3.0,Night
+1025,Delhi,Restaurant_4,Pizza,18,5.8,Medium,Foggy,19.0,31.0,Delivered,4.0,Evening
+1026,Bangalore,Restaurant_8,Dessert,11,12.7,Medium,Clear,5.0,41.0,Delivered,4.0,Morning
+1027,Bangalore,Restaurant_5,Chinese,12,8.5,High,Rainy,20.0,45.0,Delivered,3.0,Afternoon
+1028,Mumbai,Restaurant_1,South Indian,12,13.6,Low,Rainy,18.0,58.0,Delivered,1.0,Afternoon
+1029,Pune,Restaurant_4,Dessert,12,13.9,Medium,Foggy,7.0,47.0,Delivered,4.0,Afternoon
+1030,Pune,Restaurant_3,Biryani,13,0.6,High,Clear,24.0,20.0,Delivered,5.0,Afternoon
+1031,Bangalore,Restaurant_9,South Indian,18,1.6,Medium,Clear,13.0,15.0,Delivered,5.0,Evening
+1032,Pune,Restaurant_8,Chinese,18,4.1,Medium,Clear,12.0,22.0,Delivered,5.0,Evening
+1033,Pune,Restaurant_1,Chinese,16,10.2,Low,Clear,13.0,32.0,Delivered,4.0,Evening
+1034,Delhi,Restaurant_6,Pizza,19,13.4,High,Clear,17.0,55.0,Delivered,3.0,Evening
+1035,Bangalore,Restaurant_9,Biryani,10,7.2,Medium,Clear,31.0,22.0,Delivered,5.0,Morning
+1036,Chennai,Restaurant_7,South Indian,10,9.3,High,Clear,18.0,48.0,Delivered,4.0,Morning
+1037,Bangalore,Restaurant_4,South Indian,11,3.2,Medium,Clear,18.0,24.0,Delivered,5.0,Morning
+1038,Chennai,Restaurant_1,Burger,18,12.2,Medium,Rainy,13.0,43.0,Delivered,3.0,Evening
+1039,Delhi,Restaurant_2,Pizza,12,14.5,High,Rainy,14.0,51.0,Delivered,2.0,Afternoon
+1040,Mumbai,Restaurant_5,Pizza,13,4.4,Medium,Rainy,18.0,25.0,Delivered,5.0,Afternoon
+1041,Pune,Restaurant_5,South Indian,16,7.7,Medium,Foggy,18.0,35.0,Cancelled,,Evening
+1042,Delhi,Restaurant_8,South Indian,20,1.7,Medium,Clear,9.0,30.0,Delivered,5.0,Night
+1043,Pune,Restaurant_6,Dessert,8,8.6,High,Foggy,11.0,48.0,Cancelled,,Morning
+1044,Mumbai,Restaurant_8,Dessert,19,7.8,Medium,Foggy,17.0,27.0,Delivered,5.0,Evening
+1045,Mumbai,Restaurant_2,Dessert,19,2.6,Medium,Clear,12.0,16.0,Delivered,5.0,Evening
+1046,Delhi,Restaurant_3,Pizza,20,6.9,Low,Clear,24.0,25.0,Delivered,5.0,Night
+1047,Mumbai,Restaurant_6,Burger,22,5.3,High,Clear,13.0,35.0,Cancelled,,Night
+1048,Chennai,Restaurant_10,Chinese,9,8.1,Low,Clear,19.0,22.0,Delivered,5.0,Morning
+1049,Mumbai,Restaurant_3,Dessert,11,9.0,Medium,Clear,5.0,35.0,Delivered,4.0,Morning
+1050,Pune,Restaurant_6,Burger,21,0.6,Medium,Clear,15.0,11.0,Delivered,5.0,Night
+1051,Pune,Restaurant_6,Biryani,17,11.5,Medium,Rainy,28.0,42.0,Delivered,4.0,Evening
+1052,Pune,Restaurant_2,Dessert,18,10.8,Medium,Clear,9.0,41.0,Delivered,3.0,Evening
+1053,Pune,Restaurant_7,Chinese,19,5.8,Low,Clear,20.0,26.0,Delivered,5.0,Evening
+1054,Chennai,Restaurant_2,Biryani,19,1.3,Medium,Foggy,23.0,24.0,Delivered,5.0,Evening
+1055,Bangalore,Restaurant_6,Biryani,21,11.4,High,Clear,24.0,51.0,Delivered,2.0,Night
+1056,Delhi,Restaurant_1,Chinese,23,14.4,High,Foggy,15.0,58.0,Delivered,2.0,Night
+1057,Pune,Restaurant_3,Dessert,19,4.0,Low,Clear,5.0,22.0,Cancelled,,Evening
+1058,Mumbai,Restaurant_2,Pizza,13,5.2,High,Foggy,19.0,39.0,Delivered,4.0,Afternoon
+1059,Pune,Restaurant_7,Chinese,21,3.2,Medium,Clear,8.0,22.0,Delivered,5.0,Night
+1060,Mumbai,Restaurant_4,Chinese,9,8.9,High,Clear,19.0,39.0,Delivered,3.0,Morning
+1061,Mumbai,Restaurant_8,Chinese,12,2.7,Medium,Clear,15.0,17.0,Delivered,5.0,Afternoon
+1062,Pune,Restaurant_6,Biryani,21,5.7,Medium,Rainy,23.0,34.0,Delivered,4.0,Night
+1063,Chennai,Restaurant_10,Burger,12,10.6,High,Foggy,9.0,63.0,Delivered,1.0,Afternoon
+1064,Mumbai,Restaurant_4,Pizza,12,8.6,High,Clear,17.0,43.0,Delivered,3.0,Afternoon
+1065,Mumbai,Restaurant_5,Dessert,11,6.1,Medium,Foggy,11.0,29.0,Delivered,5.0,Morning
+1066,Pune,Restaurant_9,Dessert,21,6.6,Low,Clear,10.0,20.0,Delivered,5.0,Night
+1067,Mumbai,Restaurant_7,Burger,17,8.7,Medium,Rainy,9.0,38.0,Delivered,3.0,Evening
+1068,Mumbai,Restaurant_10,Chinese,19,0.6,Medium,Rainy,12.0,31.0,Delivered,5.0,Evening
+1069,Pune,Restaurant_9,Pizza,12,1.6,Low,Clear,21.0,10.0,Delivered,5.0,Afternoon
+1070,Pune,Restaurant_7,Dessert,20,13.3,Low,Clear,5.0,46.0,Delivered,3.0,Night
+1071,Delhi,Restaurant_1,South Indian,20,1.6,High,Foggy,14.0,26.0,Delivered,4.0,Night
+1072,Chennai,Restaurant_8,Dessert,13,10.7,Low,Foggy,8.0,40.0,Delivered,4.0,Afternoon
+1073,Chennai,Restaurant_4,Chinese,16,13.8,Medium,Foggy,16.0,55.0,Cancelled,,Evening
+1074,Mumbai,Restaurant_3,South Indian,12,4.4,Low,Foggy,17.0,20.0,Delivered,4.0,Afternoon
+1075,Chennai,Restaurant_7,Burger,22,5.9,Medium,Clear,7.0,25.0,Delivered,4.0,Night
+1076,Mumbai,Restaurant_3,Pizza,19,8.7,Low,Rainy,10.0,44.0,Delivered,4.0,Evening
+1077,Delhi,Restaurant_8,Burger,22,13.3,Low,Clear,10.0,46.0,Delivered,5.0,Night
+1078,Pune,Restaurant_6,Burger,13,14.2,High,Foggy,19.0,63.0,Delivered,2.0,Afternoon
+1079,Pune,Restaurant_5,Pizza,20,11.2,High,Clear,26.0,52.0,Delivered,4.0,Night
+1080,Pune,Restaurant_4,Pizza,20,1.8,Low,Clear,25.0,15.0,Delivered,5.0,Night
+1081,Chennai,Restaurant_8,Dessert,19,10.2,Medium,Clear,7.0,49.0,Delivered,3.0,Evening
+1082,Delhi,Restaurant_8,Dessert,22,6.4,Medium,Clear,5.0,29.0,Delivered,5.0,Night
+1083,Chennai,Restaurant_1,Pizza,16,7.3,High,Clear,9.0,41.0,Cancelled,,Evening
+1084,Chennai,Restaurant_9,South Indian,11,1.2,High,Foggy,12.0,20.0,Delivered,5.0,Morning
+1085,Delhi,Restaurant_5,Biryani,19,3.3,Medium,Rainy,24.0,23.0,Delivered,4.0,Evening
+1086,Delhi,Restaurant_4,Dessert,20,12.0,Medium,Clear,13.0,37.0,Delivered,4.0,Night
+1087,Delhi,Restaurant_6,Biryani,18,7.1,High,Rainy,28.0,50.0,Delivered,3.0,Evening
+1088,Delhi,Restaurant_6,South Indian,12,4.9,Low,Rainy,15.0,13.0,Delivered,5.0,Afternoon
+1089,Pune,Restaurant_2,Pizza,17,6.1,Medium,Clear,14.0,26.0,Delivered,5.0,Evening
+1090,Bangalore,Restaurant_8,South Indian,13,12.9,High,Clear,10.0,37.0,Delivered,5.0,Afternoon
+1091,Bangalore,Restaurant_7,Dessert,16,11.4,High,Foggy,9.0,48.0,Delivered,4.0,Evening
+1092,Delhi,Restaurant_1,Burger,19,4.4,Medium,Rainy,15.0,28.0,Delivered,5.0,Evening
+1093,Bangalore,Restaurant_5,Pizza,20,2.2,Medium,Clear,20.0,25.0,Delivered,5.0,Night
+1094,Bangalore,Restaurant_6,Chinese,12,4.2,Medium,Rainy,11.0,31.0,Delivered,4.0,Afternoon
+1095,Delhi,Restaurant_4,Biryani,16,13.9,Medium,Clear,28.0,44.0,Delivered,4.0,Evening
+1096,Bangalore,Restaurant_2,South Indian,12,8.9,Medium,Clear,16.0,41.0,Delivered,5.0,Afternoon
+1097,Chennai,Restaurant_4,Pizza,12,8.2,Medium,Clear,14.0,34.0,Delivered,4.0,Afternoon
+1098,Mumbai,Restaurant_1,South Indian,20,9.1,High,Clear,11.0,43.0,Delivered,4.0,Night
+1099,Mumbai,Restaurant_7,Pizza,21,5.8,High,Rainy,21.0,34.0,Delivered,5.0,Night
+1100,Delhi,Restaurant_2,Dessert,15,12.2,Low,Foggy,7.0,38.0,Delivered,4.0,Afternoon
+1101,Pune,Restaurant_2,Dessert,20,8.1,Medium,Clear,14.0,29.0,Delivered,5.0,Night
+1102,Delhi,Restaurant_9,Dessert,21,2.2,Medium,Clear,10.0,19.0,Delivered,5.0,Night
+1103,Pune,Restaurant_5,South Indian,20,2.4,Medium,Rainy,12.0,25.0,Delivered,3.0,Night
+1104,Mumbai,Restaurant_2,Chinese,11,8.3,Low,Foggy,15.0,40.0,Delivered,3.0,Morning
+1105,Delhi,Restaurant_9,Dessert,22,14.1,Medium,Rainy,8.0,56.0,Delivered,2.0,Night
+1106,Chennai,Restaurant_9,Pizza,15,5.0,High,Foggy,15.0,23.0,Delivered,5.0,Afternoon
+1107,Bangalore,Restaurant_1,Dessert,14,13.1,Medium,Clear,5.0,47.0,Cancelled,,Afternoon
+1108,Pune,Restaurant_3,Burger,10,11.6,High,Rainy,15.0,48.0,Delivered,3.0,Morning
+1109,Bangalore,Restaurant_4,Dessert,17,4.1,High,Clear,11.0,25.0,Delivered,4.0,Evening
+1110,Bangalore,Restaurant_7,South Indian,11,1.0,Low,Clear,16.0,10.0,Delivered,5.0,Morning
+1111,Delhi,Restaurant_10,Chinese,12,2.0,Low,Clear,21.0,10.0,Delivered,5.0,Afternoon
+1112,Bangalore,Restaurant_4,Burger,13,11.1,High,Clear,10.0,41.0,Delivered,4.0,Afternoon
+1113,Chennai,Restaurant_2,South Indian,20,3.4,High,Foggy,21.0,34.0,Delivered,5.0,Night
+1114,Bangalore,Restaurant_7,South Indian,21,5.9,Low,Foggy,10.0,20.0,Delivered,4.0,Night
+1115,Delhi,Restaurant_6,South Indian,13,7.8,Low,Clear,10.0,29.0,Delivered,4.0,Afternoon
+1116,Chennai,Restaurant_3,Pizza,21,11.0,Low,Clear,11.0,47.0,Delivered,5.0,Night
+1117,Mumbai,Restaurant_6,South Indian,21,2.1,High,Clear,12.0,19.0,Delivered,5.0,Night
+1118,Bangalore,Restaurant_6,Pizza,20,6.4,Low,Clear,16.0,23.0,Delivered,4.0,Night
+1119,Delhi,Restaurant_5,South Indian,11,7.5,Medium,Rainy,16.0,25.0,Delivered,5.0,Morning
+1120,Mumbai,Restaurant_4,Biryani,19,8.3,High,Foggy,26.0,43.0,Delivered,4.0,Evening
+1121,Mumbai,Restaurant_10,Burger,22,12.4,Low,Foggy,7.0,46.0,Delivered,3.0,Night
+1122,Pune,Restaurant_1,Biryani,19,3.0,Medium,Rainy,23.0,30.0,Delivered,3.0,Evening
+1123,Chennai,Restaurant_10,South Indian,14,12.2,Low,Rainy,13.0,45.0,Delivered,3.0,Afternoon
+1124,Bangalore,Restaurant_6,Burger,17,10.5,High,Clear,5.0,51.0,Delivered,2.0,Evening
+1125,Delhi,Restaurant_2,Burger,19,8.6,Low,Clear,8.0,42.0,Delivered,3.0,Evening
+1126,Pune,Restaurant_3,Chinese,18,10.6,Medium,Clear,12.0,48.0,Delivered,3.0,Evening
+1127,Chennai,Restaurant_8,Biryani,11,6.5,Medium,Clear,31.0,27.0,Delivered,5.0,Morning
+1128,Pune,Restaurant_10,Chinese,13,2.5,Low,Rainy,16.0,13.0,Delivered,5.0,Afternoon
+1129,Chennai,Restaurant_6,Burger,20,10.2,Low,Clear,15.0,31.0,Delivered,4.0,Night
+1130,Chennai,Restaurant_3,Pizza,21,8.1,Medium,Clear,12.0,29.0,Delivered,5.0,Night
+1131,Bangalore,Restaurant_7,Burger,11,9.8,Low,Clear,17.0,35.0,Delivered,3.0,Morning
+1132,Chennai,Restaurant_4,Chinese,22,5.4,High,Foggy,20.0,32.0,Delivered,5.0,Night
+1133,Pune,Restaurant_9,Biryani,14,13.6,High,Clear,17.0,54.0,Delivered,1.0,Afternoon
+1134,Chennai,Restaurant_5,South Indian,19,9.0,Medium,Rainy,11.0,46.0,Delivered,3.0,Evening
+1135,Bangalore,Restaurant_3,South Indian,20,1.7,Medium,Rainy,16.0,23.0,Delivered,5.0,Night
+1136,Bangalore,Restaurant_2,Biryani,20,7.0,Medium,Clear,28.0,26.0,Delivered,4.0,Night
+1137,Pune,Restaurant_2,South Indian,22,11.5,High,Clear,11.0,55.0,Delivered,3.0,Night
+1138,Mumbai,Restaurant_3,South Indian,13,12.0,Medium,Foggy,13.0,38.0,Delivered,5.0,Afternoon
+1139,Mumbai,Restaurant_2,Chinese,21,7.7,Low,Clear,13.0,26.0,Delivered,3.0,Night
+1140,Chennai,Restaurant_4,Biryani,11,13.5,Low,Foggy,25.0,46.0,Delivered,3.0,Morning
+1141,Delhi,Restaurant_2,Dessert,19,4.4,Medium,Clear,13.0,24.0,Delivered,3.0,Evening
+1142,Chennai,Restaurant_10,Pizza,20,6.5,Medium,Clear,15.0,30.0,Delivered,5.0,Night
+1143,Pune,Restaurant_9,Pizza,19,13.5,Medium,Foggy,22.0,54.0,Delivered,3.0,Evening
+1144,Pune,Restaurant_2,South Indian,12,13.5,Low,Rainy,11.0,48.0,Cancelled,,Afternoon
+1145,Pune,Restaurant_9,Pizza,21,10.4,High,Foggy,15.0,48.0,Delivered,4.0,Night
+1146,Pune,Restaurant_6,Biryani,11,13.0,Low,Rainy,28.0,44.0,Delivered,4.0,Morning
+1147,Pune,Restaurant_1,Biryani,10,1.8,Low,Foggy,29.0,13.0,Delivered,5.0,Morning
+1148,Bangalore,Restaurant_4,Burger,19,13.0,Medium,Rainy,15.0,55.0,Delivered,4.0,Evening
+1149,Mumbai,Restaurant_1,Burger,17,5.1,Low,Rainy,7.0,24.0,Delivered,4.0,Evening
+1150,Pune,Restaurant_6,Pizza,21,3.1,Medium,Clear,16.0,25.0,Delivered,4.0,Night
+1151,Delhi,Restaurant_4,Dessert,15,4.0,Medium,Clear,11.0,23.0,Delivered,4.0,Afternoon
+1152,Delhi,Restaurant_3,Burger,11,6.6,Medium,Foggy,12.0,31.0,Delivered,5.0,Morning
+1153,Delhi,Restaurant_3,Burger,20,4.1,Medium,Clear,8.0,26.0,Delivered,5.0,Night
+1154,Delhi,Restaurant_9,Biryani,18,5.1,Low,Clear,27.0,17.0,Delivered,5.0,Evening
+1155,Bangalore,Restaurant_6,Dessert,12,2.5,Low,Clear,5.0,17.0,Delivered,5.0,Afternoon
+1156,Delhi,Restaurant_9,South Indian,19,4.8,High,Clear,21.0,33.0,Delivered,5.0,Evening
+1157,Pune,Restaurant_5,Pizza,18,8.8,Medium,Clear,24.0,32.0,Delivered,4.0,Evening
+1158,Chennai,Restaurant_2,Burger,18,6.9,Medium,Clear,14.0,33.0,Delivered,5.0,Evening
+1159,Delhi,Restaurant_8,Dessert,17,5.5,Low,Foggy,13.0,28.0,Delivered,5.0,Evening
+1160,Bangalore,Restaurant_5,Dessert,20,11.3,Medium,Clear,8.0,47.0,Delivered,3.0,Night
+1161,Bangalore,Restaurant_2,Pizza,20,13.5,Medium,Clear,21.0,52.0,Delivered,3.0,Night
+1162,Delhi,Restaurant_4,Dessert,19,11.5,Medium,Clear,14.0,44.0,Delivered,4.0,Evening
+1163,Chennai,Restaurant_9,Dessert,11,5.3,High,Clear,9.0,28.0,Delivered,5.0,Morning
+1164,Delhi,Restaurant_4,Dessert,20,11.3,Low,Clear,7.0,48.0,Delivered,2.0,Night
+1165,Bangalore,Restaurant_4,Burger,19,2.7,Low,Rainy,5.0,14.0,Delivered,5.0,Evening
+1166,Mumbai,Restaurant_2,Pizza,19,2.4,High,Clear,18.0,31.0,Delivered,5.0,Evening
+1167,Pune,Restaurant_6,Dessert,15,5.5,High,Foggy,11.0,40.0,Delivered,4.0,Afternoon
+1168,Bangalore,Restaurant_2,Dessert,21,12.2,Low,Clear,12.0,33.0,Delivered,5.0,Night
+1169,Delhi,Restaurant_7,Burger,19,4.1,Medium,Clear,14.0,23.0,Delivered,4.0,Evening
+1170,Pune,Restaurant_3,Pizza,11,1.4,Low,Clear,16.0,11.0,Delivered,5.0,Morning
+1171,Delhi,Restaurant_3,Biryani,16,2.4,Low,Clear,17.0,21.0,Delivered,5.0,Evening
+1172,Delhi,Restaurant_5,Burger,21,13.0,Medium,Rainy,10.0,48.0,Delivered,3.0,Night
+1173,Mumbai,Restaurant_3,Pizza,9,9.7,Low,Foggy,17.0,35.0,Delivered,4.0,Morning
+1174,Pune,Restaurant_2,Dessert,22,4.2,High,Rainy,7.0,25.0,Delivered,5.0,Night
+1175,Pune,Restaurant_10,Pizza,19,8.6,Medium,Clear,20.0,43.0,Delivered,4.0,Evening
+1176,Mumbai,Restaurant_9,Pizza,19,8.1,Low,Clear,26.0,23.0,Delivered,5.0,Evening
+1177,Bangalore,Restaurant_2,South Indian,12,10.0,Low,Clear,14.0,35.0,Delivered,4.0,Afternoon
+1178,Delhi,Restaurant_2,Pizza,12,3.9,High,Foggy,17.0,33.0,Cancelled,,Afternoon
+1179,Chennai,Restaurant_8,Biryani,22,13.0,Low,Clear,24.0,40.0,Delivered,5.0,Night
+1180,Delhi,Restaurant_9,Pizza,13,5.0,Medium,Rainy,18.0,36.0,Delivered,3.0,Afternoon
+1181,Delhi,Restaurant_7,Biryani,20,10.6,Medium,Clear,22.0,48.0,Delivered,3.0,Night
+1182,Bangalore,Restaurant_3,Dessert,16,0.7,Medium,Clear,8.0,16.0,Cancelled,,Evening
+1183,Delhi,Restaurant_9,Biryani,11,5.9,Medium,Clear,27.0,31.0,Delivered,5.0,Morning
+1184,Mumbai,Restaurant_3,Dessert,8,5.6,Low,Clear,9.0,24.0,Delivered,5.0,Morning
+1185,Mumbai,Restaurant_5,Dessert,18,8.4,Low,Rainy,10.0,40.0,Delivered,3.0,Evening
+1186,Pune,Restaurant_9,Biryani,22,1.6,Low,Clear,27.0,10.0,Delivered,5.0,Night
+1187,Chennai,Restaurant_3,Burger,15,12.0,Medium,Rainy,5.0,54.0,Delivered,3.0,Afternoon
+1188,Delhi,Restaurant_7,Chinese,15,3.7,Medium,Clear,18.0,28.0,Delivered,5.0,Afternoon
+1189,Delhi,Restaurant_1,Pizza,14,10.3,Low,Foggy,15.0,43.0,Delivered,4.0,Afternoon
+1190,Bangalore,Restaurant_4,South Indian,18,12.1,Low,Clear,10.0,35.0,Delivered,3.0,Evening
+1191,Mumbai,Restaurant_4,Chinese,16,8.6,Medium,Foggy,11.0,38.0,Delivered,3.0,Evening
+1192,Chennai,Restaurant_7,Pizza,21,11.2,Medium,Rainy,20.0,48.0,Delivered,3.0,Night
+1193,Pune,Restaurant_8,Pizza,17,10.1,High,Foggy,17.0,42.0,Delivered,4.0,Evening
+1194,Mumbai,Restaurant_1,Dessert,17,5.7,Medium,Clear,5.0,35.0,Delivered,4.0,Evening
+1195,Pune,Restaurant_5,Pizza,11,12.2,Medium,Rainy,20.0,49.0,Delivered,2.0,Morning
+1196,Bangalore,Restaurant_7,South Indian,22,4.8,Medium,Clear,8.0,26.0,Delivered,5.0,Night
+1197,Bangalore,Restaurant_4,Pizza,12,8.8,High,Clear,19.0,39.0,Delivered,4.0,Afternoon
+1198,Delhi,Restaurant_4,Biryani,10,11.3,High,Clear,26.0,42.0,Delivered,4.0,Morning
+1199,Chennai,Restaurant_4,Chinese,19,6.0,Medium,Clear,19.0,25.0,Delivered,5.0,Evening
+1200,Pune,Restaurant_6,Biryani,18,4.9,Low,Foggy,32.0,25.0,Delivered,5.0,Evening
+1201,Mumbai,Restaurant_7,South Indian,16,7.2,Low,Clear,9.0,29.0,Delivered,5.0,Evening
+1202,Bangalore,Restaurant_2,Pizza,16,12.4,Medium,Clear,18.0,45.0,Delivered,3.0,Evening
+1203,Delhi,Restaurant_5,South Indian,20,14.0,High,Rainy,13.0,63.0,Cancelled,,Night
+1204,Delhi,Restaurant_4,Dessert,12,8.4,Medium,Clear,10.0,32.0,Delivered,4.0,Afternoon
+1205,Pune,Restaurant_3,Biryani,20,10.1,Low,Rainy,26.0,42.0,Delivered,3.0,Night
+1206,Bangalore,Restaurant_7,Biryani,19,13.6,High,Clear,24.0,61.0,Delivered,4.0,Evening
+1207,Chennai,Restaurant_6,Burger,16,1.9,High,Clear,10.0,28.0,Delivered,5.0,Evening
+1208,Bangalore,Restaurant_7,Pizza,17,3.9,Low,Clear,14.0,22.0,Delivered,5.0,Evening
+1209,Pune,Restaurant_5,Dessert,12,10.8,Medium,Foggy,12.0,45.0,Delivered,2.0,Afternoon
+1210,Pune,Restaurant_6,Biryani,20,12.4,Medium,Rainy,27.0,42.0,Delivered,4.0,Night
+1211,Bangalore,Restaurant_5,Biryani,18,12.9,High,Foggy,29.0,51.0,Delivered,4.0,Evening
+1212,Pune,Restaurant_7,Dessert,13,6.5,High,Clear,7.0,39.0,Delivered,3.0,Afternoon
+1213,Bangalore,Restaurant_2,South Indian,18,1.8,Medium,Clear,11.0,17.0,Delivered,4.0,Evening
+1214,Mumbai,Restaurant_5,South Indian,23,6.8,Medium,Clear,10.0,32.0,Cancelled,,Night
+1215,Bangalore,Restaurant_6,Pizza,16,3.8,High,Clear,19.0,38.0,Delivered,4.0,Evening
+1216,Bangalore,Restaurant_6,Burger,21,4.7,Medium,Clear,8.0,28.0,Delivered,5.0,Night
+1217,Pune,Restaurant_5,Biryani,14,11.7,Medium,Rainy,32.0,55.0,Delivered,4.0,Afternoon
+1218,Pune,Restaurant_10,Burger,10,1.6,High,Clear,7.0,24.0,Delivered,5.0,Morning
+1219,Delhi,Restaurant_7,South Indian,12,12.5,Low,Clear,15.0,35.0,Delivered,4.0,Afternoon
+1220,Delhi,Restaurant_10,South Indian,16,6.7,Medium,Foggy,20.0,33.0,Cancelled,,Evening
+1221,Mumbai,Restaurant_8,Chinese,12,9.1,High,Rainy,17.0,45.0,Delivered,3.0,Afternoon
+1222,Delhi,Restaurant_7,Pizza,8,1.8,High,Clear,19.0,32.0,Delivered,5.0,Morning
+1223,Bangalore,Restaurant_5,Chinese,21,5.4,Medium,Clear,11.0,30.0,Delivered,4.0,Night
+1224,Pune,Restaurant_1,Chinese,20,1.8,Low,Clear,9.0,15.0,Delivered,5.0,Night
+1225,Delhi,Restaurant_5,Chinese,20,14.4,Medium,Clear,18.0,55.0,Delivered,3.0,Night
+1226,Delhi,Restaurant_10,Pizza,11,12.2,Low,Rainy,24.0,34.0,Delivered,4.0,Morning
+1227,Mumbai,Restaurant_2,Pizza,11,7.2,Low,Clear,16.0,29.0,Delivered,4.0,Morning
+1228,Mumbai,Restaurant_5,Dessert,10,3.7,High,Foggy,5.0,27.0,Delivered,5.0,Morning
+1229,Bangalore,Restaurant_5,Burger,19,14.0,Low,Rainy,5.0,49.0,Delivered,1.0,Evening
+1230,Pune,Restaurant_2,Burger,21,5.5,Medium,Rainy,8.0,31.0,Delivered,5.0,Night
+1231,Mumbai,Restaurant_5,Dessert,16,2.8,Medium,Clear,8.0,23.0,Delivered,5.0,Evening
+1232,Delhi,Restaurant_4,Dessert,11,8.7,High,Clear,14.0,43.0,Cancelled,,Morning
+1233,Pune,Restaurant_1,South Indian,18,14.2,Medium,Rainy,17.0,61.0,Delivered,2.0,Evening
+1234,Pune,Restaurant_3,Chinese,14,0.6,Low,Clear,16.0,10.0,Delivered,5.0,Afternoon
+1235,Delhi,Restaurant_1,Dessert,15,4.0,Low,Clear,6.0,22.0,Delivered,5.0,Afternoon
+1236,Mumbai,Restaurant_5,Biryani,19,14.1,Medium,Clear,23.0,49.0,Delivered,3.0,Evening
+1237,Delhi,Restaurant_4,Burger,19,3.0,Medium,Clear,18.0,12.0,Delivered,5.0,Evening
+1238,Pune,Restaurant_7,Dessert,11,2.1,Medium,Rainy,9.0,20.0,Delivered,5.0,Morning
+1239,Chennai,Restaurant_5,Biryani,9,8.8,Medium,Clear,17.0,34.0,Delivered,4.0,Morning
+1240,Chennai,Restaurant_10,Biryani,23,13.0,Low,Clear,22.0,46.0,Delivered,3.0,Night
+1241,Bangalore,Restaurant_4,Biryani,12,7.4,Medium,Clear,22.0,34.0,Delivered,5.0,Afternoon
+1242,Delhi,Restaurant_2,South Indian,10,14.9,Medium,Clear,12.0,44.0,Delivered,3.0,Morning
+1243,Delhi,Restaurant_4,South Indian,12,10.3,Low,Foggy,16.0,37.0,Delivered,4.0,Afternoon
+1244,Bangalore,Restaurant_2,Biryani,9,1.6,Low,Foggy,25.0,26.0,Delivered,5.0,Morning
+1245,Bangalore,Restaurant_8,South Indian,16,14.9,Low,Clear,14.0,46.0,Delivered,4.0,Evening
+1246,Bangalore,Restaurant_3,Chinese,20,6.4,Low,Clear,20.0,22.0,Delivered,5.0,Night
+1247,Pune,Restaurant_9,Biryani,14,4.7,Medium,Clear,22.0,27.0,Delivered,5.0,Afternoon
+1248,Delhi,Restaurant_4,Chinese,17,8.6,Low,Rainy,22.0,39.0,Delivered,2.0,Evening
+1249,Pune,Restaurant_6,Chinese,19,4.9,Low,Clear,12.0,18.0,Delivered,5.0,Evening
+1250,Bangalore,Restaurant_10,Biryani,18,1.8,Low,Rainy,25.0,21.0,Delivered,5.0,Evening
+1251,Delhi,Restaurant_5,Burger,21,0.5,High,Clear,11.0,20.0,Delivered,5.0,Night
+1252,Pune,Restaurant_10,Biryani,21,7.0,High,Rainy,25.0,47.0,Delivered,3.0,Night
+1253,Pune,Restaurant_1,Biryani,8,12.6,Low,Clear,27.0,40.0,Delivered,3.0,Morning
+1254,Bangalore,Restaurant_9,South Indian,20,8.8,Medium,Rainy,16.0,43.0,Delivered,2.0,Night
+1255,Delhi,Restaurant_1,Biryani,17,15.0,Low,Clear,22.0,42.0,Delivered,3.0,Evening
+1256,Bangalore,Restaurant_8,Burger,23,4.7,Medium,Rainy,8.0,27.0,Delivered,4.0,Night
+1257,Delhi,Restaurant_9,South Indian,17,4.6,Low,Clear,24.0,24.0,Delivered,5.0,Evening
+1258,Chennai,Restaurant_9,Pizza,23,2.8,Medium,Clear,16.0,20.0,Delivered,5.0,Night
+1259,Mumbai,Restaurant_1,Pizza,20,2.9,Medium,Rainy,21.0,28.0,Delivered,4.0,Night
+1260,Mumbai,Restaurant_2,Chinese,12,4.6,High,Clear,9.0,30.0,Delivered,5.0,Afternoon
+1261,Mumbai,Restaurant_1,Chinese,18,12.0,Low,Rainy,14.0,48.0,Delivered,3.0,Evening
+1262,Bangalore,Restaurant_10,Burger,23,13.6,High,Rainy,11.0,57.0,Delivered,3.0,Night
+1263,Chennai,Restaurant_2,Dessert,21,14.6,High,Clear,10.0,56.0,Delivered,3.0,Night
+1264,Delhi,Restaurant_10,Pizza,10,3.9,Low,Clear,7.0,22.0,Delivered,5.0,Morning
+1265,Pune,Restaurant_8,Chinese,19,13.3,Medium,Clear,16.0,52.0,Delivered,4.0,Evening
+1266,Delhi,Restaurant_5,Pizza,14,5.3,Low,Clear,13.0,19.0,Delivered,5.0,Afternoon
+1267,Pune,Restaurant_7,Burger,8,2.1,Low,Clear,13.0,23.0,Delivered,5.0,Morning
+1268,Delhi,Restaurant_2,Burger,16,13.1,Low,Rainy,8.0,48.0,Delivered,3.0,Evening
+1269,Chennai,Restaurant_8,Dessert,12,9.7,Medium,Clear,5.0,32.0,Cancelled,,Afternoon
+1270,Pune,Restaurant_6,Dessert,20,2.9,Medium,Clear,7.0,22.0,Delivered,5.0,Night
+1271,Bangalore,Restaurant_8,South Indian,14,6.7,High,Clear,10.0,35.0,Delivered,5.0,Afternoon
+1272,Delhi,Restaurant_1,Burger,20,4.7,Low,Clear,10.0,22.0,Delivered,4.0,Night
+1273,Delhi,Restaurant_1,Chinese,8,11.2,High,Clear,10.0,48.0,Cancelled,,Morning
+1274,Pune,Restaurant_7,Pizza,13,7.1,Low,Rainy,11.0,32.0,Delivered,5.0,Afternoon
+1275,Bangalore,Restaurant_8,Biryani,12,14.8,High,Rainy,29.0,58.0,Delivered,2.0,Afternoon
+1276,Bangalore,Restaurant_3,Dessert,12,1.3,Medium,Clear,5.0,21.0,Delivered,5.0,Afternoon
+1277,Chennai,Restaurant_5,Biryani,10,5.6,Low,Foggy,24.0,20.0,Delivered,5.0,Morning
+1278,Bangalore,Restaurant_1,Chinese,12,7.5,High,Clear,18.0,33.0,Cancelled,,Afternoon
+1279,Bangalore,Restaurant_7,Dessert,18,7.8,Medium,Foggy,6.0,38.0,Delivered,5.0,Evening
+1280,Bangalore,Restaurant_5,Biryani,13,5.1,Medium,Rainy,22.0,40.0,Delivered,3.0,Afternoon
+1281,Mumbai,Restaurant_8,Chinese,16,11.1,Medium,Rainy,16.0,45.0,Delivered,4.0,Evening
+1282,Chennai,Restaurant_8,Pizza,15,13.2,Medium,Clear,22.0,50.0,Delivered,3.0,Afternoon
+1283,Delhi,Restaurant_9,Chinese,21,14.1,Medium,Clear,10.0,54.0,Delivered,2.0,Night
+1284,Pune,Restaurant_7,South Indian,21,12.2,High,Clear,13.0,55.0,Delivered,3.0,Night
+1285,Delhi,Restaurant_1,Dessert,17,12.8,Low,Rainy,5.0,44.0,Delivered,3.0,Evening
+1286,Chennai,Restaurant_3,Burger,14,8.5,Medium,Clear,10.0,29.0,Delivered,5.0,Afternoon
+1287,Pune,Restaurant_8,Pizza,11,12.5,High,Rainy,18.0,46.0,Delivered,2.0,Morning
+1288,Chennai,Restaurant_3,Biryani,22,4.9,Low,Clear,22.0,19.0,Delivered,5.0,Night
+1289,Bangalore,Restaurant_8,Dessert,10,6.3,Low,Rainy,6.0,36.0,Delivered,3.0,Morning
+1290,Pune,Restaurant_1,Burger,13,5.1,High,Clear,6.0,27.0,Delivered,4.0,Afternoon
+1291,Bangalore,Restaurant_5,Chinese,13,7.3,Medium,Clear,15.0,35.0,Delivered,5.0,Afternoon
+1292,Delhi,Restaurant_4,Burger,13,4.6,Medium,Clear,16.0,20.0,Delivered,5.0,Afternoon
+1293,Delhi,Restaurant_5,Dessert,11,14.4,Low,Clear,5.0,45.0,Delivered,3.0,Morning
+1294,Pune,Restaurant_8,Dessert,20,5.0,Medium,Clear,6.0,29.0,Delivered,4.0,Night
+1295,Pune,Restaurant_10,South Indian,11,1.9,Low,Rainy,16.0,15.0,Delivered,5.0,Morning
+1296,Chennai,Restaurant_4,South Indian,19,8.1,Medium,Clear,19.0,34.0,Delivered,4.0,Evening
+1297,Chennai,Restaurant_4,Burger,11,1.3,High,Clear,6.0,21.0,Delivered,5.0,Morning
+1298,Bangalore,Restaurant_3,Chinese,10,2.1,Low,Rainy,14.0,23.0,Delivered,5.0,Morning
+1299,Pune,Restaurant_7,Burger,21,3.7,Medium,Clear,13.0,23.0,Delivered,5.0,Night
+1300,Delhi,Restaurant_3,Dessert,12,7.2,High,Foggy,8.0,42.0,Delivered,4.0,Afternoon
+1301,Chennai,Restaurant_3,Dessert,20,6.8,Medium,Foggy,5.0,42.0,Delivered,4.0,Night
+1302,Chennai,Restaurant_10,Biryani,18,12.1,High,Clear,27.0,54.0,Cancelled,,Evening
+1303,Delhi,Restaurant_5,South Indian,10,11.2,Medium,Clear,20.0,38.0,Delivered,3.0,Morning
+1304,Chennai,Restaurant_5,Biryani,22,6.7,High,Clear,25.0,36.0,Delivered,4.0,Night
+1305,Bangalore,Restaurant_6,Pizza,12,5.3,Low,Rainy,14.0,27.0,Delivered,5.0,Afternoon
+1306,Pune,Restaurant_8,Dessert,21,5.1,Low,Clear,6.0,21.0,Delivered,5.0,Night
+1307,Delhi,Restaurant_10,Biryani,11,11.7,Low,Rainy,32.0,56.0,Cancelled,,Morning
+1308,Pune,Restaurant_6,Burger,21,1.3,Medium,Rainy,16.0,24.0,Delivered,3.0,Night
+1309,Chennai,Restaurant_1,South Indian,8,0.7,High,Clear,17.0,12.0,Delivered,5.0,Morning
+1310,Chennai,Restaurant_8,South Indian,18,12.0,Medium,Rainy,15.0,46.0,Delivered,3.0,Evening
+1311,Delhi,Restaurant_8,Chinese,20,7.4,Medium,Rainy,12.0,28.0,Delivered,3.0,Night
+1312,Bangalore,Restaurant_9,Burger,22,2.4,High,Clear,11.0,24.0,Delivered,4.0,Night
+1313,Mumbai,Restaurant_9,Chinese,21,3.9,Medium,Foggy,15.0,17.0,Delivered,5.0,Night
+1314,Delhi,Restaurant_2,Biryani,20,14.0,Medium,Rainy,27.0,50.0,Delivered,3.0,Night
+1315,Mumbai,Restaurant_2,Pizza,21,13.0,Medium,Clear,24.0,38.0,Delivered,5.0,Night
+1316,Mumbai,Restaurant_3,Burger,12,10.8,Medium,Clear,16.0,42.0,Delivered,5.0,Afternoon
+1317,Bangalore,Restaurant_1,Burger,13,7.5,Low,Clear,6.0,27.0,Delivered,5.0,Afternoon
+1318,Mumbai,Restaurant_4,Burger,13,8.0,High,Clear,13.0,42.0,Delivered,4.0,Afternoon
+1319,Mumbai,Restaurant_4,Chinese,15,14.6,Low,Foggy,18.0,48.0,Delivered,3.0,Afternoon
+1320,Bangalore,Restaurant_9,Biryani,16,14.5,Low,Clear,27.0,37.0,Delivered,2.0,Evening
+1321,Mumbai,Restaurant_9,Burger,18,3.6,High,Rainy,9.0,38.0,Delivered,3.0,Evening
+1322,Mumbai,Restaurant_9,Burger,11,12.3,Medium,Clear,24.0,53.0,Delivered,3.0,Morning
+1323,Mumbai,Restaurant_10,South Indian,19,3.4,Medium,Clear,9.0,24.0,Delivered,5.0,Evening
+1324,Delhi,Restaurant_7,Pizza,11,3.6,Medium,Foggy,14.0,24.0,Delivered,5.0,Morning
+1325,Delhi,Restaurant_2,South Indian,13,10.3,Medium,Foggy,15.0,36.0,Delivered,3.0,Afternoon
+1326,Delhi,Restaurant_10,South Indian,17,6.4,Low,Clear,22.0,19.0,Delivered,5.0,Evening
+1327,Bangalore,Restaurant_5,Pizza,20,14.0,Medium,Clear,15.0,50.0,Delivered,4.0,Night
+1328,Chennai,Restaurant_4,Biryani,20,1.8,Medium,Clear,24.0,23.0,Delivered,5.0,Night
+1329,Mumbai,Restaurant_8,South Indian,19,7.9,High,Clear,18.0,41.0,Delivered,4.0,Evening
+1330,Mumbai,Restaurant_2,Biryani,11,13.8,Medium,Clear,25.0,51.0,Delivered,2.0,Morning
+1331,Bangalore,Restaurant_6,South Indian,18,13.6,High,Clear,13.0,58.0,Delivered,3.0,Evening
+1332,Mumbai,Restaurant_5,Dessert,10,2.8,Low,Foggy,10.0,22.0,Delivered,5.0,Morning
+1333,Delhi,Restaurant_2,Pizza,15,5.8,Medium,Clear,19.0,24.0,Delivered,5.0,Afternoon
+1334,Chennai,Restaurant_10,South Indian,16,9.5,Medium,Foggy,18.0,42.0,Delivered,4.0,Evening
+1335,Pune,Restaurant_1,Dessert,9,2.8,High,Rainy,13.0,29.0,Delivered,5.0,Morning
+1336,Mumbai,Restaurant_8,Chinese,13,14.5,Low,Clear,16.0,44.0,Delivered,3.0,Afternoon
+1337,Delhi,Restaurant_2,Dessert,22,13.8,Medium,Foggy,9.0,53.0,Delivered,3.0,Night
+1338,Pune,Restaurant_7,Burger,22,2.9,High,Clear,13.0,36.0,Delivered,5.0,Night
+1339,Chennai,Restaurant_9,South Indian,14,2.3,Low,Foggy,16.0,11.0,Delivered,5.0,Afternoon
+1340,Pune,Restaurant_9,Dessert,9,1.7,High,Clear,8.0,27.0,Cancelled,,Morning
+1341,Delhi,Restaurant_8,Biryani,11,13.7,Low,Clear,25.0,50.0,Delivered,3.0,Morning
+1342,Pune,Restaurant_10,Chinese,16,3.3,High,Foggy,20.0,36.0,Delivered,4.0,Evening
+1343,Bangalore,Restaurant_9,South Indian,22,6.5,High,Clear,20.0,40.0,Delivered,5.0,Night
+1344,Pune,Restaurant_2,Burger,11,7.0,Medium,Foggy,6.0,37.0,Delivered,4.0,Morning
+1345,Mumbai,Restaurant_6,Dessert,20,9.2,Medium,Foggy,8.0,46.0,Delivered,4.0,Night
+1346,Mumbai,Restaurant_4,Chinese,11,1.5,Low,Clear,12.0,10.0,Delivered,5.0,Morning
+1347,Bangalore,Restaurant_4,South Indian,22,3.8,High,Clear,13.0,23.0,Delivered,5.0,Night
+1348,Delhi,Restaurant_5,Chinese,15,14.0,Medium,Clear,17.0,48.0,Cancelled,,Afternoon
+1349,Mumbai,Restaurant_3,Burger,20,13.7,Low,Rainy,15.0,37.0,Delivered,4.0,Night
+1350,Chennai,Restaurant_1,Dessert,14,11.8,Medium,Rainy,8.0,55.0,Delivered,2.0,Afternoon
+1351,Mumbai,Restaurant_8,Chinese,19,0.8,Medium,Clear,7.0,21.0,Delivered,4.0,Evening
+1352,Mumbai,Restaurant_5,Chinese,12,5.2,Low,Clear,11.0,19.0,Delivered,5.0,Afternoon
+1353,Delhi,Restaurant_3,Pizza,11,9.6,Low,Rainy,22.0,36.0,Delivered,4.0,Morning
+1354,Pune,Restaurant_10,Chinese,22,4.5,Low,Clear,5.0,19.0,Delivered,5.0,Night
+1355,Mumbai,Restaurant_7,Pizza,21,13.7,Medium,Rainy,23.0,54.0,Delivered,4.0,Night
+1356,Bangalore,Restaurant_7,Dessert,21,9.7,Medium,Rainy,10.0,44.0,Delivered,3.0,Night
+1357,Pune,Restaurant_1,South Indian,19,1.5,Medium,Foggy,19.0,24.0,Delivered,5.0,Evening
+1358,Chennai,Restaurant_9,South Indian,20,13.7,High,Clear,13.0,53.0,Delivered,3.0,Night
+1359,Delhi,Restaurant_2,Dessert,10,14.4,High,Clear,5.0,61.0,Delivered,1.0,Morning
+1360,Chennai,Restaurant_5,Dessert,14,1.6,Medium,Clear,10.0,19.0,Delivered,5.0,Afternoon
+1361,Pune,Restaurant_5,Biryani,13,8.2,Low,Clear,30.0,25.0,Delivered,5.0,Afternoon
+1362,Pune,Restaurant_8,Dessert,19,4.9,Medium,Foggy,12.0,36.0,Delivered,4.0,Evening
+1363,Pune,Restaurant_8,Chinese,15,6.2,Medium,Clear,12.0,22.0,Delivered,5.0,Afternoon
+1364,Chennai,Restaurant_7,South Indian,11,3.1,Medium,Rainy,14.0,26.0,Cancelled,,Morning
+1365,Pune,Restaurant_7,Burger,18,8.9,Medium,Clear,10.0,40.0,Delivered,4.0,Evening
+1366,Chennai,Restaurant_6,South Indian,20,14.4,Medium,Clear,11.0,45.0,Delivered,3.0,Night
+1367,Pune,Restaurant_6,Pizza,15,7.8,High,Clear,22.0,41.0,Delivered,3.0,Afternoon
+1368,Bangalore,Restaurant_9,South Indian,11,1.7,Low,Rainy,9.0,21.0,Delivered,5.0,Morning
+1369,Pune,Restaurant_6,Biryani,12,9.5,Medium,Clear,21.0,32.0,Delivered,4.0,Afternoon
+1370,Chennai,Restaurant_2,Dessert,12,5.4,Low,Clear,5.0,21.0,Delivered,5.0,Afternoon
+1371,Mumbai,Restaurant_2,Dessert,13,12.9,High,Foggy,5.0,55.0,Delivered,3.0,Afternoon
+1372,Pune,Restaurant_5,South Indian,19,6.8,Low,Clear,15.0,22.0,Delivered,4.0,Evening
+1373,Mumbai,Restaurant_4,Burger,18,3.3,Low,Clear,17.0,28.0,Delivered,3.0,Evening
+1374,Bangalore,Restaurant_2,Burger,19,3.3,Medium,Clear,11.0,17.0,Delivered,5.0,Evening
+1375,Delhi,Restaurant_3,Biryani,15,11.6,Medium,Clear,19.0,47.0,Delivered,3.0,Afternoon
+1376,Bangalore,Restaurant_7,Pizza,20,4.4,Low,Foggy,21.0,21.0,Delivered,5.0,Night
+1377,Pune,Restaurant_8,South Indian,12,11.6,Medium,Clear,21.0,37.0,Delivered,4.0,Afternoon
+1378,Mumbai,Restaurant_6,Dessert,17,3.5,Medium,Clear,5.0,22.0,Delivered,5.0,Evening
+1379,Mumbai,Restaurant_5,South Indian,20,5.2,Low,Clear,12.0,24.0,Delivered,5.0,Night
+1380,Chennai,Restaurant_1,Biryani,11,7.2,Medium,Rainy,27.0,42.0,Delivered,5.0,Morning
+1381,Mumbai,Restaurant_8,Chinese,11,14.2,High,Clear,21.0,63.0,Delivered,1.0,Morning
+1382,Chennai,Restaurant_3,Chinese,21,14.0,Medium,Rainy,13.0,69.0,Delivered,2.0,Night
+1383,Delhi,Restaurant_6,Biryani,14,3.5,High,Clear,20.0,30.0,Delivered,5.0,Afternoon
+1384,Pune,Restaurant_3,Dessert,19,5.7,Medium,Clear,11.0,24.0,Delivered,5.0,Evening
+1385,Chennai,Restaurant_7,Biryani,9,2.7,Medium,Rainy,28.0,28.0,Delivered,4.0,Morning
+1386,Delhi,Restaurant_7,Dessert,19,7.9,Low,Clear,8.0,26.0,Delivered,5.0,Evening
+1387,Mumbai,Restaurant_9,Burger,13,7.2,Low,Foggy,10.0,35.0,Delivered,3.0,Afternoon
+1388,Mumbai,Restaurant_5,Biryani,10,13.6,High,Clear,29.0,48.0,Delivered,3.0,Morning
+1389,Delhi,Restaurant_8,Dessert,18,14.0,High,Rainy,10.0,73.0,Cancelled,,Evening
+1390,Mumbai,Restaurant_10,Biryani,12,6.1,Medium,Clear,22.0,33.0,Delivered,4.0,Afternoon
+1391,Delhi,Restaurant_10,Biryani,15,7.6,Low,Rainy,25.0,25.0,Delivered,4.0,Afternoon
+1392,Chennai,Restaurant_8,Dessert,10,13.5,Low,Clear,5.0,38.0,Delivered,5.0,Morning
+1393,Chennai,Restaurant_1,Dessert,11,12.2,Medium,Clear,11.0,48.0,Delivered,3.0,Morning
+1394,Delhi,Restaurant_5,Pizza,13,0.6,Medium,Clear,17.0,20.0,Delivered,5.0,Afternoon
+1395,Chennai,Restaurant_3,Biryani,10,5.1,Low,Clear,23.0,14.0,Delivered,5.0,Morning
+1396,Chennai,Restaurant_1,Chinese,21,6.6,High,Clear,15.0,40.0,Delivered,4.0,Night
+1397,Chennai,Restaurant_4,Biryani,8,3.8,Medium,Clear,25.0,13.0,Delivered,5.0,Morning
+1398,Bangalore,Restaurant_8,Biryani,17,3.4,High,Clear,29.0,28.0,Cancelled,,Evening
+1399,Pune,Restaurant_3,Dessert,11,1.0,High,Rainy,10.0,34.0,Delivered,5.0,Morning
+1400,Mumbai,Restaurant_10,Biryani,13,9.8,High,Rainy,24.0,48.0,Delivered,4.0,Afternoon
+1401,Bangalore,Restaurant_2,South Indian,21,4.3,Medium,Rainy,17.0,22.0,Delivered,5.0,Night
+1402,Chennai,Restaurant_9,Biryani,11,1.3,Medium,Clear,27.0,17.0,Delivered,5.0,Morning
+1403,Delhi,Restaurant_10,South Indian,22,3.8,Medium,Clear,12.0,19.0,Delivered,5.0,Night
+1404,Chennai,Restaurant_5,Chinese,12,12.1,Medium,Clear,15.0,46.0,Delivered,2.0,Afternoon
+1405,Pune,Restaurant_7,Dessert,20,12.8,Medium,Rainy,7.0,47.0,Delivered,4.0,Night
+1406,Chennai,Restaurant_2,Biryani,18,7.5,High,Clear,27.0,35.0,Delivered,3.0,Evening
+1407,Delhi,Restaurant_9,South Indian,21,6.5,High,Clear,13.0,26.0,Cancelled,,Night
+1408,Pune,Restaurant_9,South Indian,18,14.7,High,Rainy,12.0,64.0,Delivered,2.0,Evening
+1409,Chennai,Restaurant_4,South Indian,18,3.4,High,Clear,22.0,28.0,Cancelled,,Evening
+1410,Pune,Restaurant_4,Burger,12,3.6,Low,Foggy,16.0,15.0,Delivered,5.0,Afternoon
+1411,Mumbai,Restaurant_6,Pizza,11,4.7,Low,Foggy,15.0,25.0,Delivered,5.0,Morning
+1412,Mumbai,Restaurant_10,Chinese,21,3.0,Medium,Clear,17.0,26.0,Delivered,5.0,Night
+1413,Chennai,Restaurant_10,Biryani,14,6.0,Medium,Clear,25.0,27.0,Delivered,5.0,Afternoon
+1414,Pune,Restaurant_10,Burger,15,13.7,High,Clear,14.0,56.0,Delivered,2.0,Afternoon
+1415,Delhi,Restaurant_6,Biryani,20,9.4,Medium,Rainy,26.0,44.0,Delivered,3.0,Night
+1416,Chennai,Restaurant_1,Biryani,14,6.5,Medium,Clear,30.0,23.0,Delivered,5.0,Afternoon
+1417,Mumbai,Restaurant_9,Dessert,22,14.0,Medium,Rainy,9.0,64.0,Delivered,2.0,Night
+1418,Mumbai,Restaurant_2,Dessert,20,1.2,Low,Clear,8.0,10.0,Delivered,5.0,Night
+1419,Chennai,Restaurant_5,Dessert,18,3.5,Medium,Clear,12.0,25.0,Delivered,5.0,Evening
+1420,Pune,Restaurant_9,Burger,21,8.7,High,Clear,13.0,46.0,Delivered,3.0,Night
+1421,Mumbai,Restaurant_4,Biryani,9,9.4,Low,Rainy,25.0,37.0,Delivered,4.0,Morning
+1422,Pune,Restaurant_3,Pizza,12,1.1,Medium,Clear,19.0,19.0,Delivered,5.0,Afternoon
+1423,Mumbai,Restaurant_7,Chinese,17,6.3,Medium,Rainy,15.0,36.0,Delivered,4.0,Evening
+1424,Mumbai,Restaurant_6,Dessert,12,9.9,Low,Clear,8.0,26.0,Delivered,5.0,Afternoon
+1425,Bangalore,Restaurant_8,Dessert,20,10.6,Low,Clear,6.0,33.0,Delivered,5.0,Night
+1426,Mumbai,Restaurant_3,Biryani,21,9.8,High,Foggy,22.0,45.0,Cancelled,,Night
+1427,Delhi,Restaurant_5,Biryani,16,5.1,Medium,Foggy,21.0,27.0,Delivered,4.0,Evening
+1428,Chennai,Restaurant_10,Burger,14,1.9,Low,Clear,6.0,10.0,Delivered,5.0,Afternoon
+1429,Chennai,Restaurant_4,Burger,22,6.7,Low,Clear,8.0,30.0,Cancelled,,Night
+1430,Pune,Restaurant_4,Dessert,17,2.4,Medium,Rainy,7.0,33.0,Delivered,5.0,Evening
+1431,Mumbai,Restaurant_4,Biryani,17,14.2,Medium,Clear,25.0,53.0,Delivered,4.0,Evening
+1432,Delhi,Restaurant_10,Pizza,14,7.4,Medium,Clear,17.0,38.0,Delivered,3.0,Afternoon
+1433,Pune,Restaurant_8,Chinese,21,5.1,Low,Foggy,6.0,23.0,Delivered,4.0,Night
+1434,Bangalore,Restaurant_6,Biryani,18,11.6,High,Clear,31.0,46.0,Delivered,3.0,Evening
+1435,Pune,Restaurant_3,Biryani,20,7.7,Medium,Clear,29.0,28.0,Delivered,4.0,Night
+1436,Pune,Restaurant_10,South Indian,20,5.0,Medium,Clear,16.0,29.0,Delivered,5.0,Night
+1437,Mumbai,Restaurant_5,Burger,14,12.3,Medium,Rainy,20.0,51.0,Delivered,2.0,Afternoon
+1438,Bangalore,Restaurant_6,Chinese,16,13.1,Medium,Rainy,11.0,51.0,Delivered,4.0,Evening
+1439,Pune,Restaurant_5,Dessert,21,10.3,High,Clear,16.0,52.0,Delivered,4.0,Night
+1440,Delhi,Restaurant_6,Biryani,15,1.2,High,Clear,21.0,25.0,Delivered,5.0,Afternoon
+1441,Delhi,Restaurant_8,Dessert,20,8.7,Medium,Clear,9.0,31.0,Delivered,5.0,Night
+1442,Chennai,Restaurant_7,Biryani,22,11.6,High,Rainy,20.0,52.0,Delivered,4.0,Night
+1443,Bangalore,Restaurant_5,Dessert,19,2.5,High,Clear,8.0,30.0,Delivered,4.0,Evening
+1444,Bangalore,Restaurant_10,Chinese,20,3.8,High,Foggy,17.0,39.0,Delivered,2.0,Night
+1445,Chennai,Restaurant_6,Burger,20,13.3,Low,Clear,11.0,44.0,Delivered,3.0,Night
+1446,Pune,Restaurant_4,Chinese,20,0.8,Medium,Foggy,18.0,28.0,Delivered,4.0,Night
+1447,Bangalore,Restaurant_9,South Indian,16,11.4,Low,Clear,14.0,45.0,Delivered,3.0,Evening
+1448,Delhi,Restaurant_4,Pizza,10,7.4,High,Rainy,16.0,47.0,Delivered,3.0,Morning
+1449,Delhi,Restaurant_1,Burger,16,7.0,Low,Clear,10.0,21.0,Delivered,5.0,Evening
+1450,Mumbai,Restaurant_7,Chinese,19,0.6,Medium,Clear,18.0,10.0,Delivered,5.0,Evening
+1451,Bangalore,Restaurant_7,South Indian,17,12.4,Medium,Foggy,11.0,46.0,Delivered,2.0,Evening
+1452,Pune,Restaurant_4,Pizza,20,5.7,Medium,Foggy,22.0,35.0,Delivered,4.0,Night
+1453,Chennai,Restaurant_3,South Indian,15,8.3,Medium,Clear,19.0,43.0,Delivered,3.0,Afternoon
+1454,Chennai,Restaurant_8,Biryani,19,10.3,High,Rainy,18.0,54.0,Delivered,3.0,Evening
+1455,Pune,Restaurant_5,Biryani,11,10.7,Medium,Clear,30.0,46.0,Delivered,4.0,Morning
+1456,Mumbai,Restaurant_10,Dessert,20,14.4,High,Foggy,16.0,59.0,Cancelled,,Night
+1457,Chennai,Restaurant_7,Burger,18,8.2,Low,Clear,13.0,32.0,Delivered,4.0,Evening
+1458,Bangalore,Restaurant_4,Biryani,12,6.3,Medium,Clear,27.0,33.0,Delivered,4.0,Afternoon
+1459,Mumbai,Restaurant_4,South Indian,13,14.3,Medium,Clear,18.0,39.0,Delivered,3.0,Afternoon
+1460,Bangalore,Restaurant_8,Burger,20,9.8,Low,Clear,11.0,30.0,Delivered,5.0,Night
+1461,Delhi,Restaurant_8,Biryani,17,4.8,Medium,Foggy,26.0,34.0,Delivered,4.0,Evening
+1462,Mumbai,Restaurant_2,Dessert,12,2.3,Medium,Clear,5.0,20.0,Delivered,5.0,Afternoon
+1463,Chennai,Restaurant_2,Chinese,22,12.7,Medium,Clear,16.0,39.0,Delivered,3.0,Night
+1464,Mumbai,Restaurant_3,Dessert,19,5.8,High,Clear,10.0,22.0,Delivered,5.0,Evening
+1465,Mumbai,Restaurant_3,Pizza,22,10.1,Medium,Rainy,20.0,42.0,Delivered,3.0,Night
+1466,Mumbai,Restaurant_1,Biryani,16,7.3,Low,Clear,29.0,26.0,Delivered,5.0,Evening
+1467,Mumbai,Restaurant_3,Pizza,17,3.4,Low,Clear,15.0,12.0,Delivered,5.0,Evening
+1468,Bangalore,Restaurant_6,Pizza,21,9.2,Medium,Foggy,16.0,41.0,Delivered,4.0,Night
+1469,Delhi,Restaurant_8,South Indian,18,1.4,Low,Clear,22.0,14.0,Delivered,5.0,Evening
+1470,Pune,Restaurant_10,Burger,19,6.5,Low,Rainy,11.0,34.0,Delivered,5.0,Evening
+1471,Mumbai,Restaurant_6,South Indian,12,8.4,Medium,Rainy,15.0,28.0,Delivered,5.0,Afternoon
+1472,Chennai,Restaurant_5,Biryani,17,6.8,Medium,Clear,25.0,23.0,Delivered,5.0,Evening
+1473,Mumbai,Restaurant_4,Pizza,11,11.4,Medium,Foggy,15.0,44.0,Delivered,4.0,Morning
+1474,Chennai,Restaurant_3,Chinese,12,12.5,High,Rainy,21.0,60.0,Delivered,1.0,Afternoon
+1475,Bangalore,Restaurant_4,Pizza,8,11.7,Medium,Clear,16.0,45.0,Delivered,3.0,Morning
+1476,Chennai,Restaurant_7,Chinese,9,1.1,Medium,Clear,10.0,18.0,Delivered,5.0,Morning
+1477,Pune,Restaurant_1,South Indian,22,3.3,High,Rainy,12.0,32.0,Delivered,5.0,Night
+1478,Delhi,Restaurant_7,South Indian,12,8.3,Medium,Clear,6.0,32.0,Delivered,4.0,Afternoon
+1479,Chennai,Restaurant_1,Burger,19,14.1,Medium,Foggy,9.0,49.0,Delivered,2.0,Evening
+1480,Chennai,Restaurant_2,Pizza,20,12.6,Medium,Clear,14.0,48.0,Delivered,2.0,Night
+1481,Delhi,Restaurant_4,Dessert,18,12.7,Low,Clear,10.0,35.0,Delivered,5.0,Evening
+1482,Pune,Restaurant_1,South Indian,11,4.9,Medium,Clear,11.0,30.0,Delivered,5.0,Morning
+1483,Mumbai,Restaurant_9,South Indian,19,6.7,Medium,Clear,18.0,31.0,Delivered,5.0,Evening
+1484,Chennai,Restaurant_6,Burger,18,7.3,High,Clear,18.0,38.0,Delivered,4.0,Evening
+1485,Delhi,Restaurant_1,Chinese,20,2.8,High,Foggy,18.0,28.0,Cancelled,,Night
+1486,Bangalore,Restaurant_1,Burger,20,1.0,Medium,Rainy,11.0,15.0,Delivered,5.0,Night
+1487,Delhi,Restaurant_6,Pizza,22,14.2,Low,Rainy,19.0,46.0,Delivered,4.0,Night
+1488,Bangalore,Restaurant_4,Biryani,18,4.0,Low,Rainy,19.0,22.0,Delivered,5.0,Evening
+1489,Pune,Restaurant_4,Biryani,14,4.0,Medium,Rainy,24.0,17.0,Delivered,5.0,Afternoon
+1490,Mumbai,Restaurant_6,Chinese,19,1.7,Medium,Clear,12.0,16.0,Delivered,5.0,Evening
+1491,Delhi,Restaurant_7,South Indian,10,14.0,Low,Foggy,17.0,52.0,Delivered,2.0,Morning
+1492,Chennai,Restaurant_9,Chinese,21,8.9,Medium,Clear,25.0,38.0,Delivered,4.0,Night
+1493,Pune,Restaurant_10,South Indian,11,10.2,Low,Foggy,16.0,35.0,Delivered,4.0,Morning
+1494,Delhi,Restaurant_5,South Indian,14,13.7,High,Rainy,6.0,60.0,Delivered,2.0,Afternoon
+1495,Chennai,Restaurant_9,Biryani,20,5.5,Low,Clear,24.0,19.0,Delivered,5.0,Night
+1496,Delhi,Restaurant_4,Chinese,18,9.5,High,Clear,15.0,44.0,Delivered,4.0,Evening
+1497,Bangalore,Restaurant_10,Burger,16,1.1,High,Clear,12.0,30.0,Delivered,3.0,Evening
+1498,Delhi,Restaurant_2,South Indian,17,3.2,Medium,Clear,11.0,26.0,Delivered,5.0,Evening
+1499,Delhi,Restaurant_3,Dessert,21,12.6,High,Clear,9.0,54.0,Delivered,2.0,Night
+1500,Delhi,Restaurant_1,Dessert,14,11.6,Medium,Clear,5.0,40.0,Delivered,3.0,Afternoon
+1501,Pune,Restaurant_6,Burger,21,5.6,Medium,Clear,8.0,31.0,Delivered,5.0,Night
+1502,Delhi,Restaurant_6,Dessert,10,6.0,Medium,Foggy,11.0,24.0,Delivered,5.0,Morning
+1503,Chennai,Restaurant_1,Pizza,20,8.2,Medium,Rainy,14.0,38.0,Delivered,5.0,Night
+1504,Bangalore,Restaurant_3,South Indian,21,0.5,Medium,Foggy,16.0,21.0,Delivered,5.0,Night
+1505,Bangalore,Restaurant_5,Burger,11,4.0,Medium,Rainy,7.0,33.0,Delivered,5.0,Morning
+1506,Delhi,Restaurant_3,Chinese,16,3.5,Medium,Clear,22.0,25.0,Delivered,5.0,Evening
+1507,Pune,Restaurant_10,South Indian,11,4.1,Low,Clear,11.0,20.0,Delivered,5.0,Morning
+1508,Pune,Restaurant_3,Burger,19,12.2,Medium,Rainy,11.0,49.0,Delivered,3.0,Evening
+1509,Chennai,Restaurant_10,Biryani,18,4.6,Low,Foggy,26.0,26.0,Delivered,5.0,Evening
+1510,Delhi,Restaurant_3,Chinese,19,3.3,Low,Clear,13.0,11.0,Delivered,5.0,Evening
+1511,Bangalore,Restaurant_5,Biryani,12,7.8,Low,Foggy,26.0,27.0,Delivered,4.0,Afternoon
+1512,Pune,Restaurant_5,South Indian,12,13.1,Low,Foggy,16.0,45.0,Delivered,3.0,Afternoon
+1513,Delhi,Restaurant_4,Chinese,9,4.0,Low,Rainy,19.0,25.0,Delivered,5.0,Morning
+1514,Pune,Restaurant_1,Dessert,14,1.6,High,Foggy,11.0,19.0,Delivered,5.0,Afternoon
+1515,Pune,Restaurant_5,Burger,18,5.7,Low,Clear,11.0,25.0,Delivered,5.0,Evening
+1516,Bangalore,Restaurant_10,South Indian,21,11.3,Medium,Foggy,13.0,49.0,Delivered,4.0,Night
+1517,Mumbai,Restaurant_5,Pizza,19,8.5,Low,Rainy,27.0,35.0,Delivered,3.0,Evening
+1518,Chennai,Restaurant_4,Chinese,16,12.3,High,Clear,19.0,63.0,Delivered,2.0,Evening
+1519,Chennai,Restaurant_6,Chinese,22,14.4,Medium,Foggy,11.0,50.0,Delivered,2.0,Night
+1520,Bangalore,Restaurant_10,South Indian,19,12.0,Medium,Clear,14.0,41.0,Delivered,3.0,Evening
+1521,Pune,Restaurant_4,South Indian,21,9.3,Medium,Clear,13.0,34.0,Delivered,4.0,Night
+1522,Delhi,Restaurant_7,Biryani,18,7.7,Medium,Clear,24.0,32.0,Delivered,5.0,Evening
+1523,Pune,Restaurant_7,Dessert,12,1.1,Medium,Clear,5.0,14.0,Delivered,5.0,Afternoon
+1524,Bangalore,Restaurant_2,Biryani,10,14.8,Low,Clear,23.0,38.0,Delivered,5.0,Morning
+1525,Chennai,Restaurant_3,Biryani,19,6.1,High,Rainy,32.0,39.0,Delivered,4.0,Evening
+1526,Pune,Restaurant_1,Dessert,11,2.7,Medium,Clear,10.0,19.0,Delivered,5.0,Morning
+1527,Chennai,Restaurant_8,Pizza,13,10.2,Medium,Clear,8.0,45.0,Delivered,4.0,Afternoon
+1528,Delhi,Restaurant_9,Biryani,18,4.6,High,Clear,30.0,43.0,Delivered,4.0,Evening
+1529,Chennai,Restaurant_4,Biryani,18,9.0,Medium,Clear,29.0,42.0,Delivered,3.0,Evening
+1530,Chennai,Restaurant_6,Chinese,18,9.0,High,Rainy,14.0,45.0,Delivered,5.0,Evening
+1531,Mumbai,Restaurant_9,Dessert,11,7.0,Medium,Rainy,11.0,33.0,Delivered,5.0,Morning
+1532,Mumbai,Restaurant_6,Burger,15,12.6,High,Foggy,9.0,55.0,Delivered,3.0,Afternoon
+1533,Mumbai,Restaurant_9,Pizza,19,4.3,Low,Rainy,16.0,34.0,Cancelled,,Evening
+1534,Chennai,Restaurant_4,Pizza,22,7.0,High,Clear,24.0,37.0,Delivered,5.0,Night
+1535,Bangalore,Restaurant_8,Dessert,19,8.3,High,Foggy,7.0,38.0,Delivered,4.0,Evening
+1536,Chennai,Restaurant_9,South Indian,21,10.1,Low,Rainy,7.0,37.0,Cancelled,,Night
+1537,Bangalore,Restaurant_4,South Indian,20,11.9,Low,Clear,14.0,42.0,Delivered,3.0,Night
+1538,Bangalore,Restaurant_5,Chinese,18,6.2,Medium,Rainy,15.0,38.0,Delivered,5.0,Evening
+1539,Mumbai,Restaurant_8,Chinese,12,9.9,High,Foggy,20.0,48.0,Delivered,4.0,Afternoon
+1540,Pune,Restaurant_10,Dessert,19,2.7,Low,Rainy,8.0,24.0,Cancelled,,Evening
+1541,Delhi,Restaurant_6,Chinese,19,14.0,Medium,Clear,13.0,37.0,Delivered,3.0,Evening
+1542,Mumbai,Restaurant_7,Pizza,18,6.1,Low,Rainy,22.0,30.0,Delivered,5.0,Evening
+1543,Mumbai,Restaurant_3,Pizza,17,11.1,Medium,Clear,18.0,45.0,Delivered,2.0,Evening
+1544,Pune,Restaurant_7,Burger,18,0.8,Medium,Clear,9.0,11.0,Delivered,5.0,Evening
+1545,Delhi,Restaurant_8,South Indian,14,3.5,High,Clear,19.0,25.0,Delivered,5.0,Afternoon
+1546,Chennai,Restaurant_10,Dessert,18,7.6,Medium,Clear,9.0,23.0,Delivered,5.0,Evening
+1547,Chennai,Restaurant_6,Biryani,12,13.2,High,Clear,25.0,61.0,Delivered,2.0,Afternoon
+1548,Mumbai,Restaurant_10,South Indian,20,8.1,Medium,Clear,15.0,30.0,Delivered,5.0,Night
+1549,Delhi,Restaurant_9,Biryani,11,14.0,Low,Rainy,21.0,50.0,Cancelled,,Morning
+1550,Mumbai,Restaurant_6,Burger,10,7.5,Medium,Rainy,10.0,41.0,Delivered,4.0,Morning
+1551,Bangalore,Restaurant_9,Burger,16,7.6,Medium,Foggy,12.0,44.0,Delivered,5.0,Evening
+1552,Mumbai,Restaurant_4,Chinese,19,2.2,High,Clear,14.0,25.0,Delivered,4.0,Evening
+1553,Mumbai,Restaurant_8,Burger,16,12.1,High,Clear,17.0,48.0,Delivered,3.0,Evening
+1554,Chennai,Restaurant_4,Burger,13,4.1,Low,Foggy,13.0,23.0,Delivered,5.0,Afternoon
+1555,Chennai,Restaurant_2,Biryani,18,13.5,Low,Clear,28.0,48.0,Delivered,3.0,Evening
+1556,Chennai,Restaurant_10,Chinese,14,13.7,Low,Rainy,15.0,47.0,Delivered,3.0,Afternoon
+1557,Bangalore,Restaurant_9,Burger,22,14.2,High,Rainy,16.0,57.0,Delivered,3.0,Night
+1558,Chennai,Restaurant_5,South Indian,21,8.0,High,Clear,16.0,32.0,Delivered,4.0,Night
+1559,Delhi,Restaurant_4,Burger,17,10.3,High,Foggy,12.0,44.0,Delivered,2.0,Evening
+1560,Pune,Restaurant_2,Chinese,14,11.8,Medium,Rainy,15.0,53.0,Delivered,3.0,Afternoon
+1561,Delhi,Restaurant_1,Dessert,20,2.4,Medium,Clear,5.0,17.0,Delivered,4.0,Night
+1562,Delhi,Restaurant_7,Chinese,9,9.2,Medium,Clear,17.0,33.0,Delivered,4.0,Morning
+1563,Chennai,Restaurant_6,Biryani,17,1.0,Low,Clear,25.0,10.0,Delivered,5.0,Evening
+1564,Pune,Restaurant_2,Dessert,14,7.7,Medium,Clear,6.0,33.0,Delivered,4.0,Afternoon
+1565,Pune,Restaurant_8,South Indian,21,2.7,Low,Clear,18.0,14.0,Delivered,5.0,Night
+1566,Pune,Restaurant_4,Pizza,8,3.2,Low,Clear,13.0,15.0,Delivered,5.0,Morning
+1567,Bangalore,Restaurant_8,Chinese,18,5.8,High,Clear,13.0,41.0,Delivered,3.0,Evening
+1568,Chennai,Restaurant_7,Biryani,20,6.8,High,Foggy,29.0,49.0,Delivered,2.0,Night
+1569,Pune,Restaurant_5,South Indian,17,9.5,Medium,Clear,15.0,29.0,Delivered,5.0,Evening
+1570,Bangalore,Restaurant_10,Dessert,10,1.6,Medium,Clear,8.0,19.0,Delivered,5.0,Morning
+1571,Mumbai,Restaurant_10,South Indian,22,7.8,Medium,Clear,15.0,29.0,Delivered,4.0,Night
+1572,Mumbai,Restaurant_8,Chinese,18,3.1,High,Clear,16.0,27.0,Delivered,5.0,Evening
+1573,Bangalore,Restaurant_9,Burger,19,8.8,High,Clear,6.0,44.0,Delivered,4.0,Evening
+1574,Bangalore,Restaurant_5,Chinese,12,9.7,High,Clear,14.0,43.0,Delivered,3.0,Afternoon
+1575,Chennai,Restaurant_10,Pizza,17,8.6,High,Clear,24.0,43.0,Delivered,3.0,Evening
+1576,Chennai,Restaurant_5,Chinese,16,11.2,Low,Rainy,12.0,45.0,Delivered,4.0,Evening
+1577,Mumbai,Restaurant_2,Dessert,10,5.4,Medium,Foggy,7.0,32.0,Delivered,5.0,Morning
+1578,Pune,Restaurant_5,Dessert,11,11.6,Medium,Clear,6.0,39.0,Delivered,4.0,Morning
+1579,Mumbai,Restaurant_3,Chinese,20,6.8,Medium,Clear,15.0,27.0,Delivered,5.0,Night
+1580,Pune,Restaurant_7,Dessert,12,7.5,High,Rainy,6.0,38.0,Delivered,4.0,Afternoon
+1581,Pune,Restaurant_10,Burger,12,9.9,Medium,Rainy,14.0,39.0,Delivered,4.0,Afternoon
+1582,Chennai,Restaurant_5,South Indian,17,0.8,Low,Clear,15.0,20.0,Delivered,5.0,Evening
+1583,Delhi,Restaurant_8,Chinese,20,10.0,Medium,Foggy,18.0,38.0,Delivered,3.0,Night
+1584,Delhi,Restaurant_1,Burger,10,9.5,High,Clear,8.0,38.0,Delivered,4.0,Morning
+1585,Bangalore,Restaurant_3,South Indian,18,5.0,Low,Clear,13.0,22.0,Delivered,5.0,Evening
+1586,Chennai,Restaurant_3,South Indian,11,1.7,Medium,Rainy,13.0,23.0,Delivered,5.0,Morning
+1587,Pune,Restaurant_9,Burger,9,1.8,Medium,Foggy,14.0,21.0,Delivered,5.0,Morning
+1588,Delhi,Restaurant_5,Biryani,10,13.9,Low,Rainy,22.0,56.0,Delivered,3.0,Morning
+1589,Pune,Restaurant_9,Chinese,20,10.5,Medium,Clear,19.0,42.0,Delivered,3.0,Night
+1590,Delhi,Restaurant_9,South Indian,11,2.3,High,Clear,19.0,23.0,Delivered,5.0,Morning
+1591,Delhi,Restaurant_1,South Indian,9,5.7,Medium,Clear,10.0,25.0,Delivered,5.0,Morning
+1592,Delhi,Restaurant_2,Dessert,16,9.1,High,Clear,6.0,40.0,Delivered,4.0,Evening
+1593,Chennai,Restaurant_5,South Indian,20,12.6,Low,Rainy,12.0,50.0,Delivered,2.0,Night
+1594,Mumbai,Restaurant_4,Burger,12,1.1,Low,Rainy,23.0,15.0,Cancelled,,Afternoon
+1595,Pune,Restaurant_10,South Indian,16,3.9,High,Rainy,12.0,27.0,Delivered,5.0,Evening
+1596,Chennai,Restaurant_9,Biryani,9,13.4,Medium,Foggy,32.0,50.0,Delivered,3.0,Morning
+1597,Chennai,Restaurant_7,Chinese,17,0.6,Medium,Clear,10.0,10.0,Delivered,5.0,Evening
+1598,Chennai,Restaurant_6,Chinese,18,3.4,High,Foggy,11.0,43.0,Delivered,3.0,Evening
+1599,Chennai,Restaurant_7,South Indian,18,14.4,Medium,Rainy,11.0,50.0,Delivered,3.0,Evening
+1600,Chennai,Restaurant_1,Pizza,14,9.4,High,Clear,15.0,43.0,Delivered,4.0,Afternoon
+1601,Bangalore,Restaurant_1,Pizza,13,4.3,Low,Rainy,17.0,26.0,Delivered,5.0,Afternoon
+1602,Pune,Restaurant_8,Burger,11,1.5,Low,Clear,9.0,10.0,Delivered,5.0,Morning
+1603,Chennai,Restaurant_2,Pizza,15,0.9,Low,Rainy,15.0,15.0,Delivered,5.0,Afternoon
+1604,Pune,Restaurant_10,Burger,10,4.0,High,Clear,17.0,32.0,Delivered,4.0,Morning
+1605,Bangalore,Restaurant_9,Dessert,20,13.3,Low,Clear,13.0,49.0,Delivered,2.0,Night
+1606,Bangalore,Restaurant_7,Burger,22,6.5,High,Rainy,16.0,46.0,Delivered,3.0,Night
+1607,Pune,Restaurant_6,Pizza,22,10.9,High,Rainy,20.0,61.0,Delivered,2.0,Night
+1608,Delhi,Restaurant_1,South Indian,21,13.8,Medium,Clear,14.0,42.0,Delivered,3.0,Night
+1609,Mumbai,Restaurant_1,Dessert,18,6.4,Medium,Clear,6.0,31.0,Delivered,5.0,Evening
+1610,Delhi,Restaurant_2,Pizza,19,3.3,Medium,Clear,14.0,22.0,Delivered,5.0,Evening
+1611,Delhi,Restaurant_6,Burger,13,8.0,Medium,Clear,13.0,35.0,Delivered,5.0,Afternoon
+1612,Delhi,Restaurant_6,Biryani,19,13.7,Medium,Foggy,20.0,58.0,Delivered,1.0,Evening
+1613,Chennai,Restaurant_2,Chinese,17,12.2,Medium,Foggy,11.0,46.0,Delivered,3.0,Evening
+1614,Bangalore,Restaurant_1,Pizza,17,1.5,High,Clear,23.0,22.0,Delivered,5.0,Evening
+1615,Delhi,Restaurant_10,Burger,20,10.5,High,Rainy,20.0,55.0,Delivered,2.0,Night
+1616,Bangalore,Restaurant_5,Dessert,13,8.8,High,Clear,10.0,33.0,Delivered,5.0,Afternoon
+1617,Pune,Restaurant_5,Pizza,13,13.7,High,Rainy,22.0,59.0,Delivered,3.0,Afternoon
+1618,Mumbai,Restaurant_2,Pizza,21,2.3,Medium,Clear,17.0,18.0,Delivered,5.0,Night
+1619,Pune,Restaurant_6,Chinese,10,8.2,Medium,Clear,10.0,29.0,Cancelled,,Morning
+1620,Pune,Restaurant_9,Burger,17,13.3,High,Rainy,14.0,65.0,Delivered,2.0,Evening
+1621,Chennai,Restaurant_2,Biryani,21,6.4,Medium,Clear,27.0,24.0,Delivered,5.0,Night
+1622,Mumbai,Restaurant_10,Dessert,19,7.5,High,Rainy,8.0,44.0,Delivered,4.0,Evening
+1623,Pune,Restaurant_2,Burger,18,1.5,Medium,Rainy,11.0,24.0,Delivered,4.0,Evening
+1624,Pune,Restaurant_3,Dessert,12,4.5,Medium,Clear,12.0,31.0,Delivered,4.0,Afternoon
+1625,Mumbai,Restaurant_7,Pizza,14,5.2,High,Clear,14.0,33.0,Delivered,4.0,Afternoon
+1626,Mumbai,Restaurant_6,Chinese,21,14.2,High,Foggy,12.0,64.0,Delivered,2.0,Night
+1627,Pune,Restaurant_8,Chinese,18,4.6,Low,Rainy,11.0,29.0,Delivered,4.0,Evening
+1628,Mumbai,Restaurant_8,South Indian,18,7.2,High,Clear,14.0,39.0,Delivered,3.0,Evening
+1629,Pune,Restaurant_6,Biryani,10,10.2,Medium,Clear,21.0,33.0,Delivered,5.0,Morning
+1630,Pune,Restaurant_10,Chinese,8,2.9,Low,Rainy,12.0,14.0,Delivered,5.0,Morning
+1631,Chennai,Restaurant_3,Pizza,22,7.6,High,Clear,15.0,40.0,Delivered,5.0,Night
+1632,Delhi,Restaurant_3,Biryani,15,11.2,Medium,Clear,24.0,38.0,Delivered,4.0,Afternoon
+1633,Pune,Restaurant_1,Burger,18,13.1,Medium,Clear,6.0,50.0,Delivered,2.0,Evening
+1634,Bangalore,Restaurant_7,Chinese,10,9.6,Medium,Foggy,15.0,45.0,Delivered,3.0,Morning
+1635,Delhi,Restaurant_5,Biryani,19,10.2,Medium,Rainy,30.0,44.0,Delivered,4.0,Evening
+1636,Delhi,Restaurant_4,Pizza,22,2.3,Medium,Foggy,19.0,17.0,Delivered,5.0,Night
+1637,Delhi,Restaurant_10,South Indian,18,14.2,Medium,Rainy,20.0,57.0,Delivered,2.0,Evening
+1638,Chennai,Restaurant_4,Dessert,11,2.4,Low,Foggy,13.0,13.0,Delivered,5.0,Morning
+1639,Pune,Restaurant_4,Dessert,18,11.7,High,Clear,11.0,45.0,Delivered,3.0,Evening
+1640,Chennai,Restaurant_6,Pizza,20,4.3,Medium,Rainy,18.0,25.0,Delivered,4.0,Night
+1641,Pune,Restaurant_8,Pizza,16,14.0,High,Clear,18.0,54.0,Cancelled,,Evening
+1642,Chennai,Restaurant_8,Dessert,21,10.9,Medium,Rainy,11.0,52.0,Delivered,4.0,Night
+1643,Chennai,Restaurant_5,South Indian,19,11.4,Medium,Clear,12.0,41.0,Delivered,5.0,Evening
+1644,Bangalore,Restaurant_6,Biryani,21,3.7,Medium,Clear,17.0,20.0,Delivered,4.0,Night
+1645,Chennai,Restaurant_4,Dessert,19,6.9,Medium,Foggy,10.0,27.0,Delivered,5.0,Evening
+1646,Mumbai,Restaurant_9,Pizza,11,9.5,Medium,Foggy,13.0,44.0,Delivered,4.0,Morning
+1647,Bangalore,Restaurant_8,Chinese,13,11.7,Medium,Clear,11.0,38.0,Delivered,5.0,Afternoon
+1648,Chennai,Restaurant_10,Burger,12,2.0,Medium,Rainy,12.0,25.0,Delivered,5.0,Afternoon
+1649,Delhi,Restaurant_10,South Indian,21,14.5,Low,Clear,14.0,42.0,Delivered,2.0,Night
+1650,Mumbai,Restaurant_1,South Indian,20,13.4,Medium,Clear,8.0,51.0,Delivered,3.0,Night
+1651,Mumbai,Restaurant_2,Chinese,19,4.4,Low,Rainy,16.0,24.0,Delivered,4.0,Evening
+1652,Mumbai,Restaurant_9,Chinese,13,12.4,Low,Clear,19.0,39.0,Delivered,3.0,Afternoon
+1653,Bangalore,Restaurant_8,Pizza,11,8.0,High,Foggy,13.0,46.0,Delivered,2.0,Morning
+1654,Chennai,Restaurant_3,Dessert,20,7.2,Medium,Clear,13.0,42.0,Delivered,4.0,Night
+1655,Chennai,Restaurant_8,Biryani,17,5.1,Medium,Rainy,19.0,36.0,Delivered,4.0,Evening
+1656,Delhi,Restaurant_1,South Indian,12,8.9,Medium,Rainy,22.0,41.0,Delivered,4.0,Afternoon
+1657,Delhi,Restaurant_10,South Indian,19,11.1,High,Clear,12.0,48.0,Delivered,4.0,Evening
+1658,Mumbai,Restaurant_4,Chinese,9,6.5,Medium,Clear,16.0,27.0,Delivered,5.0,Morning
+1659,Delhi,Restaurant_3,Dessert,14,9.6,High,Rainy,5.0,45.0,Delivered,3.0,Afternoon
+1660,Bangalore,Restaurant_6,South Indian,17,10.6,Medium,Rainy,14.0,43.0,Delivered,3.0,Evening
+1661,Chennai,Restaurant_7,Biryani,11,10.8,High,Clear,26.0,43.0,Delivered,3.0,Morning
+1662,Mumbai,Restaurant_4,Chinese,23,1.3,High,Clear,15.0,27.0,Delivered,4.0,Night
+1663,Delhi,Restaurant_7,Biryani,12,13.0,High,Clear,23.0,47.0,Delivered,3.0,Afternoon
+1664,Bangalore,Restaurant_9,Dessert,11,7.1,Low,Clear,5.0,32.0,Delivered,5.0,Morning
+1665,Bangalore,Restaurant_2,South Indian,12,4.3,Low,Clear,19.0,23.0,Delivered,5.0,Afternoon
+1666,Delhi,Restaurant_3,Burger,20,4.0,Low,Clear,12.0,18.0,Delivered,5.0,Night
+1667,Chennai,Restaurant_5,South Indian,16,7.5,Low,Rainy,20.0,33.0,Delivered,4.0,Evening
+1668,Delhi,Restaurant_3,Dessert,18,13.4,High,Rainy,6.0,57.0,Delivered,3.0,Evening
+1669,Mumbai,Restaurant_8,South Indian,9,6.0,Low,Foggy,12.0,28.0,Delivered,4.0,Morning
+1670,Delhi,Restaurant_10,South Indian,9,11.4,Low,Rainy,17.0,48.0,Delivered,2.0,Morning
+1671,Bangalore,Restaurant_8,Pizza,17,1.9,Low,Foggy,12.0,13.0,Delivered,5.0,Evening
+1672,Delhi,Restaurant_8,South Indian,20,7.4,Low,Clear,9.0,19.0,Delivered,5.0,Night
+1673,Chennai,Restaurant_9,South Indian,21,14.9,Low,Rainy,18.0,55.0,Delivered,2.0,Night
+1674,Pune,Restaurant_4,Biryani,10,11.7,High,Foggy,20.0,55.0,Delivered,4.0,Morning
+1675,Delhi,Restaurant_5,Burger,18,3.6,Medium,Rainy,5.0,22.0,Delivered,5.0,Evening
+1676,Chennai,Restaurant_5,Biryani,21,7.8,Low,Clear,32.0,24.0,Delivered,4.0,Night
+1677,Chennai,Restaurant_8,Biryani,15,3.9,Medium,Rainy,19.0,24.0,Delivered,5.0,Afternoon
+1678,Bangalore,Restaurant_7,Chinese,20,6.4,Medium,Foggy,16.0,29.0,Delivered,5.0,Night
+1679,Chennai,Restaurant_9,Pizza,11,11.8,Low,Rainy,18.0,42.0,Cancelled,,Morning
+1680,Chennai,Restaurant_8,Biryani,22,11.7,Medium,Clear,14.0,41.0,Delivered,4.0,Night
+1681,Chennai,Restaurant_2,Dessert,20,3.8,High,Rainy,7.0,32.0,Delivered,4.0,Night
+1682,Chennai,Restaurant_10,Dessert,22,13.9,High,Foggy,10.0,55.0,Delivered,3.0,Night
+1683,Mumbai,Restaurant_4,South Indian,19,9.1,High,Clear,15.0,42.0,Delivered,4.0,Evening
+1684,Mumbai,Restaurant_6,Chinese,15,6.0,Low,Rainy,19.0,30.0,Delivered,4.0,Afternoon
+1685,Bangalore,Restaurant_2,Pizza,22,7.8,High,Clear,16.0,38.0,Delivered,5.0,Night
+1686,Delhi,Restaurant_7,Pizza,13,9.3,High,Rainy,21.0,55.0,Delivered,4.0,Afternoon
+1687,Chennai,Restaurant_3,South Indian,14,8.6,High,Rainy,11.0,50.0,Delivered,3.0,Afternoon
+1688,Delhi,Restaurant_3,Dessert,19,7.6,Low,Clear,5.0,19.0,Delivered,5.0,Evening
+1689,Delhi,Restaurant_2,Burger,20,7.8,High,Clear,7.0,42.0,Delivered,3.0,Night
+1690,Bangalore,Restaurant_8,Chinese,21,3.1,High,Rainy,9.0,37.0,Delivered,4.0,Night
+1691,Chennai,Restaurant_6,South Indian,12,12.3,High,Clear,18.0,49.0,Delivered,3.0,Afternoon
+1692,Chennai,Restaurant_1,Chinese,20,8.4,Low,Clear,9.0,22.0,Delivered,5.0,Night
+1693,Pune,Restaurant_1,Dessert,20,2.4,High,Rainy,9.0,32.0,Delivered,5.0,Night
+1694,Delhi,Restaurant_7,Dessert,10,11.6,High,Clear,7.0,49.0,Delivered,3.0,Morning
+1695,Delhi,Restaurant_8,Burger,15,14.0,Medium,Clear,12.0,42.0,Delivered,5.0,Afternoon
+1696,Mumbai,Restaurant_5,Burger,13,14.2,Medium,Foggy,17.0,45.0,Delivered,4.0,Afternoon
+1697,Pune,Restaurant_5,Pizza,13,5.9,High,Clear,16.0,34.0,Delivered,5.0,Afternoon
+1698,Mumbai,Restaurant_4,Chinese,22,2.5,Medium,Clear,17.0,18.0,Delivered,5.0,Night
+1699,Mumbai,Restaurant_6,Chinese,19,8.0,Medium,Rainy,15.0,37.0,Delivered,4.0,Evening
+1700,Mumbai,Restaurant_6,Dessert,19,2.1,Medium,Rainy,7.0,24.0,Delivered,5.0,Evening
+1701,Bangalore,Restaurant_3,Pizza,22,14.0,High,Foggy,27.0,53.0,Delivered,3.0,Night
+1702,Bangalore,Restaurant_9,South Indian,15,3.2,Low,Foggy,8.0,18.0,Delivered,5.0,Afternoon
+1703,Mumbai,Restaurant_7,Chinese,20,4.2,Medium,Rainy,20.0,32.0,Delivered,5.0,Night
+1704,Pune,Restaurant_1,Pizza,16,6.4,Medium,Clear,21.0,27.0,Delivered,4.0,Evening
+1705,Delhi,Restaurant_7,Pizza,21,6.1,High,Clear,16.0,27.0,Delivered,5.0,Night
+1706,Pune,Restaurant_5,Dessert,11,12.0,Medium,Clear,15.0,41.0,Delivered,4.0,Morning
+1707,Chennai,Restaurant_5,Pizza,22,7.1,High,Clear,11.0,32.0,Delivered,5.0,Night
+1708,Bangalore,Restaurant_2,Burger,12,3.0,High,Rainy,10.0,35.0,Delivered,5.0,Afternoon
+1709,Delhi,Restaurant_4,Burger,14,4.4,Low,Rainy,7.0,27.0,Delivered,5.0,Afternoon
+1710,Delhi,Restaurant_6,Biryani,20,7.9,Medium,Clear,27.0,24.0,Delivered,5.0,Night
+1711,Chennai,Restaurant_10,Dessert,16,2.6,Low,Rainy,5.0,24.0,Delivered,5.0,Evening
+1712,Chennai,Restaurant_7,South Indian,18,9.4,Medium,Clear,16.0,31.0,Delivered,4.0,Evening
+1713,Mumbai,Restaurant_5,Biryani,17,8.7,Medium,Clear,24.0,43.0,Delivered,3.0,Evening
+1714,Bangalore,Restaurant_9,Burger,20,10.9,High,Rainy,10.0,53.0,Delivered,1.0,Night
+1715,Bangalore,Restaurant_3,Biryani,12,14.1,High,Clear,27.0,49.0,Cancelled,,Afternoon
+1716,Pune,Restaurant_1,Dessert,10,13.7,Low,Clear,7.0,37.0,Delivered,4.0,Morning
+1717,Mumbai,Restaurant_4,Dessert,13,14.2,Low,Clear,5.0,45.0,Delivered,3.0,Afternoon
+1718,Mumbai,Restaurant_9,Pizza,17,4.0,Medium,Clear,29.0,21.0,Delivered,5.0,Evening
+1719,Mumbai,Restaurant_4,Chinese,11,2.4,Medium,Rainy,13.0,25.0,Delivered,5.0,Morning
+1720,Mumbai,Restaurant_2,Pizza,14,4.9,Low,Foggy,9.0,32.0,Delivered,4.0,Afternoon
+1721,Bangalore,Restaurant_10,Dessert,16,13.5,High,Clear,5.0,50.0,Delivered,2.0,Evening
+1722,Bangalore,Restaurant_5,Burger,10,14.6,High,Clear,7.0,57.0,Delivered,2.0,Morning
+1723,Mumbai,Restaurant_3,South Indian,18,13.0,Medium,Rainy,17.0,59.0,Cancelled,,Evening
+1724,Pune,Restaurant_9,Burger,21,2.1,High,Foggy,13.0,31.0,Delivered,4.0,Night
+1725,Delhi,Restaurant_4,Pizza,11,14.2,Medium,Clear,20.0,40.0,Delivered,5.0,Morning
+1726,Delhi,Restaurant_6,South Indian,18,6.6,High,Clear,13.0,39.0,Delivered,4.0,Evening
+1727,Pune,Restaurant_2,Dessert,19,0.6,Medium,Rainy,7.0,15.0,Delivered,5.0,Evening
+1728,Mumbai,Restaurant_6,Burger,16,6.9,Low,Rainy,11.0,38.0,Delivered,5.0,Evening
+1729,Bangalore,Restaurant_3,Dessert,19,1.2,High,Clear,8.0,19.0,Delivered,5.0,Evening
+1730,Delhi,Restaurant_9,South Indian,16,8.4,Medium,Rainy,17.0,55.0,Delivered,2.0,Evening
+1731,Chennai,Restaurant_2,South Indian,17,5.4,High,Clear,15.0,41.0,Delivered,4.0,Evening
+1732,Chennai,Restaurant_9,Burger,8,7.4,Medium,Clear,14.0,28.0,Delivered,5.0,Morning
+1733,Pune,Restaurant_5,Dessert,19,9.4,Low,Clear,10.0,32.0,Delivered,4.0,Evening
+1734,Mumbai,Restaurant_8,Biryani,19,13.1,Low,Foggy,29.0,49.0,Delivered,4.0,Evening
+1735,Delhi,Restaurant_2,Dessert,9,10.1,Medium,Clear,9.0,42.0,Delivered,4.0,Morning
+1736,Mumbai,Restaurant_6,South Indian,15,6.8,Medium,Clear,15.0,32.0,Delivered,4.0,Afternoon
+1737,Delhi,Restaurant_3,Dessert,22,12.4,Medium,Clear,13.0,50.0,Delivered,2.0,Night
+1738,Pune,Restaurant_10,Pizza,16,13.6,Medium,Foggy,15.0,50.0,Delivered,3.0,Evening
+1739,Pune,Restaurant_5,Biryani,17,2.2,Medium,Clear,22.0,17.0,Delivered,5.0,Evening
+1740,Chennai,Restaurant_8,Chinese,21,8.2,High,Clear,10.0,39.0,Delivered,3.0,Night
+1741,Mumbai,Restaurant_10,Pizza,19,4.6,Medium,Clear,19.0,29.0,Delivered,4.0,Evening
+1742,Chennai,Restaurant_1,Chinese,18,1.2,High,Rainy,8.0,31.0,Delivered,4.0,Evening
+1743,Mumbai,Restaurant_5,Burger,20,10.2,Medium,Clear,14.0,40.0,Delivered,3.0,Night
+1744,Chennai,Restaurant_3,Chinese,21,13.0,Medium,Clear,15.0,49.0,Delivered,4.0,Night
+1745,Bangalore,Restaurant_4,Dessert,17,2.9,Low,Clear,13.0,10.0,Delivered,5.0,Evening
+1746,Bangalore,Restaurant_2,Chinese,17,12.3,Medium,Foggy,12.0,49.0,Delivered,1.0,Evening
+1747,Bangalore,Restaurant_9,South Indian,15,12.9,Low,Clear,13.0,41.0,Delivered,4.0,Afternoon
+1748,Bangalore,Restaurant_3,Pizza,22,13.8,Medium,Rainy,22.0,62.0,Delivered,1.0,Night
+1749,Delhi,Restaurant_2,Pizza,19,4.3,Low,Foggy,24.0,15.0,Delivered,5.0,Evening
+1750,Bangalore,Restaurant_10,Chinese,10,13.6,Medium,Foggy,12.0,59.0,Delivered,2.0,Morning
+1751,Pune,Restaurant_9,Pizza,21,5.1,High,Clear,19.0,33.0,Delivered,4.0,Night
+1752,Pune,Restaurant_7,South Indian,17,8.5,Medium,Foggy,15.0,41.0,Delivered,4.0,Evening
+1753,Delhi,Restaurant_6,Pizza,10,1.2,Low,Clear,19.0,19.0,Delivered,5.0,Morning
+1754,Bangalore,Restaurant_1,Chinese,18,1.1,Low,Clear,14.0,14.0,Delivered,5.0,Evening
+1755,Bangalore,Restaurant_5,Biryani,16,10.9,High,Foggy,30.0,53.0,Delivered,3.0,Evening
+1756,Bangalore,Restaurant_3,Biryani,21,6.9,Low,Clear,17.0,26.0,Delivered,4.0,Night
+1757,Chennai,Restaurant_1,Burger,12,4.2,Medium,Clear,10.0,21.0,Delivered,4.0,Afternoon
+1758,Mumbai,Restaurant_4,Pizza,20,3.3,Medium,Clear,20.0,21.0,Delivered,5.0,Night
+1759,Chennai,Restaurant_2,Chinese,18,10.2,Medium,Rainy,17.0,41.0,Delivered,4.0,Evening
+1760,Mumbai,Restaurant_2,Pizza,10,0.5,Medium,Clear,23.0,14.0,Delivered,5.0,Morning
+1761,Bangalore,Restaurant_3,Dessert,22,12.2,High,Rainy,13.0,45.0,Delivered,3.0,Night
+1762,Bangalore,Restaurant_8,South Indian,18,1.6,Low,Foggy,13.0,18.0,Delivered,5.0,Evening
+1763,Chennai,Restaurant_8,Pizza,13,3.3,Low,Rainy,23.0,22.0,Delivered,5.0,Afternoon
+1764,Chennai,Restaurant_7,Pizza,17,6.1,Low,Clear,15.0,22.0,Delivered,5.0,Evening
+1765,Mumbai,Restaurant_6,Biryani,21,7.5,Low,Foggy,29.0,32.0,Delivered,5.0,Night
+1766,Pune,Restaurant_9,South Indian,13,5.6,Low,Clear,21.0,15.0,Delivered,5.0,Afternoon
+1767,Mumbai,Restaurant_4,Chinese,12,5.2,Medium,Clear,20.0,36.0,Delivered,4.0,Afternoon
+1768,Chennai,Restaurant_1,Pizza,11,14.5,Medium,Clear,18.0,49.0,Delivered,3.0,Morning
+1769,Chennai,Restaurant_8,Biryani,13,9.8,Medium,Clear,24.0,37.0,Delivered,4.0,Afternoon
+1770,Delhi,Restaurant_7,Burger,20,0.8,Medium,Clear,6.0,10.0,Delivered,5.0,Night
+1771,Chennai,Restaurant_7,South Indian,17,6.7,High,Clear,15.0,37.0,Delivered,4.0,Evening
+1772,Delhi,Restaurant_3,Biryani,12,13.2,Medium,Clear,21.0,53.0,Delivered,2.0,Afternoon
+1773,Pune,Restaurant_4,Biryani,11,4.9,Low,Clear,22.0,25.0,Delivered,4.0,Morning
+1774,Mumbai,Restaurant_10,Biryani,14,1.9,Medium,Rainy,20.0,28.0,Delivered,5.0,Afternoon
+1775,Mumbai,Restaurant_9,Pizza,22,11.5,Low,Rainy,16.0,45.0,Delivered,5.0,Night
+1776,Delhi,Restaurant_6,Pizza,14,9.3,Low,Rainy,18.0,35.0,Delivered,4.0,Afternoon
+1777,Mumbai,Restaurant_5,Burger,23,8.8,Medium,Clear,13.0,28.0,Delivered,5.0,Night
+1778,Chennai,Restaurant_3,Dessert,17,1.3,High,Clear,6.0,22.0,Delivered,5.0,Evening
+1779,Bangalore,Restaurant_9,Dessert,11,2.5,High,Foggy,12.0,29.0,Delivered,4.0,Morning
+1780,Delhi,Restaurant_5,Dessert,21,9.5,Low,Clear,7.0,37.0,Delivered,4.0,Night
+1781,Mumbai,Restaurant_5,South Indian,17,3.5,High,Foggy,11.0,34.0,Delivered,5.0,Evening
+1782,Delhi,Restaurant_4,South Indian,19,7.8,High,Clear,15.0,48.0,Delivered,3.0,Evening
+1783,Delhi,Restaurant_4,Burger,23,8.4,Medium,Foggy,20.0,44.0,Delivered,3.0,Night
+1784,Bangalore,Restaurant_1,South Indian,9,4.6,High,Clear,15.0,29.0,Delivered,5.0,Morning
+1785,Chennai,Restaurant_7,Dessert,10,14.3,Medium,Clear,7.0,40.0,Delivered,4.0,Morning
+1786,Delhi,Restaurant_9,Dessert,19,12.7,Low,Rainy,5.0,53.0,Delivered,2.0,Evening
+1787,Mumbai,Restaurant_3,Biryani,13,11.0,Medium,Clear,24.0,47.0,Delivered,4.0,Afternoon
+1788,Pune,Restaurant_2,South Indian,11,1.6,Medium,Clear,15.0,10.0,Delivered,5.0,Morning
+1789,Delhi,Restaurant_3,Pizza,9,2.0,Medium,Clear,16.0,26.0,Delivered,5.0,Morning
+1790,Delhi,Restaurant_1,Pizza,9,7.6,Medium,Rainy,11.0,40.0,Delivered,3.0,Morning
+1791,Bangalore,Restaurant_6,Biryani,20,2.8,High,Clear,22.0,28.0,Cancelled,,Night
+1792,Chennai,Restaurant_7,Biryani,11,14.7,High,Clear,31.0,65.0,Delivered,2.0,Morning
+1793,Pune,Restaurant_2,Biryani,17,2.8,High,Clear,31.0,34.0,Delivered,5.0,Evening
+1794,Mumbai,Restaurant_8,Pizza,18,7.6,High,Clear,14.0,42.0,Delivered,5.0,Evening
+1795,Pune,Restaurant_6,Dessert,16,5.8,High,Rainy,11.0,43.0,Delivered,3.0,Evening
+1796,Mumbai,Restaurant_4,Biryani,9,9.8,Low,Clear,20.0,36.0,Delivered,5.0,Morning
+1797,Chennai,Restaurant_5,Burger,20,2.4,Low,Clear,18.0,12.0,Cancelled,,Night
+1798,Mumbai,Restaurant_8,Biryani,8,6.7,Medium,Clear,26.0,29.0,Delivered,4.0,Morning
+1799,Bangalore,Restaurant_3,Chinese,20,4.5,High,Clear,19.0,27.0,Delivered,4.0,Night
+1800,Bangalore,Restaurant_3,Biryani,21,13.4,Medium,Clear,18.0,45.0,Delivered,4.0,Night
+1801,Bangalore,Restaurant_4,Pizza,16,1.1,High,Clear,21.0,21.0,Delivered,5.0,Evening
+1802,Bangalore,Restaurant_1,South Indian,18,13.7,Low,Clear,14.0,39.0,Delivered,4.0,Evening
+1803,Pune,Restaurant_9,Biryani,17,12.6,Low,Foggy,28.0,44.0,Delivered,4.0,Evening
+1804,Chennai,Restaurant_8,South Indian,15,4.8,High,Clear,18.0,30.0,Delivered,5.0,Afternoon
+1805,Mumbai,Restaurant_8,Chinese,21,11.9,Low,Rainy,15.0,46.0,Delivered,4.0,Night
+1806,Mumbai,Restaurant_10,Burger,21,1.0,Medium,Clear,10.0,10.0,Delivered,5.0,Night
+1807,Bangalore,Restaurant_6,South Indian,14,14.5,Low,Clear,17.0,44.0,Delivered,5.0,Afternoon
+1808,Bangalore,Restaurant_7,Dessert,19,8.1,Medium,Clear,8.0,34.0,Delivered,4.0,Evening
+1809,Delhi,Restaurant_6,Biryani,21,4.9,High,Clear,22.0,31.0,Delivered,4.0,Night
+1810,Chennai,Restaurant_9,Chinese,22,5.8,Medium,Foggy,11.0,31.0,Delivered,5.0,Night
+1811,Pune,Restaurant_3,Chinese,18,1.5,Medium,Foggy,9.0,13.0,Delivered,5.0,Evening
+1812,Mumbai,Restaurant_3,South Indian,17,14.8,Low,Rainy,12.0,53.0,Delivered,2.0,Evening
+1813,Delhi,Restaurant_3,Burger,13,1.1,High,Rainy,16.0,32.0,Delivered,5.0,Afternoon
+1814,Delhi,Restaurant_10,Pizza,22,10.0,Medium,Clear,19.0,40.0,Delivered,4.0,Night
+1815,Mumbai,Restaurant_3,Biryani,11,6.9,Medium,Clear,23.0,35.0,Delivered,3.0,Morning
+1816,Pune,Restaurant_9,Chinese,18,14.3,High,Foggy,18.0,61.0,Delivered,1.0,Evening
+1817,Delhi,Restaurant_4,Burger,13,4.1,Low,Rainy,9.0,27.0,Delivered,5.0,Afternoon
+1818,Delhi,Restaurant_7,Dessert,13,8.2,High,Clear,8.0,41.0,Delivered,4.0,Afternoon
+1819,Chennai,Restaurant_9,Chinese,16,7.5,Medium,Clear,14.0,35.0,Delivered,5.0,Evening
+1820,Pune,Restaurant_7,Burger,23,10.7,Medium,Clear,15.0,32.0,Delivered,5.0,Night
+1821,Delhi,Restaurant_9,Pizza,10,1.5,Low,Foggy,12.0,11.0,Delivered,5.0,Morning
+1822,Pune,Restaurant_3,Pizza,18,3.3,High,Clear,15.0,36.0,Delivered,4.0,Evening
+1823,Mumbai,Restaurant_4,Chinese,10,3.6,High,Clear,8.0,17.0,Delivered,5.0,Morning
+1824,Bangalore,Restaurant_8,Chinese,11,11.2,Low,Clear,14.0,35.0,Cancelled,,Morning
+1825,Delhi,Restaurant_6,South Indian,16,3.2,Medium,Rainy,19.0,33.0,Delivered,4.0,Evening
+1826,Chennai,Restaurant_5,Biryani,18,8.8,High,Clear,23.0,42.0,Delivered,4.0,Evening
+1827,Mumbai,Restaurant_4,Burger,12,3.6,Medium,Rainy,10.0,26.0,Delivered,5.0,Afternoon
+1828,Pune,Restaurant_8,Chinese,13,13.0,High,Clear,18.0,53.0,Delivered,2.0,Afternoon
+1829,Mumbai,Restaurant_1,Biryani,10,14.2,Medium,Foggy,29.0,51.0,Delivered,3.0,Morning
+1830,Delhi,Restaurant_9,South Indian,13,8.0,High,Rainy,14.0,46.0,Delivered,4.0,Afternoon
+1831,Pune,Restaurant_1,Biryani,22,5.6,Medium,Clear,28.0,24.0,Delivered,5.0,Night
+1832,Bangalore,Restaurant_8,Chinese,22,3.9,Low,Clear,11.0,23.0,Delivered,4.0,Night
+1833,Mumbai,Restaurant_4,Pizza,14,1.2,Medium,Clear,24.0,23.0,Delivered,5.0,Afternoon
+1834,Delhi,Restaurant_9,Burger,18,4.4,High,Clear,21.0,30.0,Delivered,5.0,Evening
+1835,Chennai,Restaurant_5,Burger,21,10.0,Medium,Foggy,14.0,35.0,Delivered,4.0,Night
+1836,Pune,Restaurant_3,Pizza,8,8.2,Medium,Clear,10.0,31.0,Cancelled,,Morning
+1837,Mumbai,Restaurant_9,Chinese,20,14.2,Medium,Clear,13.0,48.0,Delivered,2.0,Night
+1838,Mumbai,Restaurant_9,Burger,22,6.2,Medium,Clear,14.0,31.0,Delivered,3.0,Night
+1839,Bangalore,Restaurant_4,Chinese,10,10.6,High,Clear,13.0,41.0,Delivered,4.0,Morning
+1840,Bangalore,Restaurant_4,South Indian,11,7.6,High,Foggy,19.0,39.0,Delivered,4.0,Morning
+1841,Chennai,Restaurant_8,Chinese,22,7.9,Low,Clear,17.0,30.0,Delivered,5.0,Night
+1842,Chennai,Restaurant_2,Biryani,18,4.4,High,Foggy,22.0,40.0,Cancelled,,Evening
+1843,Delhi,Restaurant_9,Pizza,8,7.1,High,Foggy,18.0,39.0,Delivered,4.0,Morning
+1844,Delhi,Restaurant_6,Chinese,12,7.3,High,Clear,11.0,32.0,Delivered,4.0,Afternoon
+1845,Chennai,Restaurant_9,South Indian,17,10.7,Medium,Clear,13.0,56.0,Delivered,3.0,Evening
+1846,Chennai,Restaurant_8,Dessert,19,14.1,High,Foggy,6.0,63.0,Delivered,3.0,Evening
+1847,Pune,Restaurant_7,Pizza,20,5.3,Low,Clear,23.0,20.0,Delivered,5.0,Night
+1848,Bangalore,Restaurant_1,Burger,23,1.1,Medium,Clear,20.0,20.0,Delivered,5.0,Night
+1849,Delhi,Restaurant_3,Biryani,13,7.7,High,Clear,19.0,39.0,Delivered,4.0,Afternoon
+1850,Bangalore,Restaurant_2,Burger,18,8.4,Low,Clear,5.0,33.0,Delivered,4.0,Evening
+1851,Bangalore,Restaurant_5,South Indian,18,2.9,Low,Rainy,13.0,22.0,Delivered,5.0,Evening
+1852,Chennai,Restaurant_5,South Indian,16,11.5,High,Clear,8.0,49.0,Delivered,3.0,Evening
+1853,Pune,Restaurant_5,Burger,11,14.8,High,Clear,12.0,56.0,Delivered,2.0,Morning
+1854,Mumbai,Restaurant_4,Pizza,22,14.2,Low,Foggy,21.0,40.0,Delivered,3.0,Night
+1855,Pune,Restaurant_5,Burger,21,3.4,High,Rainy,18.0,44.0,Delivered,4.0,Night
+1856,Pune,Restaurant_3,Chinese,17,13.2,Medium,Clear,16.0,41.0,Delivered,3.0,Evening
+1857,Bangalore,Restaurant_1,Burger,18,10.7,Medium,Rainy,11.0,39.0,Delivered,4.0,Evening
+1858,Pune,Restaurant_5,Biryani,12,7.1,High,Clear,17.0,37.0,Delivered,4.0,Afternoon
+1859,Delhi,Restaurant_9,Biryani,18,8.3,Medium,Rainy,25.0,35.0,Delivered,5.0,Evening
+1860,Bangalore,Restaurant_9,Dessert,19,12.8,Low,Clear,8.0,40.0,Delivered,5.0,Evening
+1861,Delhi,Restaurant_4,Biryani,18,7.5,Low,Clear,28.0,30.0,Delivered,4.0,Evening
+1862,Mumbai,Restaurant_3,Burger,23,5.9,Medium,Rainy,9.0,39.0,Delivered,3.0,Night
+1863,Bangalore,Restaurant_1,Biryani,19,7.7,Medium,Clear,23.0,36.0,Delivered,5.0,Evening
+1864,Mumbai,Restaurant_2,Pizza,15,8.9,High,Foggy,12.0,45.0,Delivered,4.0,Afternoon
+1865,Bangalore,Restaurant_8,Biryani,20,3.2,High,Clear,16.0,28.0,Delivered,5.0,Night
+1866,Chennai,Restaurant_1,Chinese,11,13.6,Medium,Foggy,11.0,53.0,Delivered,2.0,Morning
+1867,Pune,Restaurant_8,Pizza,15,10.3,High,Foggy,12.0,41.0,Delivered,3.0,Afternoon
+1868,Chennai,Restaurant_7,Dessert,14,9.7,Low,Clear,9.0,35.0,Delivered,4.0,Afternoon
+1869,Mumbai,Restaurant_8,Chinese,16,1.9,Low,Rainy,13.0,11.0,Cancelled,,Evening
+1870,Pune,Restaurant_6,Burger,20,9.3,High,Clear,10.0,53.0,Delivered,4.0,Night
+1871,Bangalore,Restaurant_9,Burger,17,2.3,Low,Foggy,8.0,16.0,Delivered,5.0,Evening
+1872,Pune,Restaurant_3,Burger,20,1.6,Low,Clear,5.0,11.0,Cancelled,,Night
+1873,Delhi,Restaurant_10,Chinese,18,8.1,Medium,Rainy,21.0,35.0,Delivered,4.0,Evening
+1874,Pune,Restaurant_4,Chinese,14,6.3,Medium,Clear,11.0,26.0,Delivered,5.0,Afternoon
+1875,Delhi,Restaurant_6,Chinese,20,9.0,High,Clear,13.0,54.0,Delivered,2.0,Night
+1876,Pune,Restaurant_8,Pizza,12,1.8,Low,Clear,12.0,17.0,Delivered,5.0,Afternoon
+1877,Delhi,Restaurant_5,South Indian,12,6.7,Low,Clear,18.0,17.0,Delivered,5.0,Afternoon
+1878,Mumbai,Restaurant_3,Pizza,17,3.0,Medium,Rainy,19.0,34.0,Delivered,4.0,Evening
+1879,Chennai,Restaurant_6,Burger,12,14.8,Medium,Rainy,9.0,62.0,Delivered,1.0,Afternoon
+1880,Bangalore,Restaurant_4,South Indian,8,8.6,Medium,Rainy,12.0,39.0,Delivered,4.0,Morning
+1881,Pune,Restaurant_9,Biryani,19,10.5,Medium,Clear,32.0,41.0,Delivered,4.0,Evening
+1882,Chennai,Restaurant_3,Burger,18,5.2,High,Clear,12.0,33.0,Delivered,4.0,Evening
+1883,Bangalore,Restaurant_4,Dessert,17,1.9,High,Clear,7.0,35.0,Delivered,4.0,Evening
+1884,Bangalore,Restaurant_7,Pizza,22,14.7,Low,Rainy,14.0,47.0,Delivered,3.0,Night
+1885,Delhi,Restaurant_7,Chinese,18,4.7,Medium,Foggy,7.0,29.0,Delivered,4.0,Evening
+1886,Mumbai,Restaurant_4,Pizza,21,6.6,Medium,Clear,17.0,27.0,Delivered,5.0,Night
+1887,Mumbai,Restaurant_6,Chinese,11,9.9,High,Clear,16.0,38.0,Delivered,3.0,Morning
+1888,Chennai,Restaurant_3,South Indian,18,0.9,High,Clear,18.0,33.0,Delivered,3.0,Evening
+1889,Mumbai,Restaurant_6,Dessert,21,12.2,Low,Rainy,5.0,39.0,Delivered,5.0,Night
+1890,Pune,Restaurant_2,South Indian,18,8.3,High,Rainy,9.0,48.0,Cancelled,,Evening
+1891,Mumbai,Restaurant_8,Dessert,19,4.5,Medium,Rainy,6.0,22.0,Delivered,5.0,Evening
+1892,Chennai,Restaurant_2,Pizza,15,1.4,Low,Clear,18.0,10.0,Delivered,5.0,Afternoon
+1893,Mumbai,Restaurant_7,Chinese,10,2.9,Low,Rainy,14.0,23.0,Delivered,4.0,Morning
+1894,Pune,Restaurant_9,South Indian,17,13.5,Medium,Rainy,14.0,49.0,Delivered,3.0,Evening
+1895,Delhi,Restaurant_1,Dessert,16,10.4,Medium,Clear,10.0,42.0,Delivered,4.0,Evening
+1896,Chennai,Restaurant_8,Burger,21,4.1,Low,Clear,8.0,17.0,Delivered,5.0,Night
+1897,Delhi,Restaurant_7,Burger,12,1.5,Medium,Clear,16.0,23.0,Delivered,5.0,Afternoon
+1898,Delhi,Restaurant_6,South Indian,22,10.5,Low,Clear,16.0,41.0,Delivered,4.0,Night
+1899,Delhi,Restaurant_6,Chinese,22,8.8,Medium,Foggy,14.0,36.0,Delivered,3.0,Night
+1900,Bangalore,Restaurant_6,South Indian,12,6.4,Medium,Clear,20.0,29.0,Delivered,5.0,Afternoon
+1901,Bangalore,Restaurant_9,Pizza,14,5.8,Low,Rainy,24.0,29.0,Delivered,5.0,Afternoon
+1902,Delhi,Restaurant_2,Dessert,21,3.6,Medium,Clear,12.0,25.0,Delivered,4.0,Night
+1903,Chennai,Restaurant_1,Pizza,22,10.2,Low,Clear,6.0,34.0,Delivered,4.0,Night
+1904,Pune,Restaurant_6,Burger,17,14.6,Medium,Clear,18.0,50.0,Delivered,3.0,Evening
+1905,Pune,Restaurant_10,Dessert,13,3.0,Low,Clear,11.0,14.0,Delivered,5.0,Afternoon
+1906,Mumbai,Restaurant_8,South Indian,18,9.2,Medium,Clear,22.0,37.0,Delivered,5.0,Evening
+1907,Chennai,Restaurant_3,Pizza,19,6.7,Low,Clear,23.0,31.0,Delivered,5.0,Evening
+1908,Bangalore,Restaurant_10,Biryani,13,7.0,Medium,Clear,31.0,34.0,Delivered,4.0,Afternoon
+1909,Delhi,Restaurant_1,Chinese,20,4.2,High,Clear,19.0,34.0,Delivered,4.0,Night
+1910,Mumbai,Restaurant_9,Chinese,10,12.5,Low,Clear,20.0,43.0,Delivered,5.0,Morning
+1911,Pune,Restaurant_1,Biryani,9,7.5,Medium,Clear,33.0,31.0,Delivered,5.0,Morning
+1912,Bangalore,Restaurant_3,Burger,15,8.4,Low,Clear,13.0,31.0,Delivered,5.0,Afternoon
+1913,Bangalore,Restaurant_8,Dessert,14,4.9,Medium,Foggy,5.0,24.0,Delivered,4.0,Afternoon
+1914,Delhi,Restaurant_3,Chinese,13,3.1,Low,Clear,14.0,22.0,Delivered,5.0,Afternoon
+1915,Pune,Restaurant_4,Biryani,17,1.7,Medium,Rainy,27.0,10.0,Delivered,5.0,Evening
+1916,Chennai,Restaurant_8,South Indian,13,10.9,Medium,Clear,14.0,40.0,Delivered,2.0,Afternoon
+1917,Bangalore,Restaurant_1,Biryani,12,3.3,High,Rainy,20.0,40.0,Delivered,4.0,Afternoon
+1918,Delhi,Restaurant_6,Burger,13,10.5,Medium,Clear,5.0,32.0,Delivered,4.0,Afternoon
+1919,Chennai,Restaurant_1,Burger,22,6.2,Medium,Foggy,9.0,34.0,Delivered,4.0,Night
+1920,Pune,Restaurant_1,Pizza,16,6.5,Medium,Clear,21.0,26.0,Delivered,4.0,Evening
+1921,Bangalore,Restaurant_8,Chinese,17,7.3,High,Rainy,21.0,42.0,Delivered,3.0,Evening
+1922,Chennai,Restaurant_4,Pizza,18,5.8,High,Clear,22.0,39.0,Delivered,5.0,Evening
+1923,Chennai,Restaurant_1,Biryani,23,2.0,Low,Clear,29.0,14.0,Delivered,5.0,Night
+1924,Chennai,Restaurant_10,Dessert,12,5.0,High,Rainy,8.0,28.0,Delivered,5.0,Afternoon
+1925,Bangalore,Restaurant_7,Dessert,19,10.1,Medium,Clear,5.0,33.0,Delivered,4.0,Evening
+1926,Bangalore,Restaurant_5,Burger,19,10.2,High,Clear,10.0,50.0,Delivered,3.0,Evening
+1927,Mumbai,Restaurant_5,Dessert,18,4.7,High,Clear,7.0,34.0,Delivered,4.0,Evening
+1928,Pune,Restaurant_1,Dessert,10,7.2,Low,Rainy,6.0,41.0,Delivered,4.0,Morning
+1929,Delhi,Restaurant_10,Dessert,19,3.3,High,Foggy,8.0,41.0,Delivered,4.0,Evening
+1930,Chennai,Restaurant_6,Biryani,10,3.6,Low,Clear,27.0,15.0,Delivered,5.0,Morning
+1931,Mumbai,Restaurant_9,Dessert,18,0.8,Low,Rainy,11.0,29.0,Delivered,3.0,Evening
+1932,Delhi,Restaurant_9,South Indian,20,13.5,Low,Clear,13.0,42.0,Delivered,3.0,Night
+1933,Mumbai,Restaurant_8,Dessert,12,3.6,High,Clear,5.0,24.0,Delivered,5.0,Afternoon
+1934,Bangalore,Restaurant_5,Dessert,20,3.8,Low,Foggy,6.0,18.0,Delivered,4.0,Night
+1935,Chennai,Restaurant_1,Pizza,9,4.6,Low,Foggy,18.0,12.0,Delivered,5.0,Morning
+1936,Delhi,Restaurant_9,Biryani,20,2.3,High,Rainy,30.0,40.0,Delivered,4.0,Night
+1937,Delhi,Restaurant_1,Burger,17,9.8,Low,Clear,10.0,40.0,Delivered,3.0,Evening
+1938,Delhi,Restaurant_8,Pizza,12,1.6,Low,Clear,20.0,10.0,Delivered,5.0,Afternoon
+1939,Delhi,Restaurant_5,Chinese,11,2.4,Low,Clear,16.0,13.0,Delivered,5.0,Morning
+1940,Delhi,Restaurant_3,Biryani,22,9.8,Medium,Clear,25.0,38.0,Delivered,5.0,Night
+1941,Mumbai,Restaurant_7,South Indian,10,5.4,Medium,Clear,18.0,22.0,Delivered,5.0,Morning
+1942,Chennai,Restaurant_7,Biryani,12,10.8,Low,Rainy,22.0,32.0,Delivered,4.0,Afternoon
+1943,Bangalore,Restaurant_9,Chinese,14,8.6,High,Foggy,13.0,44.0,Delivered,3.0,Afternoon
+1944,Bangalore,Restaurant_7,Chinese,19,4.2,High,Clear,15.0,29.0,Delivered,3.0,Evening
+1945,Bangalore,Restaurant_3,Chinese,18,9.9,Medium,Clear,12.0,36.0,Delivered,4.0,Evening
+1946,Bangalore,Restaurant_1,Burger,11,2.2,Medium,Foggy,14.0,24.0,Delivered,5.0,Morning
+1947,Mumbai,Restaurant_8,Dessert,13,8.3,Medium,Clear,5.0,41.0,Delivered,4.0,Afternoon
+1948,Pune,Restaurant_3,Biryani,12,6.8,Medium,Rainy,26.0,34.0,Delivered,4.0,Afternoon
+1949,Chennai,Restaurant_8,Dessert,12,4.4,Low,Clear,8.0,20.0,Delivered,5.0,Afternoon
+1950,Delhi,Restaurant_8,Dessert,16,9.3,Low,Clear,9.0,35.0,Delivered,4.0,Evening
+1951,Pune,Restaurant_5,South Indian,19,13.1,High,Foggy,12.0,60.0,Delivered,3.0,Evening
+1952,Bangalore,Restaurant_1,Chinese,12,15.0,Low,Clear,14.0,42.0,Delivered,4.0,Afternoon
+1953,Pune,Restaurant_10,Burger,15,9.3,Medium,Clear,12.0,37.0,Delivered,4.0,Afternoon
+1954,Chennai,Restaurant_7,South Indian,16,6.4,High,Clear,15.0,39.0,Delivered,5.0,Evening
+1955,Delhi,Restaurant_10,Pizza,22,3.8,Medium,Foggy,18.0,21.0,Delivered,5.0,Night
+1956,Delhi,Restaurant_5,Burger,22,4.2,Medium,Foggy,19.0,34.0,Delivered,4.0,Night
+1957,Chennai,Restaurant_8,Dessert,20,7.5,Medium,Clear,5.0,39.0,Delivered,5.0,Night
+1958,Chennai,Restaurant_9,Burger,12,5.8,Low,Clear,12.0,19.0,Delivered,5.0,Afternoon
+1959,Bangalore,Restaurant_7,Chinese,10,13.8,High,Rainy,9.0,61.0,Delivered,1.0,Morning
+1960,Delhi,Restaurant_7,Pizza,13,5.8,Medium,Clear,19.0,31.0,Delivered,4.0,Afternoon
+1961,Pune,Restaurant_1,Chinese,12,5.9,High,Rainy,11.0,38.0,Delivered,3.0,Afternoon
+1962,Mumbai,Restaurant_4,Pizza,17,6.1,High,Clear,17.0,38.0,Delivered,4.0,Evening
+1963,Mumbai,Restaurant_2,South Indian,20,12.6,High,Clear,13.0,52.0,Delivered,2.0,Night
+1964,Chennai,Restaurant_2,Dessert,21,9.9,High,Rainy,9.0,43.0,Delivered,4.0,Night
+1965,Bangalore,Restaurant_2,Pizza,20,9.4,Medium,Clear,16.0,39.0,Delivered,3.0,Night
+1966,Mumbai,Restaurant_4,Pizza,15,5.3,Medium,Foggy,16.0,25.0,Delivered,4.0,Afternoon
+1967,Delhi,Restaurant_1,Pizza,19,12.4,Medium,Clear,24.0,49.0,Cancelled,,Evening
+1968,Chennai,Restaurant_4,Burger,13,1.1,Medium,Clear,13.0,12.0,Delivered,5.0,Afternoon
+1969,Pune,Restaurant_2,South Indian,10,13.1,High,Foggy,12.0,56.0,Delivered,3.0,Morning
+1970,Chennai,Restaurant_5,Burger,19,7.9,Low,Clear,11.0,35.0,Delivered,4.0,Evening
+1971,Pune,Restaurant_3,Dessert,8,6.3,High,Rainy,15.0,44.0,Delivered,3.0,Morning
+1972,Chennai,Restaurant_8,Pizza,16,7.7,High,Clear,17.0,34.0,Delivered,5.0,Evening
+1973,Chennai,Restaurant_4,South Indian,14,10.2,High,Rainy,11.0,46.0,Delivered,4.0,Afternoon
+1974,Chennai,Restaurant_1,South Indian,19,0.7,High,Rainy,11.0,25.0,Delivered,5.0,Evening
+1975,Pune,Restaurant_1,Biryani,20,13.1,Low,Clear,23.0,43.0,Delivered,4.0,Night
+1976,Pune,Restaurant_10,Dessert,13,7.0,Low,Rainy,6.0,33.0,Delivered,4.0,Afternoon
+1977,Chennai,Restaurant_3,South Indian,20,5.5,Low,Rainy,9.0,24.0,Delivered,4.0,Night
+1978,Mumbai,Restaurant_9,Pizza,13,2.5,Low,Clear,14.0,10.0,Delivered,5.0,Afternoon
+1979,Bangalore,Restaurant_7,Pizza,17,6.9,Medium,Clear,15.0,32.0,Delivered,5.0,Evening
+1980,Bangalore,Restaurant_2,South Indian,19,7.7,High,Clear,16.0,38.0,Delivered,4.0,Evening
+1981,Bangalore,Restaurant_9,Burger,19,6.4,High,Clear,10.0,47.0,Delivered,3.0,Evening
+1982,Pune,Restaurant_10,Dessert,23,10.3,Medium,Clear,7.0,39.0,Delivered,4.0,Night
+1983,Pune,Restaurant_2,Pizza,12,6.6,Low,Clear,23.0,34.0,Delivered,5.0,Afternoon
+1984,Mumbai,Restaurant_3,South Indian,19,14.4,Low,Clear,19.0,38.0,Delivered,5.0,Evening
+1985,Bangalore,Restaurant_10,Pizza,18,9.2,Low,Rainy,17.0,29.0,Delivered,5.0,Evening
+1986,Bangalore,Restaurant_2,South Indian,21,12.2,Medium,Clear,11.0,38.0,Delivered,4.0,Night
+1987,Chennai,Restaurant_3,Dessert,11,2.1,Medium,Foggy,5.0,28.0,Delivered,4.0,Morning
+1988,Pune,Restaurant_6,South Indian,20,6.3,Low,Clear,17.0,33.0,Delivered,4.0,Night
+1989,Bangalore,Restaurant_9,Biryani,18,5.4,Medium,Clear,24.0,23.0,Delivered,5.0,Evening
+1990,Mumbai,Restaurant_9,South Indian,13,8.8,Low,Rainy,12.0,34.0,Delivered,5.0,Afternoon
+1991,Mumbai,Restaurant_7,South Indian,17,13.0,Medium,Clear,11.0,40.0,Delivered,5.0,Evening
+1992,Bangalore,Restaurant_3,Dessert,14,1.6,Medium,Clear,5.0,10.0,Delivered,5.0,Afternoon
+1993,Pune,Restaurant_4,South Indian,18,1.6,Medium,Clear,15.0,21.0,Delivered,5.0,Evening
+1994,Mumbai,Restaurant_6,Dessert,21,12.8,Medium,Clear,5.0,46.0,Delivered,2.0,Night
+1995,Chennai,Restaurant_5,Biryani,18,3.6,High,Clear,29.0,29.0,Delivered,5.0,Evening
+1996,Mumbai,Restaurant_2,Dessert,19,10.2,Low,Foggy,6.0,30.0,Delivered,4.0,Evening
+1997,Delhi,Restaurant_6,Pizza,18,8.4,Medium,Clear,17.0,42.0,Delivered,2.0,Evening
+1998,Delhi,Restaurant_3,Dessert,10,12.6,High,Foggy,5.0,53.0,Delivered,3.0,Morning
+1999,Pune,Restaurant_8,Biryani,12,2.3,Medium,Rainy,25.0,27.0,Delivered,4.0,Afternoon
+2000,Bangalore,Restaurant_2,Chinese,17,2.4,High,Clear,14.0,19.0,Delivered,5.0,Evening
+2001,Pune,Restaurant_1,South Indian,13,8.6,Medium,Clear,14.0,34.0,Delivered,4.0,Afternoon
+2002,Pune,Restaurant_9,Dessert,11,14.2,Medium,Rainy,14.0,56.0,Delivered,3.0,Morning
+2003,Pune,Restaurant_3,South Indian,17,6.5,Low,Foggy,15.0,30.0,Delivered,4.0,Evening
+2004,Pune,Restaurant_1,Burger,14,5.2,Medium,Clear,9.0,27.0,Delivered,5.0,Afternoon
+2005,Chennai,Restaurant_7,Pizza,12,9.3,Low,Clear,15.0,34.0,Delivered,4.0,Afternoon
+2006,Chennai,Restaurant_10,Pizza,17,14.0,Low,Clear,20.0,37.0,Delivered,5.0,Evening
+2007,Mumbai,Restaurant_5,Burger,11,12.6,Medium,Clear,17.0,45.0,Delivered,3.0,Morning
+2008,Delhi,Restaurant_5,Burger,21,14.9,Medium,Clear,13.0,51.0,Delivered,2.0,Night
+2009,Pune,Restaurant_1,Dessert,21,0.8,Low,Foggy,11.0,15.0,Delivered,5.0,Night
+2010,Mumbai,Restaurant_9,Burger,19,2.1,Medium,Clear,14.0,19.0,Delivered,5.0,Evening
+2011,Delhi,Restaurant_7,Chinese,11,9.3,Medium,Rainy,21.0,36.0,Delivered,4.0,Morning
+2012,Bangalore,Restaurant_8,South Indian,20,12.4,Low,Rainy,6.0,38.0,Delivered,5.0,Night
+2013,Chennai,Restaurant_9,South Indian,20,4.6,Medium,Clear,17.0,13.0,Delivered,5.0,Night
+2014,Delhi,Restaurant_6,Biryani,20,4.0,High,Clear,29.0,34.0,Delivered,5.0,Night
+2015,Bangalore,Restaurant_5,Burger,11,11.9,Medium,Rainy,7.0,53.0,Delivered,2.0,Morning
+2016,Delhi,Restaurant_6,Burger,19,1.3,Medium,Foggy,8.0,24.0,Delivered,5.0,Evening
+2017,Chennai,Restaurant_2,Chinese,20,5.9,Medium,Rainy,12.0,35.0,Delivered,5.0,Night
+2018,Chennai,Restaurant_4,Pizza,18,7.8,Medium,Clear,15.0,22.0,Delivered,4.0,Evening
+2019,Mumbai,Restaurant_3,Pizza,19,8.6,High,Clear,16.0,36.0,Delivered,4.0,Evening
+2020,Pune,Restaurant_7,South Indian,17,11.1,Medium,Clear,15.0,42.0,Delivered,4.0,Evening
+2021,Delhi,Restaurant_9,South Indian,18,5.6,Low,Clear,17.0,23.0,Delivered,3.0,Evening
+2022,Delhi,Restaurant_5,Dessert,9,9.4,Medium,Rainy,12.0,41.0,Delivered,5.0,Morning
+2023,Bangalore,Restaurant_6,Chinese,19,9.0,High,Clear,12.0,44.0,Delivered,4.0,Evening
+2024,Chennai,Restaurant_10,Biryani,10,8.4,Low,Rainy,22.0,35.0,Delivered,5.0,Morning
+2025,Delhi,Restaurant_2,Biryani,16,9.8,High,Clear,30.0,45.0,Delivered,3.0,Evening
+2026,Chennai,Restaurant_3,Chinese,13,4.3,High,Rainy,18.0,34.0,Delivered,3.0,Afternoon
+2027,Delhi,Restaurant_3,Biryani,18,1.7,Low,Foggy,25.0,21.0,Delivered,5.0,Evening
+2028,Mumbai,Restaurant_9,Pizza,11,2.2,High,Clear,20.0,23.0,Delivered,5.0,Morning
+2029,Pune,Restaurant_7,Biryani,19,3.8,Medium,Foggy,25.0,20.0,Delivered,5.0,Evening
+2030,Delhi,Restaurant_8,Biryani,20,7.8,High,Clear,27.0,36.0,Delivered,5.0,Night
+2031,Chennai,Restaurant_10,Chinese,11,12.7,Medium,Clear,14.0,43.0,Delivered,4.0,Morning
+2032,Mumbai,Restaurant_9,Chinese,11,10.7,Medium,Foggy,16.0,49.0,Delivered,4.0,Morning
+2033,Delhi,Restaurant_6,Biryani,11,11.9,Medium,Foggy,19.0,47.0,Delivered,3.0,Morning
+2034,Bangalore,Restaurant_4,Burger,21,5.6,High,Clear,9.0,33.0,Cancelled,,Night
+2035,Pune,Restaurant_1,Chinese,18,6.4,Low,Clear,12.0,18.0,Delivered,5.0,Evening
+2036,Delhi,Restaurant_8,Dessert,17,6.2,Medium,Rainy,7.0,38.0,Delivered,4.0,Evening
+2037,Mumbai,Restaurant_7,Dessert,11,3.3,Low,Rainy,5.0,19.0,Delivered,5.0,Morning
+2038,Bangalore,Restaurant_2,Pizza,19,1.4,Medium,Clear,16.0,16.0,Delivered,5.0,Evening
+2039,Mumbai,Restaurant_8,Biryani,21,9.1,Medium,Rainy,19.0,49.0,Delivered,3.0,Night
+2040,Mumbai,Restaurant_5,Burger,20,14.8,Medium,Clear,14.0,53.0,Delivered,4.0,Night
+2041,Bangalore,Restaurant_7,Pizza,19,2.9,Medium,Clear,18.0,12.0,Delivered,5.0,Evening
+2042,Mumbai,Restaurant_4,Biryani,10,1.2,Low,Clear,18.0,10.0,Delivered,5.0,Morning
+2043,Bangalore,Restaurant_5,Chinese,11,11.8,Low,Clear,12.0,37.0,Delivered,4.0,Morning
+2044,Delhi,Restaurant_8,Dessert,9,4.2,Low,Foggy,9.0,16.0,Delivered,5.0,Morning
+2045,Bangalore,Restaurant_1,South Indian,12,12.5,Medium,Clear,12.0,47.0,Delivered,3.0,Afternoon
+2046,Bangalore,Restaurant_1,Burger,11,10.7,High,Foggy,9.0,51.0,Delivered,2.0,Morning
+2047,Pune,Restaurant_4,South Indian,12,14.2,Low,Clear,14.0,44.0,Delivered,3.0,Afternoon
+2048,Bangalore,Restaurant_3,Dessert,15,6.4,High,Rainy,9.0,38.0,Delivered,3.0,Afternoon
+2049,Bangalore,Restaurant_10,South Indian,22,10.1,High,Rainy,8.0,60.0,Delivered,2.0,Night
+2050,Delhi,Restaurant_2,Chinese,19,7.2,Medium,Rainy,17.0,51.0,Delivered,3.0,Evening
+2051,Pune,Restaurant_3,Biryani,20,9.6,Medium,Rainy,22.0,42.0,Delivered,5.0,Night
+2052,Chennai,Restaurant_1,Chinese,19,7.0,High,Clear,15.0,39.0,Delivered,4.0,Evening
+2053,Delhi,Restaurant_1,South Indian,11,3.2,Low,Foggy,14.0,20.0,Delivered,5.0,Morning
+2054,Delhi,Restaurant_6,Chinese,20,7.9,Medium,Rainy,13.0,37.0,Delivered,5.0,Night
+2055,Chennai,Restaurant_5,Dessert,13,8.2,Medium,Clear,5.0,29.0,Delivered,4.0,Afternoon
+2056,Bangalore,Restaurant_8,Burger,19,12.3,Medium,Rainy,11.0,44.0,Delivered,3.0,Evening
+2057,Mumbai,Restaurant_2,Chinese,14,11.2,High,Clear,22.0,42.0,Delivered,5.0,Afternoon
+2058,Pune,Restaurant_4,Dessert,23,10.1,Low,Clear,5.0,35.0,Delivered,4.0,Night
+2059,Mumbai,Restaurant_8,Burger,12,2.1,Medium,Foggy,19.0,20.0,Delivered,5.0,Afternoon
+2060,Chennai,Restaurant_6,Biryani,13,10.9,Medium,Clear,24.0,27.0,Delivered,5.0,Afternoon
+2061,Delhi,Restaurant_1,South Indian,21,7.8,Medium,Rainy,14.0,41.0,Delivered,3.0,Night
+2062,Delhi,Restaurant_4,Biryani,9,13.5,Medium,Clear,21.0,47.0,Delivered,3.0,Morning
+2063,Pune,Restaurant_1,Pizza,19,13.8,Medium,Clear,15.0,54.0,Delivered,3.0,Evening
+2064,Delhi,Restaurant_2,Dessert,19,1.3,High,Clear,6.0,25.0,Delivered,5.0,Evening
+2065,Delhi,Restaurant_5,Burger,20,12.4,Medium,Clear,8.0,37.0,Delivered,3.0,Night
+2066,Pune,Restaurant_8,Chinese,22,1.0,High,Rainy,14.0,17.0,Delivered,5.0,Night
+2067,Pune,Restaurant_8,Biryani,22,5.8,Medium,Clear,23.0,24.0,Delivered,5.0,Night
+2068,Chennai,Restaurant_3,Burger,10,8.4,Low,Clear,19.0,26.0,Delivered,5.0,Morning
+2069,Delhi,Restaurant_4,Dessert,20,2.6,Low,Clear,5.0,19.0,Delivered,5.0,Night
+2070,Delhi,Restaurant_10,Pizza,19,11.3,Low,Clear,18.0,36.0,Delivered,5.0,Evening
+2071,Chennai,Restaurant_6,Biryani,19,0.6,Medium,Rainy,26.0,26.0,Delivered,5.0,Evening
+2072,Bangalore,Restaurant_10,South Indian,11,2.9,Medium,Clear,10.0,14.0,Delivered,5.0,Morning
+2073,Bangalore,Restaurant_3,Burger,19,8.9,High,Rainy,15.0,53.0,Delivered,2.0,Evening
+2074,Bangalore,Restaurant_2,South Indian,22,10.9,High,Foggy,12.0,55.0,Delivered,2.0,Night
+2075,Chennai,Restaurant_6,Burger,21,13.8,Low,Rainy,5.0,38.0,Delivered,4.0,Night
+2076,Delhi,Restaurant_5,Burger,16,10.7,Low,Rainy,15.0,47.0,Delivered,3.0,Evening
+2077,Chennai,Restaurant_10,Dessert,9,10.2,Low,Clear,5.0,34.0,Delivered,5.0,Morning
+2078,Chennai,Restaurant_5,Dessert,15,6.2,Medium,Clear,5.0,30.0,Delivered,5.0,Afternoon
+2079,Bangalore,Restaurant_10,Dessert,20,0.5,Low,Foggy,11.0,10.0,Delivered,5.0,Night
+2080,Mumbai,Restaurant_5,Chinese,19,2.2,Low,Rainy,14.0,26.0,Delivered,5.0,Evening
+2081,Delhi,Restaurant_10,Burger,17,8.3,High,Rainy,16.0,41.0,Delivered,3.0,Evening
+2082,Bangalore,Restaurant_5,Biryani,10,10.3,High,Rainy,30.0,56.0,Delivered,3.0,Morning
+2083,Mumbai,Restaurant_3,South Indian,16,6.6,Low,Clear,11.0,29.0,Delivered,4.0,Evening
+2084,Mumbai,Restaurant_7,Dessert,17,11.1,Medium,Clear,11.0,36.0,Delivered,3.0,Evening
+2085,Pune,Restaurant_6,Dessert,21,8.1,Medium,Rainy,5.0,49.0,Delivered,3.0,Night
+2086,Delhi,Restaurant_4,South Indian,19,1.6,High,Rainy,23.0,31.0,Delivered,5.0,Evening
+2087,Mumbai,Restaurant_2,South Indian,13,3.3,Medium,Clear,11.0,25.0,Delivered,5.0,Afternoon
+2088,Bangalore,Restaurant_9,Burger,18,12.7,Low,Foggy,16.0,36.0,Delivered,4.0,Evening
+2089,Pune,Restaurant_1,Dessert,10,11.0,High,Clear,11.0,58.0,Delivered,2.0,Morning
+2090,Delhi,Restaurant_4,South Indian,22,13.5,Medium,Clear,15.0,41.0,Delivered,4.0,Night
+2091,Chennai,Restaurant_1,Chinese,15,2.2,Low,Foggy,12.0,23.0,Delivered,4.0,Afternoon
+2092,Bangalore,Restaurant_6,Chinese,17,14.9,Medium,Rainy,14.0,51.0,Delivered,2.0,Evening
+2093,Mumbai,Restaurant_4,Dessert,14,3.5,Medium,Clear,5.0,19.0,Delivered,5.0,Afternoon
+2094,Mumbai,Restaurant_5,South Indian,19,0.7,Medium,Clear,15.0,19.0,Delivered,5.0,Evening
+2095,Bangalore,Restaurant_5,Burger,19,15.0,Low,Clear,13.0,51.0,Delivered,3.0,Evening
+2096,Mumbai,Restaurant_9,Burger,19,4.6,Medium,Rainy,13.0,24.0,Delivered,5.0,Evening
+2097,Pune,Restaurant_1,Burger,12,10.2,Low,Clear,5.0,39.0,Delivered,4.0,Afternoon
+2098,Delhi,Restaurant_2,Pizza,13,3.1,High,Rainy,13.0,39.0,Delivered,4.0,Afternoon
+2099,Pune,Restaurant_6,Dessert,11,8.9,Low,Foggy,5.0,30.0,Delivered,4.0,Morning
+2100,Mumbai,Restaurant_5,Burger,19,13.6,Low,Rainy,13.0,56.0,Delivered,4.0,Evening
+2101,Chennai,Restaurant_7,Chinese,9,5.1,Medium,Clear,16.0,18.0,Delivered,5.0,Morning
+2102,Delhi,Restaurant_3,South Indian,18,10.2,High,Rainy,13.0,48.0,Delivered,5.0,Evening
+2103,Delhi,Restaurant_3,Biryani,21,3.2,High,Clear,28.0,30.0,Delivered,5.0,Night
+2104,Bangalore,Restaurant_10,Biryani,21,9.6,Medium,Clear,21.0,33.0,Delivered,4.0,Night
+2105,Bangalore,Restaurant_2,Burger,17,5.4,Low,Clear,14.0,23.0,Delivered,5.0,Evening
+2106,Chennai,Restaurant_3,Biryani,17,3.6,High,Clear,27.0,30.0,Delivered,4.0,Evening
+2107,Delhi,Restaurant_10,Biryani,10,5.0,Medium,Foggy,27.0,29.0,Delivered,4.0,Morning
+2108,Chennai,Restaurant_1,Pizza,19,3.1,Low,Clear,17.0,20.0,Delivered,5.0,Evening
+2109,Bangalore,Restaurant_5,Chinese,20,13.6,High,Clear,22.0,53.0,Delivered,3.0,Night
+2110,Bangalore,Restaurant_5,Chinese,12,6.3,Low,Foggy,17.0,29.0,Delivered,4.0,Afternoon
+2111,Delhi,Restaurant_7,Pizza,16,4.1,High,Clear,14.0,36.0,Delivered,4.0,Evening
+2112,Pune,Restaurant_4,Pizza,20,7.0,High,Rainy,19.0,47.0,Delivered,4.0,Night
+2113,Mumbai,Restaurant_3,Biryani,21,5.1,Medium,Clear,28.0,30.0,Delivered,5.0,Night
+2114,Bangalore,Restaurant_1,Dessert,12,11.3,High,Clear,6.0,43.0,Delivered,5.0,Afternoon
+2115,Bangalore,Restaurant_8,South Indian,18,14.6,High,Foggy,18.0,63.0,Delivered,1.0,Evening
+2116,Pune,Restaurant_3,South Indian,12,6.9,Low,Clear,16.0,21.0,Delivered,5.0,Afternoon
+2117,Pune,Restaurant_2,Biryani,11,13.0,Medium,Clear,16.0,39.0,Delivered,3.0,Morning
+2118,Chennai,Restaurant_4,South Indian,21,8.7,Low,Clear,15.0,29.0,Delivered,5.0,Night
+2119,Chennai,Restaurant_3,Pizza,20,2.8,Medium,Clear,16.0,15.0,Delivered,4.0,Night
+2120,Mumbai,Restaurant_1,Chinese,20,10.5,High,Clear,17.0,50.0,Delivered,2.0,Night
+2121,Mumbai,Restaurant_3,South Indian,9,7.9,Medium,Clear,18.0,37.0,Delivered,4.0,Morning
+2122,Delhi,Restaurant_2,Biryani,20,9.9,Medium,Clear,26.0,28.0,Delivered,5.0,Night
+2123,Chennai,Restaurant_8,Dessert,16,13.4,Medium,Rainy,15.0,48.0,Delivered,3.0,Evening
+2124,Bangalore,Restaurant_6,Biryani,14,6.9,High,Clear,24.0,30.0,Delivered,4.0,Afternoon
+2125,Chennai,Restaurant_9,Burger,18,13.6,Low,Clear,14.0,40.0,Delivered,3.0,Evening
+2126,Bangalore,Restaurant_8,Biryani,10,11.4,Medium,Clear,28.0,44.0,Delivered,5.0,Morning
+2127,Pune,Restaurant_10,Pizza,20,7.6,Low,Foggy,18.0,30.0,Delivered,4.0,Night
+2128,Chennai,Restaurant_3,Chinese,18,9.2,Medium,Foggy,18.0,37.0,Delivered,3.0,Evening
+2129,Pune,Restaurant_5,Chinese,12,5.2,Low,Rainy,13.0,34.0,Delivered,5.0,Afternoon
+2130,Mumbai,Restaurant_7,South Indian,12,14.8,Medium,Foggy,12.0,42.0,Delivered,4.0,Afternoon
+2131,Mumbai,Restaurant_5,Pizza,11,10.2,Low,Clear,13.0,40.0,Delivered,5.0,Morning
+2132,Delhi,Restaurant_8,Burger,10,1.1,Low,Clear,13.0,10.0,Delivered,5.0,Morning
+2133,Chennai,Restaurant_5,Pizza,18,5.2,High,Rainy,19.0,39.0,Delivered,3.0,Evening
+2134,Pune,Restaurant_1,Biryani,20,9.5,Low,Rainy,30.0,35.0,Delivered,4.0,Night
+2135,Bangalore,Restaurant_5,Pizza,9,1.3,Medium,Clear,21.0,24.0,Delivered,5.0,Morning
+2136,Mumbai,Restaurant_4,Pizza,9,0.8,Low,Clear,17.0,10.0,Delivered,5.0,Morning
+2137,Mumbai,Restaurant_6,Burger,18,7.0,Medium,Foggy,7.0,35.0,Delivered,5.0,Evening
+2138,Bangalore,Restaurant_3,Biryani,20,5.3,Medium,Rainy,27.0,35.0,Delivered,3.0,Night
+2139,Pune,Restaurant_5,Dessert,14,6.9,Medium,Clear,12.0,22.0,Delivered,5.0,Afternoon
+2140,Pune,Restaurant_2,Dessert,14,4.3,Low,Rainy,11.0,20.0,Delivered,5.0,Afternoon
+2141,Chennai,Restaurant_6,Chinese,18,2.9,Medium,Clear,19.0,20.0,Cancelled,,Evening
+2142,Chennai,Restaurant_6,South Indian,13,10.5,Medium,Clear,13.0,35.0,Delivered,4.0,Afternoon
+2143,Delhi,Restaurant_5,Pizza,9,8.0,High,Clear,16.0,36.0,Delivered,4.0,Morning
+2144,Mumbai,Restaurant_6,Chinese,20,3.4,Medium,Clear,12.0,20.0,Delivered,5.0,Night
+2145,Chennai,Restaurant_7,Burger,19,5.1,Medium,Clear,12.0,29.0,Delivered,4.0,Evening
+2146,Pune,Restaurant_5,Dessert,18,9.1,Low,Rainy,8.0,35.0,Delivered,4.0,Evening
+2147,Bangalore,Restaurant_1,Pizza,20,1.5,Low,Clear,19.0,17.0,Delivered,5.0,Night
+2148,Pune,Restaurant_8,Burger,19,2.6,Low,Clear,11.0,10.0,Delivered,5.0,Evening
+2149,Mumbai,Restaurant_4,South Indian,12,1.6,Low,Clear,13.0,10.0,Delivered,5.0,Afternoon
+2150,Pune,Restaurant_9,Burger,14,12.3,Low,Clear,9.0,48.0,Delivered,4.0,Afternoon
+2151,Delhi,Restaurant_10,Pizza,11,11.4,Medium,Foggy,22.0,42.0,Delivered,4.0,Morning
+2152,Mumbai,Restaurant_6,South Indian,11,11.4,Medium,Rainy,14.0,41.0,Delivered,4.0,Morning
+2153,Bangalore,Restaurant_1,Burger,19,10.9,High,Foggy,11.0,43.0,Delivered,4.0,Evening
+2154,Delhi,Restaurant_3,South Indian,21,10.2,Low,Foggy,11.0,43.0,Cancelled,,Night
+2155,Mumbai,Restaurant_3,Pizza,22,7.4,Medium,Clear,13.0,30.0,Delivered,4.0,Night
+2156,Bangalore,Restaurant_10,Pizza,19,9.8,High,Clear,23.0,43.0,Delivered,4.0,Evening
+2157,Delhi,Restaurant_4,South Indian,11,1.1,Medium,Foggy,16.0,19.0,Delivered,5.0,Morning
+2158,Delhi,Restaurant_6,Biryani,11,9.5,Low,Foggy,19.0,41.0,Delivered,5.0,Morning
+2159,Mumbai,Restaurant_7,Chinese,20,11.8,Low,Rainy,18.0,43.0,Delivered,5.0,Night
+2160,Chennai,Restaurant_10,Burger,18,7.8,Low,Rainy,16.0,45.0,Delivered,5.0,Evening
+2161,Delhi,Restaurant_4,Burger,19,5.7,Medium,Rainy,12.0,34.0,Cancelled,,Evening
+2162,Delhi,Restaurant_6,Biryani,20,4.5,High,Clear,31.0,37.0,Delivered,4.0,Night
+2163,Bangalore,Restaurant_1,Biryani,19,9.8,Low,Clear,26.0,37.0,Cancelled,,Evening
+2164,Pune,Restaurant_8,Biryani,20,10.5,Low,Rainy,19.0,40.0,Delivered,4.0,Night
+2165,Mumbai,Restaurant_7,Dessert,10,13.1,High,Rainy,9.0,56.0,Delivered,2.0,Morning
+2166,Mumbai,Restaurant_9,Dessert,20,5.5,High,Clear,9.0,35.0,Delivered,2.0,Night
+2167,Chennai,Restaurant_3,South Indian,21,11.7,Medium,Clear,12.0,45.0,Delivered,3.0,Night
+2168,Chennai,Restaurant_2,Dessert,13,8.6,Medium,Clear,10.0,32.0,Delivered,3.0,Afternoon
+2169,Mumbai,Restaurant_1,Pizza,19,13.3,Medium,Clear,11.0,47.0,Delivered,4.0,Evening
+2170,Chennai,Restaurant_3,South Indian,13,8.2,Low,Foggy,18.0,39.0,Delivered,5.0,Afternoon
+2171,Bangalore,Restaurant_5,Burger,22,8.0,Medium,Clear,8.0,43.0,Delivered,3.0,Night
+2172,Mumbai,Restaurant_2,Chinese,9,8.9,Medium,Clear,11.0,40.0,Delivered,5.0,Morning
+2173,Chennai,Restaurant_3,Pizza,18,11.4,High,Clear,18.0,58.0,Delivered,3.0,Evening
+2174,Mumbai,Restaurant_4,Burger,11,14.5,Low,Rainy,14.0,47.0,Delivered,2.0,Morning
+2175,Pune,Restaurant_7,Burger,19,1.6,Medium,Clear,13.0,21.0,Delivered,5.0,Evening
+2176,Delhi,Restaurant_3,South Indian,11,1.3,Medium,Clear,11.0,23.0,Delivered,5.0,Morning
+2177,Mumbai,Restaurant_9,Biryani,12,14.1,Medium,Clear,23.0,44.0,Delivered,4.0,Afternoon
+2178,Delhi,Restaurant_8,Biryani,17,8.2,Low,Clear,20.0,26.0,Delivered,4.0,Evening
+2179,Chennai,Restaurant_4,Pizza,21,9.4,Medium,Clear,17.0,45.0,Delivered,3.0,Night
+2180,Delhi,Restaurant_1,Biryani,12,7.5,High,Clear,29.0,34.0,Delivered,4.0,Afternoon
+2181,Mumbai,Restaurant_1,Burger,11,1.9,Medium,Foggy,12.0,15.0,Cancelled,,Morning
+2182,Pune,Restaurant_1,Biryani,20,11.6,Medium,Clear,28.0,50.0,Delivered,3.0,Night
+2183,Chennai,Restaurant_1,Dessert,17,11.3,Low,Clear,14.0,42.0,Cancelled,,Evening
+2184,Mumbai,Restaurant_8,Biryani,21,5.0,Low,Rainy,23.0,29.0,Delivered,5.0,Night
+2185,Chennai,Restaurant_3,Burger,11,4.9,Medium,Clear,11.0,25.0,Delivered,5.0,Morning
+2186,Bangalore,Restaurant_6,South Indian,19,12.6,High,Rainy,23.0,55.0,Delivered,2.0,Evening
+2187,Delhi,Restaurant_3,Pizza,12,1.5,High,Clear,24.0,25.0,Cancelled,,Afternoon
+2188,Bangalore,Restaurant_5,Chinese,11,13.3,Medium,Clear,8.0,54.0,Delivered,3.0,Morning
+2189,Mumbai,Restaurant_7,Biryani,19,4.2,Medium,Rainy,27.0,31.0,Delivered,4.0,Evening
+2190,Pune,Restaurant_2,Burger,18,9.1,High,Foggy,12.0,58.0,Delivered,1.0,Evening
+2191,Chennai,Restaurant_6,Chinese,20,14.1,Medium,Clear,18.0,44.0,Delivered,5.0,Night
+2192,Delhi,Restaurant_6,Chinese,13,10.3,Medium,Clear,12.0,39.0,Delivered,4.0,Afternoon
+2193,Chennai,Restaurant_3,Dessert,17,6.5,Low,Clear,5.0,22.0,Delivered,5.0,Evening
+2194,Mumbai,Restaurant_6,Chinese,16,10.5,High,Foggy,12.0,45.0,Delivered,3.0,Evening
+2195,Chennai,Restaurant_10,South Indian,23,5.5,Medium,Foggy,12.0,30.0,Delivered,5.0,Night
+2196,Delhi,Restaurant_10,Burger,13,4.5,High,Clear,15.0,33.0,Delivered,3.0,Afternoon
+2197,Mumbai,Restaurant_5,Burger,13,15.0,High,Clear,7.0,60.0,Cancelled,,Afternoon
+2198,Chennai,Restaurant_2,Biryani,14,11.4,Low,Clear,23.0,47.0,Delivered,5.0,Afternoon
+2199,Pune,Restaurant_9,Biryani,18,9.8,High,Clear,18.0,47.0,Delivered,3.0,Evening
+2200,Mumbai,Restaurant_8,Biryani,12,5.7,High,Clear,29.0,40.0,Delivered,3.0,Afternoon
+2201,Mumbai,Restaurant_3,South Indian,21,1.2,Medium,Clear,19.0,16.0,Delivered,5.0,Night
+2202,Pune,Restaurant_8,Chinese,12,1.0,Low,Rainy,14.0,25.0,Delivered,5.0,Afternoon
+2203,Bangalore,Restaurant_9,Chinese,21,8.5,Low,Foggy,14.0,45.0,Delivered,4.0,Night
+2204,Delhi,Restaurant_3,Dessert,11,11.5,Medium,Foggy,10.0,48.0,Delivered,3.0,Morning
+2205,Bangalore,Restaurant_3,South Indian,19,8.3,Medium,Clear,20.0,29.0,Delivered,5.0,Evening
+2206,Chennai,Restaurant_2,Biryani,21,12.7,Medium,Clear,27.0,42.0,Delivered,3.0,Night
+2207,Pune,Restaurant_8,Pizza,11,1.0,Low,Foggy,15.0,16.0,Delivered,5.0,Morning
+2208,Bangalore,Restaurant_10,Dessert,22,5.8,High,Clear,5.0,37.0,Delivered,4.0,Night
+2209,Mumbai,Restaurant_1,Pizza,17,3.9,Low,Rainy,14.0,27.0,Delivered,5.0,Evening
+2210,Chennai,Restaurant_8,Chinese,22,7.0,Low,Clear,15.0,28.0,Delivered,5.0,Night
+2211,Chennai,Restaurant_7,Dessert,19,1.5,Medium,Clear,5.0,17.0,Delivered,5.0,Evening
+2212,Bangalore,Restaurant_7,Dessert,13,14.3,Medium,Clear,9.0,46.0,Delivered,3.0,Afternoon
+2213,Bangalore,Restaurant_3,Burger,12,3.7,Low,Clear,10.0,19.0,Delivered,5.0,Afternoon
+2214,Pune,Restaurant_1,Chinese,13,13.9,Low,Rainy,11.0,58.0,Delivered,2.0,Afternoon
+2215,Delhi,Restaurant_4,Chinese,10,6.7,Low,Clear,10.0,30.0,Delivered,5.0,Morning
+2216,Bangalore,Restaurant_9,South Indian,11,14.8,High,Clear,20.0,60.0,Delivered,2.0,Morning
+2217,Bangalore,Restaurant_5,Dessert,11,8.5,High,Clear,12.0,46.0,Delivered,5.0,Morning
+2218,Mumbai,Restaurant_1,Chinese,16,14.0,Medium,Foggy,22.0,50.0,Delivered,2.0,Evening
+2219,Chennai,Restaurant_5,Dessert,20,0.6,High,Clear,10.0,19.0,Delivered,5.0,Night
+2220,Delhi,Restaurant_8,South Indian,11,11.3,High,Clear,12.0,45.0,Delivered,4.0,Morning
+2221,Mumbai,Restaurant_8,South Indian,11,13.6,Low,Clear,19.0,41.0,Delivered,4.0,Morning
+2222,Pune,Restaurant_5,Burger,19,2.5,High,Clear,12.0,24.0,Delivered,5.0,Evening
+2223,Pune,Restaurant_9,Dessert,12,1.9,High,Clear,9.0,31.0,Delivered,5.0,Afternoon
+2224,Bangalore,Restaurant_1,Chinese,10,6.7,Low,Rainy,15.0,28.0,Delivered,4.0,Morning
+2225,Bangalore,Restaurant_4,Chinese,11,14.0,Low,Clear,5.0,39.0,Delivered,5.0,Morning
+2226,Pune,Restaurant_3,Dessert,21,8.4,Low,Clear,14.0,39.0,Delivered,4.0,Night
+2227,Bangalore,Restaurant_2,Dessert,20,8.1,Low,Rainy,10.0,32.0,Delivered,5.0,Night
+2228,Delhi,Restaurant_8,Dessert,14,2.5,High,Clear,9.0,27.0,Delivered,4.0,Afternoon
+2229,Bangalore,Restaurant_7,Biryani,19,0.5,Medium,Clear,25.0,17.0,Delivered,5.0,Evening
+2230,Chennai,Restaurant_9,Chinese,18,12.2,High,Clear,16.0,45.0,Delivered,3.0,Evening
+2231,Bangalore,Restaurant_2,South Indian,19,1.8,High,Clear,12.0,31.0,Delivered,5.0,Evening
+2232,Mumbai,Restaurant_4,Chinese,19,9.7,Medium,Rainy,17.0,46.0,Delivered,4.0,Evening
+2233,Delhi,Restaurant_6,Biryani,19,13.8,Medium,Rainy,20.0,61.0,Delivered,2.0,Evening
+2234,Mumbai,Restaurant_3,Dessert,12,3.5,Low,Rainy,9.0,19.0,Delivered,4.0,Afternoon
+2235,Mumbai,Restaurant_8,Burger,9,10.1,Medium,Rainy,14.0,45.0,Delivered,5.0,Morning
+2236,Chennai,Restaurant_3,Dessert,17,1.6,Medium,Clear,7.0,17.0,Delivered,5.0,Evening
+2237,Delhi,Restaurant_2,Dessert,21,9.3,Low,Clear,9.0,33.0,Delivered,4.0,Night
+2238,Delhi,Restaurant_3,Biryani,18,2.9,Low,Clear,21.0,10.0,Delivered,5.0,Evening
+2239,Delhi,Restaurant_6,Chinese,20,11.2,High,Clear,11.0,49.0,Delivered,2.0,Night
+2240,Delhi,Restaurant_2,Dessert,23,4.9,Medium,Foggy,9.0,22.0,Delivered,5.0,Night
+2241,Delhi,Restaurant_8,Chinese,11,7.2,Low,Rainy,18.0,34.0,Delivered,3.0,Morning
+2242,Chennai,Restaurant_1,Pizza,19,9.2,Medium,Clear,11.0,25.0,Delivered,5.0,Evening
+2243,Bangalore,Restaurant_7,South Indian,19,3.0,High,Clear,16.0,18.0,Delivered,5.0,Evening
+2244,Mumbai,Restaurant_2,Chinese,22,11.3,Medium,Clear,13.0,45.0,Delivered,4.0,Night
+2245,Delhi,Restaurant_10,Burger,23,4.9,Low,Clear,11.0,18.0,Delivered,5.0,Night
+2246,Bangalore,Restaurant_6,South Indian,19,10.1,High,Clear,9.0,40.0,Delivered,4.0,Evening
+2247,Bangalore,Restaurant_2,Burger,12,2.8,Medium,Clear,9.0,26.0,Delivered,5.0,Afternoon
+2248,Mumbai,Restaurant_2,Dessert,20,10.5,Low,Foggy,12.0,40.0,Delivered,4.0,Night
+2249,Chennai,Restaurant_10,South Indian,11,2.4,Medium,Rainy,14.0,29.0,Delivered,5.0,Morning
+2250,Pune,Restaurant_8,Chinese,20,6.7,High,Clear,13.0,36.0,Cancelled,,Night
+2251,Pune,Restaurant_2,South Indian,21,4.1,Low,Clear,14.0,32.0,Delivered,3.0,Night
+2252,Bangalore,Restaurant_7,Dessert,15,11.4,Low,Clear,10.0,33.0,Delivered,4.0,Afternoon
+2253,Mumbai,Restaurant_3,Biryani,19,4.3,Low,Rainy,27.0,33.0,Delivered,5.0,Evening
+2254,Pune,Restaurant_8,Burger,16,13.3,High,Rainy,12.0,59.0,Delivered,2.0,Evening
+2255,Bangalore,Restaurant_7,Dessert,16,13.4,Low,Foggy,12.0,37.0,Delivered,4.0,Evening
+2256,Chennai,Restaurant_8,Biryani,13,3.3,Medium,Clear,29.0,24.0,Delivered,5.0,Afternoon
+2257,Pune,Restaurant_7,South Indian,20,9.4,High,Rainy,16.0,51.0,Delivered,2.0,Night
+2258,Bangalore,Restaurant_6,South Indian,22,1.8,Low,Clear,14.0,10.0,Delivered,5.0,Night
+2259,Bangalore,Restaurant_7,Dessert,22,6.2,High,Clear,11.0,31.0,Delivered,4.0,Night
+2260,Delhi,Restaurant_5,Chinese,11,10.8,High,Clear,16.0,47.0,Delivered,3.0,Morning
+2261,Chennai,Restaurant_7,South Indian,21,10.1,High,Clear,18.0,47.0,Delivered,3.0,Night
+2262,Delhi,Restaurant_1,Chinese,20,9.6,Low,Rainy,19.0,26.0,Delivered,5.0,Night
+2263,Mumbai,Restaurant_1,Chinese,12,4.6,Medium,Clear,11.0,30.0,Delivered,4.0,Afternoon
+2264,Delhi,Restaurant_9,Chinese,10,6.0,High,Clear,11.0,33.0,Delivered,3.0,Morning
+2265,Delhi,Restaurant_5,Pizza,12,2.0,High,Clear,15.0,18.0,Delivered,5.0,Afternoon
+2266,Pune,Restaurant_5,Biryani,21,10.9,Low,Clear,29.0,40.0,Delivered,3.0,Night
+2267,Bangalore,Restaurant_3,Biryani,19,7.8,High,Clear,19.0,39.0,Delivered,3.0,Evening
+2268,Chennai,Restaurant_5,South Indian,19,10.8,Medium,Clear,16.0,46.0,Delivered,4.0,Evening
+2269,Delhi,Restaurant_3,South Indian,12,4.1,Low,Clear,15.0,20.0,Delivered,5.0,Afternoon
+2270,Chennai,Restaurant_9,Chinese,19,5.2,Medium,Clear,20.0,26.0,Delivered,5.0,Evening
+2271,Delhi,Restaurant_9,Pizza,9,5.3,High,Foggy,19.0,36.0,Delivered,4.0,Morning
+2272,Mumbai,Restaurant_6,Chinese,15,0.9,Medium,Clear,10.0,18.0,Delivered,5.0,Afternoon
+2273,Delhi,Restaurant_1,Pizza,19,5.4,Medium,Clear,14.0,24.0,Cancelled,,Evening
+2274,Pune,Restaurant_7,Chinese,11,12.1,High,Clear,10.0,46.0,Delivered,3.0,Morning
+2275,Bangalore,Restaurant_7,Burger,20,13.5,Medium,Foggy,10.0,54.0,Delivered,3.0,Night
+2276,Mumbai,Restaurant_10,Burger,12,8.0,Medium,Rainy,11.0,38.0,Delivered,5.0,Afternoon
+2277,Delhi,Restaurant_10,Dessert,19,7.1,Medium,Clear,5.0,31.0,Delivered,5.0,Evening
+2278,Chennai,Restaurant_4,Chinese,16,0.9,Medium,Clear,21.0,21.0,Delivered,5.0,Evening
+2279,Mumbai,Restaurant_8,South Indian,18,13.2,Medium,Rainy,9.0,51.0,Delivered,4.0,Evening
+2280,Mumbai,Restaurant_6,Biryani,11,0.7,High,Rainy,30.0,28.0,Delivered,5.0,Morning
+2281,Delhi,Restaurant_4,Dessert,8,14.2,Medium,Rainy,13.0,52.0,Delivered,4.0,Morning
+2282,Mumbai,Restaurant_4,South Indian,21,7.6,High,Foggy,18.0,45.0,Delivered,2.0,Night
+2283,Chennai,Restaurant_2,Burger,12,5.5,Low,Foggy,9.0,27.0,Delivered,5.0,Afternoon
+2284,Mumbai,Restaurant_2,Chinese,20,13.9,Low,Clear,16.0,47.0,Delivered,4.0,Night
+2285,Chennai,Restaurant_4,Dessert,23,0.9,Medium,Clear,5.0,12.0,Delivered,5.0,Night
+2286,Delhi,Restaurant_5,Chinese,12,8.9,Low,Rainy,19.0,34.0,Delivered,4.0,Afternoon
+2287,Bangalore,Restaurant_8,Burger,12,8.5,Low,Rainy,12.0,39.0,Delivered,5.0,Afternoon
+2288,Mumbai,Restaurant_6,Dessert,19,3.7,Medium,Clear,6.0,24.0,Delivered,5.0,Evening
+2289,Bangalore,Restaurant_4,Burger,22,6.7,Low,Foggy,7.0,24.0,Delivered,5.0,Night
+2290,Chennai,Restaurant_7,Pizza,21,10.0,Low,Clear,8.0,40.0,Delivered,4.0,Night
+2291,Mumbai,Restaurant_8,Burger,17,11.0,Medium,Clear,8.0,32.0,Delivered,4.0,Evening
+2292,Pune,Restaurant_2,Chinese,20,0.5,Medium,Foggy,19.0,22.0,Delivered,5.0,Night
+2293,Bangalore,Restaurant_7,Biryani,11,14.1,High,Clear,23.0,49.0,Delivered,3.0,Morning
+2294,Mumbai,Restaurant_2,Burger,22,2.9,Medium,Clear,11.0,30.0,Delivered,4.0,Night
+2295,Bangalore,Restaurant_2,South Indian,22,3.9,Medium,Clear,17.0,15.0,Delivered,5.0,Night
+2296,Mumbai,Restaurant_8,Biryani,11,4.3,High,Clear,32.0,37.0,Delivered,4.0,Morning
+2297,Delhi,Restaurant_2,Pizza,13,1.0,High,Clear,23.0,22.0,Delivered,5.0,Afternoon
+2298,Bangalore,Restaurant_9,Dessert,10,2.3,Low,Clear,5.0,12.0,Delivered,5.0,Morning
+2299,Pune,Restaurant_1,Dessert,13,14.8,Low,Clear,5.0,46.0,Delivered,3.0,Afternoon
+2300,Pune,Restaurant_9,Biryani,20,5.1,Medium,Foggy,34.0,33.0,Delivered,5.0,Night
+2301,Chennai,Restaurant_1,Dessert,15,2.2,Medium,Foggy,17.0,18.0,Delivered,5.0,Afternoon
+2302,Mumbai,Restaurant_10,Burger,10,2.1,High,Clear,13.0,21.0,Delivered,4.0,Morning
+2303,Bangalore,Restaurant_10,Biryani,14,10.9,High,Rainy,20.0,56.0,Delivered,2.0,Afternoon
+2304,Chennai,Restaurant_2,Chinese,22,12.9,Medium,Clear,19.0,37.0,Delivered,5.0,Night
+2305,Bangalore,Restaurant_6,Burger,19,4.2,High,Clear,12.0,28.0,Delivered,5.0,Evening
+2306,Mumbai,Restaurant_6,Burger,16,0.8,Medium,Clear,12.0,30.0,Delivered,5.0,Evening
+2307,Pune,Restaurant_1,Burger,11,3.7,Low,Foggy,16.0,16.0,Cancelled,,Morning
+2308,Delhi,Restaurant_7,Chinese,23,1.3,High,Foggy,16.0,33.0,Delivered,4.0,Night
+2309,Pune,Restaurant_8,Pizza,20,2.0,Low,Clear,13.0,10.0,Delivered,5.0,Night
+2310,Chennai,Restaurant_2,South Indian,13,6.8,High,Clear,13.0,40.0,Delivered,3.0,Afternoon
+2311,Delhi,Restaurant_8,Dessert,10,3.8,High,Clear,11.0,33.0,Delivered,4.0,Morning
+2312,Chennai,Restaurant_9,Biryani,10,8.0,Medium,Clear,27.0,39.0,Delivered,4.0,Morning
+2313,Mumbai,Restaurant_6,Pizza,11,4.2,Medium,Clear,19.0,22.0,Delivered,4.0,Morning
+2314,Delhi,Restaurant_5,Biryani,18,14.1,Medium,Clear,29.0,58.0,Delivered,2.0,Evening
+2315,Chennai,Restaurant_9,Dessert,21,13.6,Medium,Rainy,7.0,50.0,Delivered,3.0,Night
+2316,Mumbai,Restaurant_9,Chinese,17,8.7,Medium,Clear,16.0,36.0,Delivered,4.0,Evening
+2317,Pune,Restaurant_1,Burger,20,5.6,Medium,Foggy,5.0,32.0,Cancelled,,Night
+2318,Mumbai,Restaurant_3,Burger,17,6.0,High,Rainy,10.0,35.0,Delivered,4.0,Evening
+2319,Bangalore,Restaurant_9,Chinese,19,6.5,Medium,Clear,18.0,28.0,Delivered,5.0,Evening
+2320,Mumbai,Restaurant_2,Pizza,20,11.0,Low,Rainy,16.0,42.0,Delivered,3.0,Night
+2321,Mumbai,Restaurant_4,Pizza,11,7.0,Medium,Rainy,16.0,34.0,Delivered,4.0,Morning
+2322,Bangalore,Restaurant_4,Biryani,15,12.9,High,Clear,21.0,64.0,Delivered,1.0,Afternoon
+2323,Chennai,Restaurant_2,Chinese,19,14.2,Medium,Clear,19.0,44.0,Delivered,3.0,Evening
+2324,Chennai,Restaurant_3,Pizza,10,5.4,Medium,Foggy,20.0,36.0,Delivered,4.0,Morning
+2325,Mumbai,Restaurant_3,Chinese,15,8.6,High,Clear,18.0,46.0,Delivered,2.0,Afternoon
+2326,Bangalore,Restaurant_1,Dessert,18,1.9,Medium,Clear,5.0,18.0,Delivered,5.0,Evening
+2327,Bangalore,Restaurant_6,Burger,23,3.4,Medium,Clear,11.0,17.0,Delivered,5.0,Night
+2328,Pune,Restaurant_8,Burger,17,6.5,High,Rainy,11.0,38.0,Delivered,5.0,Evening
+2329,Chennai,Restaurant_3,Burger,20,3.5,Low,Rainy,11.0,20.0,Delivered,5.0,Night
+2330,Delhi,Restaurant_5,Chinese,16,13.2,High,Foggy,13.0,48.0,Delivered,3.0,Evening
+2331,Chennai,Restaurant_1,Chinese,20,2.8,Low,Clear,14.0,10.0,Delivered,5.0,Night
+2332,Chennai,Restaurant_10,Biryani,18,7.1,Low,Clear,28.0,18.0,Delivered,5.0,Evening
+2333,Pune,Restaurant_7,Burger,21,9.3,High,Clear,5.0,50.0,Delivered,3.0,Night
+2334,Delhi,Restaurant_10,Biryani,16,10.5,Low,Rainy,32.0,43.0,Delivered,3.0,Evening
+2335,Pune,Restaurant_1,Burger,18,6.1,High,Clear,14.0,39.0,Delivered,5.0,Evening
+2336,Delhi,Restaurant_9,Biryani,19,13.1,High,Clear,25.0,56.0,Delivered,2.0,Evening
+2337,Mumbai,Restaurant_8,Biryani,16,8.7,High,Clear,29.0,43.0,Delivered,4.0,Evening
+2338,Delhi,Restaurant_7,Dessert,11,6.9,High,Clear,5.0,45.0,Delivered,4.0,Morning
+2339,Pune,Restaurant_10,Biryani,10,1.5,Low,Foggy,22.0,13.0,Delivered,5.0,Morning
+2340,Chennai,Restaurant_7,Chinese,8,7.2,High,Rainy,15.0,45.0,Delivered,3.0,Morning
+2341,Delhi,Restaurant_5,Biryani,21,12.4,Low,Foggy,30.0,47.0,Cancelled,,Night
+2342,Delhi,Restaurant_5,Burger,12,9.4,Medium,Clear,12.0,30.0,Delivered,5.0,Afternoon
+2343,Bangalore,Restaurant_5,Biryani,12,12.6,High,Foggy,27.0,71.0,Delivered,1.0,Afternoon
+2344,Chennai,Restaurant_1,Pizza,20,7.7,Medium,Rainy,16.0,38.0,Delivered,4.0,Night
+2345,Mumbai,Restaurant_8,South Indian,13,2.2,Medium,Clear,16.0,19.0,Delivered,5.0,Afternoon
+2346,Pune,Restaurant_1,Burger,17,0.7,Medium,Foggy,19.0,25.0,Delivered,5.0,Evening
+2347,Mumbai,Restaurant_4,Pizza,11,4.9,Medium,Clear,22.0,30.0,Delivered,4.0,Morning
+2348,Chennai,Restaurant_9,Burger,22,10.6,High,Foggy,12.0,51.0,Delivered,2.0,Night
+2349,Delhi,Restaurant_9,Chinese,21,12.0,Low,Foggy,18.0,43.0,Delivered,3.0,Night
+2350,Delhi,Restaurant_5,South Indian,21,4.8,Medium,Rainy,16.0,23.0,Delivered,5.0,Night
+2351,Chennai,Restaurant_4,South Indian,16,7.7,High,Clear,16.0,36.0,Delivered,3.0,Evening
+2352,Delhi,Restaurant_3,Chinese,20,6.6,Medium,Clear,19.0,32.0,Delivered,3.0,Night
+2353,Delhi,Restaurant_3,South Indian,11,6.5,Low,Clear,18.0,26.0,Delivered,4.0,Morning
+2354,Delhi,Restaurant_5,Chinese,8,3.9,Medium,Clear,14.0,29.0,Delivered,4.0,Morning
+2355,Pune,Restaurant_10,Pizza,9,2.5,Medium,Rainy,21.0,25.0,Delivered,5.0,Morning
+2356,Pune,Restaurant_1,Dessert,18,3.4,Low,Rainy,6.0,16.0,Delivered,5.0,Evening
+2357,Bangalore,Restaurant_5,Burger,17,1.3,High,Foggy,8.0,33.0,Delivered,5.0,Evening
+2358,Mumbai,Restaurant_6,Chinese,18,3.4,Medium,Clear,14.0,29.0,Delivered,5.0,Evening
+2359,Chennai,Restaurant_7,Burger,8,0.6,High,Rainy,12.0,32.0,Delivered,4.0,Morning
+2360,Chennai,Restaurant_9,Pizza,16,9.6,High,Foggy,11.0,47.0,Cancelled,,Evening
+2361,Chennai,Restaurant_3,Dessert,19,5.1,Medium,Rainy,11.0,37.0,Delivered,5.0,Evening
+2362,Bangalore,Restaurant_2,Pizza,17,14.6,Low,Clear,7.0,62.0,Delivered,2.0,Evening
+2363,Pune,Restaurant_3,South Indian,20,3.3,Medium,Clear,25.0,22.0,Delivered,5.0,Night
+2364,Bangalore,Restaurant_9,Burger,12,5.5,Low,Clear,18.0,15.0,Delivered,5.0,Afternoon
+2365,Chennai,Restaurant_7,Dessert,20,5.7,High,Rainy,7.0,37.0,Cancelled,,Night
+2366,Mumbai,Restaurant_9,South Indian,18,0.6,Low,Rainy,14.0,19.0,Delivered,5.0,Evening
+2367,Delhi,Restaurant_2,Dessert,12,12.7,Low,Foggy,9.0,36.0,Delivered,4.0,Afternoon
+2368,Pune,Restaurant_5,South Indian,12,1.0,Medium,Clear,12.0,16.0,Delivered,5.0,Afternoon
+2369,Pune,Restaurant_4,Pizza,19,14.1,Low,Clear,19.0,45.0,Delivered,3.0,Evening
+2370,Bangalore,Restaurant_2,Chinese,20,13.4,Low,Rainy,14.0,55.0,Delivered,2.0,Night
+2371,Pune,Restaurant_9,Burger,16,8.3,Medium,Rainy,12.0,46.0,Delivered,3.0,Evening
+2372,Chennai,Restaurant_9,Biryani,12,8.4,Low,Foggy,26.0,37.0,Delivered,4.0,Afternoon
+2373,Chennai,Restaurant_6,Biryani,21,10.0,Low,Rainy,20.0,28.0,Delivered,5.0,Night
+2374,Bangalore,Restaurant_6,Pizza,19,6.1,Medium,Clear,18.0,33.0,Delivered,5.0,Evening
+2375,Chennai,Restaurant_8,Burger,17,9.9,High,Rainy,13.0,54.0,Cancelled,,Evening
+2376,Mumbai,Restaurant_6,Burger,17,1.1,Medium,Foggy,13.0,21.0,Delivered,5.0,Evening
+2377,Bangalore,Restaurant_1,Pizza,12,1.3,Medium,Clear,17.0,10.0,Delivered,5.0,Afternoon
+2378,Mumbai,Restaurant_4,Burger,19,7.1,Medium,Clear,17.0,27.0,Delivered,5.0,Evening
+2379,Delhi,Restaurant_7,Chinese,15,8.5,Medium,Clear,14.0,28.0,Delivered,5.0,Afternoon
+2380,Mumbai,Restaurant_2,Pizza,23,13.4,High,Clear,19.0,43.0,Delivered,3.0,Night
+2381,Delhi,Restaurant_9,Chinese,17,2.0,Low,Rainy,20.0,19.0,Delivered,5.0,Evening
+2382,Delhi,Restaurant_8,Burger,17,12.4,Medium,Clear,12.0,40.0,Delivered,4.0,Evening
+2383,Mumbai,Restaurant_8,Pizza,18,3.5,High,Clear,19.0,42.0,Cancelled,,Evening
+2384,Bangalore,Restaurant_7,Burger,21,6.2,High,Clear,12.0,35.0,Delivered,4.0,Night
+2385,Chennai,Restaurant_4,Pizza,20,5.1,Low,Clear,23.0,27.0,Delivered,5.0,Night
+2386,Chennai,Restaurant_2,Burger,17,6.3,Low,Clear,11.0,16.0,Delivered,5.0,Evening
+2387,Delhi,Restaurant_3,Chinese,19,2.7,High,Rainy,20.0,30.0,Delivered,5.0,Evening
+2388,Delhi,Restaurant_6,Chinese,18,7.8,Low,Clear,15.0,28.0,Delivered,5.0,Evening
+2389,Bangalore,Restaurant_5,Burger,17,12.1,High,Clear,9.0,46.0,Delivered,4.0,Evening
+2390,Pune,Restaurant_8,Pizza,12,6.9,High,Clear,21.0,35.0,Delivered,3.0,Afternoon
+2391,Mumbai,Restaurant_6,Biryani,17,7.6,High,Clear,24.0,38.0,Delivered,4.0,Evening
+2392,Delhi,Restaurant_6,Chinese,12,12.8,Low,Clear,17.0,39.0,Delivered,5.0,Afternoon
+2393,Chennai,Restaurant_1,Chinese,21,10.7,High,Clear,5.0,56.0,Delivered,3.0,Night
+2394,Bangalore,Restaurant_4,South Indian,14,7.6,Medium,Foggy,14.0,38.0,Delivered,3.0,Afternoon
+2395,Mumbai,Restaurant_5,Biryani,22,4.2,High,Rainy,23.0,39.0,Delivered,3.0,Night
+2396,Bangalore,Restaurant_3,Burger,18,13.3,Low,Clear,8.0,44.0,Delivered,3.0,Evening
+2397,Mumbai,Restaurant_9,Pizza,19,8.9,Low,Clear,16.0,33.0,Delivered,4.0,Evening
+2398,Mumbai,Restaurant_1,South Indian,18,3.7,Medium,Foggy,12.0,26.0,Delivered,5.0,Evening
+2399,Delhi,Restaurant_6,Burger,11,4.4,Low,Rainy,12.0,23.0,Delivered,4.0,Morning
+2400,Bangalore,Restaurant_6,Dessert,15,12.1,Medium,Clear,5.0,44.0,Delivered,4.0,Afternoon
+2401,Bangalore,Restaurant_10,Chinese,10,1.1,High,Rainy,16.0,35.0,Delivered,3.0,Morning
+2402,Chennai,Restaurant_5,Dessert,19,14.9,Medium,Rainy,13.0,62.0,Delivered,1.0,Evening
+2403,Chennai,Restaurant_5,Chinese,17,2.4,High,Rainy,16.0,31.0,Cancelled,,Evening
+2404,Delhi,Restaurant_10,Chinese,20,12.0,Low,Clear,18.0,42.0,Delivered,3.0,Night
+2405,Delhi,Restaurant_5,Dessert,12,6.2,Low,Clear,12.0,23.0,Delivered,5.0,Afternoon
+2406,Pune,Restaurant_6,Dessert,11,7.6,Low,Clear,13.0,27.0,Delivered,5.0,Morning
+2407,Chennai,Restaurant_8,Burger,16,13.3,Medium,Foggy,19.0,48.0,Delivered,2.0,Evening
+2408,Mumbai,Restaurant_2,South Indian,21,6.5,High,Rainy,12.0,41.0,Delivered,4.0,Night
+2409,Bangalore,Restaurant_6,South Indian,19,8.3,Low,Clear,11.0,35.0,Delivered,5.0,Evening
+2410,Delhi,Restaurant_1,Dessert,16,1.2,Medium,Foggy,11.0,20.0,Delivered,5.0,Evening
+2411,Bangalore,Restaurant_4,Burger,18,0.5,Medium,Foggy,15.0,19.0,Delivered,5.0,Evening
+2412,Bangalore,Restaurant_10,South Indian,10,4.0,High,Foggy,17.0,27.0,Delivered,5.0,Morning
+2413,Pune,Restaurant_3,Burger,23,10.4,Low,Foggy,20.0,36.0,Delivered,5.0,Night
+2414,Chennai,Restaurant_9,Burger,19,2.3,Low,Foggy,12.0,17.0,Delivered,5.0,Evening
+2415,Delhi,Restaurant_3,Chinese,13,2.1,Low,Clear,17.0,10.0,Delivered,5.0,Afternoon
+2416,Bangalore,Restaurant_6,South Indian,18,6.5,Medium,Rainy,10.0,35.0,Cancelled,,Evening
+2417,Delhi,Restaurant_1,South Indian,11,9.9,Low,Rainy,23.0,37.0,Delivered,4.0,Morning
+2418,Mumbai,Restaurant_6,Chinese,22,10.8,High,Clear,14.0,47.0,Delivered,3.0,Night
+2419,Pune,Restaurant_4,Dessert,11,3.1,Medium,Clear,7.0,21.0,Delivered,5.0,Morning
+2420,Mumbai,Restaurant_8,Chinese,19,1.7,Medium,Foggy,14.0,16.0,Delivered,5.0,Evening
+2421,Delhi,Restaurant_9,South Indian,12,14.1,Medium,Clear,11.0,46.0,Delivered,2.0,Afternoon
+2422,Delhi,Restaurant_4,South Indian,19,4.3,Low,Foggy,11.0,23.0,Delivered,5.0,Evening
+2423,Chennai,Restaurant_10,Dessert,20,12.9,Medium,Clear,6.0,51.0,Delivered,2.0,Night
+2424,Bangalore,Restaurant_10,Chinese,19,13.0,High,Clear,10.0,54.0,Delivered,3.0,Evening
+2425,Bangalore,Restaurant_6,Pizza,19,11.7,High,Clear,15.0,46.0,Delivered,3.0,Evening
+2426,Mumbai,Restaurant_1,Pizza,21,2.9,High,Clear,26.0,29.0,Delivered,5.0,Night
+2427,Pune,Restaurant_4,Dessert,10,12.4,High,Rainy,11.0,66.0,Delivered,1.0,Morning
+2428,Bangalore,Restaurant_7,Chinese,14,11.7,Low,Clear,19.0,42.0,Cancelled,,Afternoon
+2429,Chennai,Restaurant_1,Chinese,12,9.2,Low,Clear,20.0,34.0,Delivered,5.0,Afternoon
+2430,Mumbai,Restaurant_8,Burger,23,5.4,Low,Clear,19.0,25.0,Delivered,5.0,Night
+2431,Mumbai,Restaurant_10,South Indian,15,4.3,Medium,Clear,7.0,31.0,Delivered,5.0,Afternoon
+2432,Chennai,Restaurant_6,Biryani,20,2.3,Low,Clear,20.0,19.0,Delivered,5.0,Night
+2433,Pune,Restaurant_5,Dessert,19,7.9,Medium,Rainy,5.0,42.0,Delivered,4.0,Evening
+2434,Chennai,Restaurant_10,Biryani,12,9.0,Medium,Clear,23.0,41.0,Delivered,3.0,Afternoon
+2435,Pune,Restaurant_9,Biryani,12,5.7,High,Clear,24.0,29.0,Delivered,5.0,Afternoon
+2436,Chennai,Restaurant_2,Dessert,13,7.4,High,Clear,6.0,31.0,Delivered,5.0,Afternoon
+2437,Chennai,Restaurant_5,Chinese,16,5.8,High,Clear,16.0,35.0,Delivered,4.0,Evening
+2438,Delhi,Restaurant_6,Dessert,12,9.8,Low,Clear,8.0,33.0,Delivered,5.0,Afternoon
+2439,Mumbai,Restaurant_7,Biryani,9,13.6,Low,Clear,22.0,39.0,Delivered,4.0,Morning
+2440,Chennai,Restaurant_5,South Indian,21,2.9,Medium,Foggy,5.0,28.0,Delivered,5.0,Night
+2441,Chennai,Restaurant_9,South Indian,22,6.0,Low,Foggy,10.0,18.0,Delivered,5.0,Night
+2442,Bangalore,Restaurant_1,South Indian,14,2.5,Low,Rainy,12.0,18.0,Delivered,5.0,Afternoon
+2443,Mumbai,Restaurant_7,Chinese,14,9.6,Medium,Clear,14.0,35.0,Delivered,4.0,Afternoon
+2444,Bangalore,Restaurant_10,Pizza,8,11.1,Low,Clear,13.0,28.0,Delivered,4.0,Morning
+2445,Mumbai,Restaurant_7,Dessert,19,14.0,Medium,Clear,6.0,55.0,Delivered,2.0,Evening
+2446,Bangalore,Restaurant_4,South Indian,20,4.5,Medium,Rainy,9.0,23.0,Delivered,5.0,Night
+2447,Chennai,Restaurant_9,Dessert,11,14.3,Medium,Foggy,7.0,50.0,Delivered,5.0,Morning
+2448,Chennai,Restaurant_5,South Indian,11,1.4,Medium,Clear,10.0,21.0,Delivered,5.0,Morning
+2449,Delhi,Restaurant_4,Chinese,20,9.2,Medium,Clear,12.0,39.0,Delivered,4.0,Night
+2450,Bangalore,Restaurant_7,Pizza,19,1.3,Low,Rainy,13.0,12.0,Delivered,5.0,Evening
+2451,Pune,Restaurant_4,Pizza,9,13.5,Low,Rainy,17.0,51.0,Cancelled,,Morning
+2452,Delhi,Restaurant_3,South Indian,19,8.2,Medium,Rainy,11.0,41.0,Delivered,3.0,Evening
+2453,Bangalore,Restaurant_9,Chinese,13,10.2,High,Rainy,19.0,63.0,Cancelled,,Afternoon
+2454,Bangalore,Restaurant_8,Burger,15,12.6,High,Foggy,14.0,58.0,Delivered,3.0,Afternoon
+2455,Delhi,Restaurant_1,Dessert,20,2.7,Medium,Clear,8.0,19.0,Delivered,4.0,Night
+2456,Chennai,Restaurant_7,Dessert,20,1.1,Low,Foggy,5.0,10.0,Delivered,5.0,Night
+2457,Bangalore,Restaurant_9,Biryani,16,13.2,Medium,Foggy,27.0,46.0,Delivered,2.0,Evening
+2458,Chennai,Restaurant_8,Chinese,22,5.1,Medium,Rainy,18.0,28.0,Delivered,4.0,Night
+2459,Delhi,Restaurant_8,Biryani,16,2.4,Medium,Clear,26.0,26.0,Delivered,5.0,Evening
+2460,Chennai,Restaurant_6,South Indian,20,7.3,Medium,Clear,20.0,31.0,Delivered,5.0,Night
+2461,Mumbai,Restaurant_4,Biryani,17,9.2,Medium,Clear,27.0,39.0,Delivered,3.0,Evening
+2462,Pune,Restaurant_8,Pizza,21,0.9,Medium,Clear,22.0,23.0,Delivered,5.0,Night
+2463,Bangalore,Restaurant_3,Dessert,21,4.5,High,Foggy,9.0,23.0,Delivered,5.0,Night
+2464,Pune,Restaurant_9,Biryani,10,1.0,Low,Clear,28.0,17.0,Delivered,5.0,Morning
+2465,Chennai,Restaurant_2,Pizza,22,6.6,High,Clear,15.0,37.0,Delivered,4.0,Night
+2466,Bangalore,Restaurant_2,Chinese,20,13.5,Low,Rainy,13.0,50.0,Cancelled,,Night
+2467,Chennai,Restaurant_7,Biryani,20,14.7,Low,Clear,26.0,41.0,Delivered,2.0,Night
+2468,Mumbai,Restaurant_10,South Indian,12,9.7,High,Clear,15.0,40.0,Delivered,4.0,Afternoon
+2469,Delhi,Restaurant_4,South Indian,20,2.8,High,Clear,16.0,29.0,Delivered,4.0,Night
+2470,Bangalore,Restaurant_10,South Indian,21,13.6,Low,Rainy,18.0,60.0,Delivered,3.0,Night
+2471,Mumbai,Restaurant_8,Dessert,13,8.0,Medium,Clear,5.0,38.0,Delivered,4.0,Afternoon
+2472,Mumbai,Restaurant_9,Biryani,22,2.7,Low,Foggy,21.0,25.0,Delivered,5.0,Night
+2473,Bangalore,Restaurant_7,Chinese,9,13.9,Medium,Clear,16.0,47.0,Delivered,3.0,Morning
+2474,Chennai,Restaurant_5,Biryani,11,11.5,High,Foggy,22.0,50.0,Delivered,2.0,Morning
+2475,Mumbai,Restaurant_8,Dessert,18,11.1,High,Clear,22.0,44.0,Delivered,4.0,Evening
+2476,Pune,Restaurant_4,Pizza,18,10.8,Medium,Clear,20.0,38.0,Cancelled,,Evening
+2477,Mumbai,Restaurant_2,Dessert,19,3.4,Medium,Clear,8.0,11.0,Delivered,5.0,Evening
+2478,Chennai,Restaurant_6,South Indian,9,3.6,Medium,Clear,12.0,18.0,Delivered,5.0,Morning
+2479,Chennai,Restaurant_9,Pizza,22,10.5,Medium,Clear,16.0,36.0,Delivered,4.0,Night
+2480,Pune,Restaurant_1,South Indian,9,3.7,High,Clear,14.0,28.0,Delivered,5.0,Morning
+2481,Mumbai,Restaurant_10,Burger,11,6.9,High,Clear,12.0,38.0,Delivered,4.0,Morning
+2482,Chennai,Restaurant_7,Dessert,8,11.8,Medium,Clear,6.0,44.0,Delivered,3.0,Morning
+2483,Bangalore,Restaurant_10,Dessert,18,11.9,Medium,Clear,7.0,43.0,Delivered,4.0,Evening
+2484,Delhi,Restaurant_9,Chinese,22,7.1,Low,Clear,20.0,23.0,Delivered,5.0,Night
+2485,Delhi,Restaurant_10,Biryani,19,12.0,Low,Rainy,31.0,34.0,Delivered,4.0,Evening
+2486,Delhi,Restaurant_9,Pizza,20,12.7,High,Foggy,19.0,53.0,Delivered,4.0,Night
+2487,Mumbai,Restaurant_10,Pizza,8,10.0,Medium,Clear,13.0,33.0,Delivered,5.0,Morning
+2488,Pune,Restaurant_3,Chinese,18,3.8,Medium,Clear,17.0,25.0,Cancelled,,Evening
+2489,Chennai,Restaurant_5,Chinese,17,4.5,Medium,Foggy,21.0,33.0,Delivered,5.0,Evening
+2490,Bangalore,Restaurant_8,Biryani,17,5.1,High,Clear,30.0,37.0,Delivered,5.0,Evening
+2491,Bangalore,Restaurant_8,South Indian,10,2.2,Low,Foggy,17.0,21.0,Delivered,5.0,Morning
+2492,Mumbai,Restaurant_4,Biryani,19,4.5,High,Clear,31.0,31.0,Delivered,4.0,Evening
+2493,Delhi,Restaurant_1,Dessert,17,3.5,High,Foggy,8.0,30.0,Delivered,4.0,Evening
+2494,Mumbai,Restaurant_1,South Indian,20,7.1,High,Clear,17.0,34.0,Cancelled,,Night
+2495,Pune,Restaurant_4,Burger,17,13.7,Medium,Foggy,9.0,44.0,Delivered,4.0,Evening
+2496,Pune,Restaurant_6,Biryani,11,2.0,Low,Clear,26.0,18.0,Delivered,5.0,Morning
+2497,Chennai,Restaurant_8,Chinese,19,10.9,Medium,Rainy,20.0,45.0,Delivered,3.0,Evening
+2498,Chennai,Restaurant_6,South Indian,11,10.5,Medium,Clear,12.0,33.0,Delivered,4.0,Morning
+2499,Pune,Restaurant_9,Biryani,21,1.9,Low,Clear,22.0,10.0,Delivered,5.0,Night
+2500,Pune,Restaurant_9,Pizza,19,13.9,Medium,Rainy,18.0,49.0,Delivered,3.0,Evening
+2501,Pune,Restaurant_2,Burger,11,8.7,Medium,Clear,11.0,35.0,Cancelled,,Morning
+2502,Mumbai,Restaurant_10,Dessert,22,5.8,High,Foggy,11.0,44.0,Delivered,4.0,Night
+2503,Pune,Restaurant_1,Pizza,18,11.5,Low,Clear,16.0,35.0,Delivered,5.0,Evening
+2504,Bangalore,Restaurant_2,Pizza,10,4.2,Medium,Foggy,25.0,16.0,Delivered,5.0,Morning
+2505,Delhi,Restaurant_5,Burger,19,10.6,High,Clear,7.0,46.0,Delivered,3.0,Evening
+2506,Pune,Restaurant_4,Dessert,12,1.1,High,Foggy,13.0,26.0,Delivered,5.0,Afternoon
+2507,Delhi,Restaurant_4,Chinese,20,12.7,High,Foggy,12.0,55.0,Delivered,2.0,Night
+2508,Mumbai,Restaurant_9,South Indian,20,7.0,High,Clear,7.0,34.0,Delivered,4.0,Night
+2509,Delhi,Restaurant_8,Dessert,22,9.7,High,Foggy,9.0,49.0,Delivered,3.0,Night
+2510,Mumbai,Restaurant_6,Biryani,17,3.7,Medium,Rainy,24.0,29.0,Delivered,5.0,Evening
+2511,Bangalore,Restaurant_1,Pizza,17,10.3,Medium,Clear,14.0,39.0,Delivered,4.0,Evening
+2512,Mumbai,Restaurant_2,Biryani,20,11.7,Low,Rainy,18.0,45.0,Delivered,4.0,Night
+2513,Mumbai,Restaurant_6,Chinese,11,7.4,Low,Clear,15.0,24.0,Delivered,4.0,Morning
+2514,Chennai,Restaurant_2,Biryani,18,9.5,Low,Rainy,29.0,35.0,Delivered,5.0,Evening
+2515,Pune,Restaurant_10,Dessert,18,7.1,Low,Clear,10.0,33.0,Delivered,4.0,Evening
+2516,Pune,Restaurant_5,Biryani,10,13.5,Low,Clear,25.0,45.0,Delivered,3.0,Morning
+2517,Bangalore,Restaurant_5,Chinese,16,7.7,Low,Clear,17.0,31.0,Delivered,4.0,Evening
+2518,Bangalore,Restaurant_6,Chinese,21,12.7,Low,Clear,15.0,46.0,Delivered,5.0,Night
+2519,Pune,Restaurant_6,Chinese,21,12.1,High,Foggy,9.0,57.0,Delivered,2.0,Night
+2520,Chennai,Restaurant_6,Dessert,10,6.5,Low,Foggy,5.0,33.0,Delivered,4.0,Morning
+2521,Pune,Restaurant_2,Chinese,10,3.8,High,Clear,14.0,22.0,Delivered,5.0,Morning
+2522,Chennai,Restaurant_10,Pizza,12,6.4,Low,Clear,17.0,25.0,Delivered,5.0,Afternoon
+2523,Bangalore,Restaurant_3,Chinese,21,12.5,High,Rainy,18.0,56.0,Delivered,2.0,Night
+2524,Delhi,Restaurant_6,Biryani,11,3.8,High,Clear,28.0,38.0,Delivered,4.0,Morning
+2525,Bangalore,Restaurant_8,South Indian,19,8.1,Medium,Clear,16.0,38.0,Delivered,5.0,Evening
+2526,Bangalore,Restaurant_1,Biryani,10,12.2,Medium,Clear,24.0,40.0,Delivered,4.0,Morning
+2527,Mumbai,Restaurant_1,South Indian,19,5.6,Low,Clear,8.0,24.0,Cancelled,,Evening
+2528,Mumbai,Restaurant_2,Biryani,15,9.8,High,Clear,27.0,45.0,Delivered,3.0,Afternoon
+2529,Mumbai,Restaurant_6,Dessert,20,4.1,High,Rainy,10.0,39.0,Delivered,3.0,Night
+2530,Mumbai,Restaurant_9,Biryani,12,2.1,High,Clear,15.0,20.0,Delivered,5.0,Afternoon
+2531,Chennai,Restaurant_4,Dessert,19,12.0,Medium,Foggy,5.0,49.0,Delivered,4.0,Evening
+2532,Pune,Restaurant_3,Dessert,12,1.9,Medium,Clear,5.0,17.0,Delivered,5.0,Afternoon
+2533,Delhi,Restaurant_8,Chinese,19,4.4,High,Clear,15.0,32.0,Delivered,4.0,Evening
+2534,Bangalore,Restaurant_10,Pizza,21,12.9,Low,Foggy,15.0,41.0,Delivered,5.0,Night
+2535,Chennai,Restaurant_9,South Indian,11,5.5,Medium,Clear,14.0,24.0,Delivered,5.0,Morning
+2536,Delhi,Restaurant_5,Chinese,21,14.6,Low,Clear,14.0,50.0,Delivered,3.0,Night
+2537,Chennai,Restaurant_9,Chinese,18,14.7,High,Rainy,14.0,57.0,Delivered,4.0,Evening
+2538,Chennai,Restaurant_2,Dessert,11,4.4,Low,Clear,5.0,14.0,Delivered,5.0,Morning
+2539,Bangalore,Restaurant_3,Dessert,16,1.1,Low,Rainy,5.0,16.0,Delivered,4.0,Evening
+2540,Pune,Restaurant_7,South Indian,11,10.7,Medium,Clear,10.0,36.0,Delivered,5.0,Morning
+2541,Mumbai,Restaurant_7,Biryani,19,7.0,High,Rainy,27.0,39.0,Delivered,3.0,Evening
+2542,Pune,Restaurant_6,Biryani,20,2.0,Medium,Clear,27.0,19.0,Delivered,5.0,Night
+2543,Bangalore,Restaurant_6,Chinese,11,10.8,Low,Clear,12.0,27.0,Delivered,4.0,Morning
+2544,Bangalore,Restaurant_2,Burger,17,1.0,Low,Foggy,18.0,10.0,Cancelled,,Evening
+2545,Bangalore,Restaurant_10,Burger,20,13.1,High,Rainy,11.0,69.0,Delivered,1.0,Night
+2546,Delhi,Restaurant_6,Biryani,22,2.5,High,Clear,31.0,29.0,Delivered,4.0,Night
+2547,Pune,Restaurant_4,Burger,18,2.3,High,Clear,9.0,22.0,Delivered,5.0,Evening
+2548,Pune,Restaurant_3,Biryani,22,3.0,Medium,Clear,17.0,23.0,Delivered,5.0,Night
+2549,Chennai,Restaurant_2,Dessert,18,14.4,High,Rainy,10.0,65.0,Delivered,1.0,Evening
+2550,Chennai,Restaurant_1,Chinese,16,10.6,Medium,Rainy,16.0,50.0,Delivered,3.0,Evening
+2551,Chennai,Restaurant_5,Pizza,21,12.1,Medium,Rainy,18.0,49.0,Delivered,2.0,Night
+2552,Bangalore,Restaurant_2,Chinese,17,6.3,Medium,Clear,12.0,34.0,Delivered,4.0,Evening
+2553,Pune,Restaurant_2,Biryani,17,5.4,Medium,Rainy,25.0,22.0,Delivered,5.0,Evening
+2554,Bangalore,Restaurant_7,Biryani,17,3.9,High,Clear,23.0,24.0,Delivered,4.0,Evening
+2555,Delhi,Restaurant_8,Chinese,20,7.5,Medium,Clear,14.0,33.0,Delivered,3.0,Night
+2556,Chennai,Restaurant_10,South Indian,20,8.5,Medium,Clear,17.0,36.0,Delivered,4.0,Night
+2557,Bangalore,Restaurant_8,Biryani,16,9.7,Low,Foggy,26.0,32.0,Delivered,5.0,Evening
+2558,Bangalore,Restaurant_4,Burger,14,4.2,Low,Rainy,14.0,26.0,Cancelled,,Afternoon
+2559,Delhi,Restaurant_1,Burger,17,14.3,Medium,Clear,11.0,46.0,Delivered,3.0,Evening
+2560,Mumbai,Restaurant_7,Biryani,18,3.0,Low,Rainy,24.0,20.0,Delivered,5.0,Evening
+2561,Pune,Restaurant_1,Biryani,12,14.5,Low,Foggy,20.0,53.0,Delivered,3.0,Afternoon
+2562,Mumbai,Restaurant_4,South Indian,20,0.7,Medium,Clear,13.0,19.0,Delivered,5.0,Night
+2563,Chennai,Restaurant_8,Burger,17,7.5,Medium,Clear,5.0,27.0,Delivered,3.0,Evening
+2564,Bangalore,Restaurant_2,Biryani,14,5.3,High,Foggy,23.0,32.0,Delivered,4.0,Afternoon
+2565,Delhi,Restaurant_6,Biryani,11,7.0,Medium,Foggy,25.0,32.0,Delivered,4.0,Morning
+2566,Delhi,Restaurant_6,South Indian,12,8.8,High,Clear,16.0,42.0,Delivered,4.0,Afternoon
+2567,Pune,Restaurant_9,South Indian,22,6.8,High,Clear,13.0,34.0,Delivered,4.0,Night
+2568,Mumbai,Restaurant_5,Chinese,13,6.5,High,Clear,16.0,41.0,Delivered,4.0,Afternoon
+2569,Pune,Restaurant_10,South Indian,11,11.1,Medium,Clear,5.0,42.0,Delivered,4.0,Morning
+2570,Bangalore,Restaurant_4,Pizza,17,10.4,Medium,Foggy,18.0,45.0,Delivered,2.0,Evening
+2571,Pune,Restaurant_5,Burger,13,12.6,High,Clear,5.0,45.0,Delivered,4.0,Afternoon
+2572,Delhi,Restaurant_10,Chinese,9,4.1,Low,Foggy,10.0,28.0,Delivered,5.0,Morning
+2573,Delhi,Restaurant_5,Pizza,14,9.3,Low,Clear,17.0,17.0,Delivered,5.0,Afternoon
+2574,Chennai,Restaurant_8,Biryani,18,9.0,Medium,Clear,30.0,40.0,Delivered,4.0,Evening
+2575,Chennai,Restaurant_10,Biryani,18,5.9,Low,Clear,26.0,27.0,Delivered,4.0,Evening
+2576,Bangalore,Restaurant_8,Chinese,15,7.5,High,Rainy,15.0,43.0,Delivered,4.0,Afternoon
+2577,Mumbai,Restaurant_2,South Indian,17,5.0,Medium,Clear,14.0,32.0,Delivered,5.0,Evening
+2578,Pune,Restaurant_7,Biryani,22,2.6,Medium,Rainy,22.0,25.0,Delivered,5.0,Night
+2579,Bangalore,Restaurant_8,Dessert,15,3.6,Medium,Clear,6.0,22.0,Delivered,5.0,Afternoon
+2580,Chennai,Restaurant_6,Chinese,12,2.0,Medium,Clear,17.0,20.0,Delivered,5.0,Afternoon
+2581,Pune,Restaurant_5,Pizza,12,10.4,Low,Clear,12.0,50.0,Delivered,3.0,Afternoon
+2582,Chennai,Restaurant_9,Chinese,17,10.1,Medium,Clear,17.0,45.0,Delivered,3.0,Evening
+2583,Pune,Restaurant_3,Burger,20,14.3,High,Rainy,10.0,65.0,Delivered,3.0,Night
+2584,Mumbai,Restaurant_10,South Indian,12,11.1,Medium,Clear,17.0,36.0,Delivered,4.0,Afternoon
+2585,Bangalore,Restaurant_4,South Indian,19,1.3,High,Rainy,18.0,30.0,Delivered,4.0,Evening
+2586,Pune,Restaurant_9,Chinese,9,13.3,Low,Clear,8.0,37.0,Delivered,3.0,Morning
+2587,Delhi,Restaurant_6,Biryani,16,13.0,Low,Clear,23.0,45.0,Delivered,4.0,Evening
+2588,Delhi,Restaurant_8,Biryani,20,6.9,Low,Clear,22.0,26.0,Delivered,5.0,Night
+2589,Pune,Restaurant_7,Dessert,14,9.0,Medium,Clear,5.0,30.0,Delivered,4.0,Afternoon
+2590,Pune,Restaurant_2,Dessert,18,14.7,High,Rainy,5.0,63.0,Delivered,3.0,Evening
+2591,Pune,Restaurant_3,South Indian,12,8.2,High,Rainy,24.0,42.0,Delivered,3.0,Afternoon
+2592,Delhi,Restaurant_1,Dessert,20,13.6,Medium,Clear,10.0,48.0,Delivered,3.0,Night
+2593,Delhi,Restaurant_9,Pizza,10,1.7,Medium,Clear,26.0,13.0,Delivered,5.0,Morning
+2594,Pune,Restaurant_7,Dessert,21,3.3,High,Foggy,11.0,32.0,Delivered,4.0,Night
+2595,Chennai,Restaurant_1,Pizza,12,6.9,Low,Rainy,15.0,35.0,Delivered,4.0,Afternoon
+2596,Chennai,Restaurant_3,Dessert,21,9.0,Low,Rainy,6.0,36.0,Delivered,5.0,Night
+2597,Mumbai,Restaurant_4,South Indian,14,12.3,High,Clear,16.0,49.0,Delivered,2.0,Afternoon
+2598,Bangalore,Restaurant_4,South Indian,19,14.8,Medium,Clear,16.0,51.0,Delivered,3.0,Evening
+2599,Chennai,Restaurant_5,Pizza,13,6.1,High,Foggy,16.0,43.0,Delivered,4.0,Afternoon
+2600,Delhi,Restaurant_3,Chinese,21,1.2,Medium,Rainy,9.0,16.0,Delivered,5.0,Night
+2601,Chennai,Restaurant_3,South Indian,11,12.1,High,Clear,27.0,52.0,Delivered,3.0,Morning
+2602,Mumbai,Restaurant_1,Chinese,11,9.3,Low,Rainy,14.0,44.0,Delivered,3.0,Morning
+2603,Mumbai,Restaurant_7,Biryani,17,3.4,Low,Rainy,24.0,25.0,Cancelled,,Evening
+2604,Bangalore,Restaurant_10,Pizza,10,7.7,Medium,Clear,18.0,33.0,Delivered,5.0,Morning
+2605,Chennai,Restaurant_1,South Indian,12,11.3,Medium,Clear,13.0,44.0,Delivered,3.0,Afternoon
+2606,Delhi,Restaurant_2,Burger,22,11.7,Low,Clear,12.0,40.0,Delivered,4.0,Night
+2607,Delhi,Restaurant_4,Biryani,22,7.7,Low,Clear,30.0,31.0,Delivered,4.0,Night
+2608,Pune,Restaurant_4,Chinese,15,4.9,Low,Rainy,15.0,16.0,Delivered,5.0,Afternoon
+2609,Delhi,Restaurant_5,South Indian,21,14.6,High,Clear,9.0,49.0,Delivered,3.0,Night
+2610,Bangalore,Restaurant_2,Pizza,18,10.1,Medium,Rainy,17.0,49.0,Delivered,3.0,Evening
+2611,Bangalore,Restaurant_4,Dessert,12,6.4,Low,Foggy,6.0,20.0,Delivered,5.0,Afternoon
+2612,Delhi,Restaurant_1,Burger,19,4.6,Low,Clear,18.0,22.0,Delivered,5.0,Evening
+2613,Delhi,Restaurant_2,Chinese,19,11.1,Low,Clear,20.0,34.0,Delivered,4.0,Evening
+2614,Pune,Restaurant_1,Biryani,23,4.0,Medium,Rainy,25.0,24.0,Delivered,4.0,Night
+2615,Delhi,Restaurant_10,Pizza,12,3.0,Low,Rainy,13.0,23.0,Delivered,5.0,Afternoon
+2616,Pune,Restaurant_10,Burger,19,8.2,High,Rainy,7.0,48.0,Delivered,3.0,Evening
+2617,Pune,Restaurant_4,Pizza,10,4.7,Low,Clear,18.0,30.0,Delivered,5.0,Morning
+2618,Delhi,Restaurant_4,South Indian,11,9.6,Low,Clear,15.0,29.0,Delivered,4.0,Morning
+2619,Mumbai,Restaurant_7,Dessert,8,2.2,High,Clear,7.0,33.0,Delivered,4.0,Morning
+2620,Mumbai,Restaurant_10,Biryani,23,10.0,High,Foggy,23.0,51.0,Delivered,3.0,Night
+2621,Pune,Restaurant_9,Pizza,20,4.6,Low,Clear,16.0,16.0,Delivered,5.0,Night
+2622,Delhi,Restaurant_9,Chinese,20,0.5,High,Foggy,15.0,29.0,Delivered,5.0,Night
+2623,Mumbai,Restaurant_5,South Indian,18,2.3,Medium,Clear,5.0,22.0,Delivered,5.0,Evening
+2624,Delhi,Restaurant_10,South Indian,13,14.0,High,Foggy,10.0,59.0,Delivered,2.0,Afternoon
+2625,Delhi,Restaurant_1,Biryani,11,13.1,Medium,Rainy,22.0,53.0,Delivered,2.0,Morning
+2626,Delhi,Restaurant_1,South Indian,13,3.9,Medium,Clear,19.0,20.0,Delivered,5.0,Afternoon
+2627,Chennai,Restaurant_6,Chinese,15,11.8,High,Rainy,12.0,51.0,Delivered,3.0,Afternoon
+2628,Delhi,Restaurant_2,Pizza,20,9.3,Low,Clear,19.0,35.0,Delivered,4.0,Night
+2629,Chennai,Restaurant_8,Biryani,18,14.6,Medium,Clear,26.0,48.0,Delivered,3.0,Evening
+2630,Pune,Restaurant_9,South Indian,10,5.9,Medium,Clear,19.0,27.0,Delivered,5.0,Morning
+2631,Mumbai,Restaurant_4,South Indian,9,10.4,Low,Clear,19.0,35.0,Delivered,4.0,Morning
+2632,Mumbai,Restaurant_5,Chinese,11,1.4,Low,Clear,15.0,13.0,Delivered,5.0,Morning
+2633,Mumbai,Restaurant_8,Dessert,16,6.2,Low,Rainy,6.0,22.0,Delivered,5.0,Evening
+2634,Mumbai,Restaurant_3,Dessert,22,14.5,Medium,Rainy,5.0,62.0,Delivered,2.0,Night
+2635,Mumbai,Restaurant_5,South Indian,19,8.3,Medium,Clear,13.0,34.0,Delivered,5.0,Evening
+2636,Mumbai,Restaurant_3,Pizza,20,4.7,Medium,Foggy,16.0,28.0,Delivered,5.0,Night
+2637,Mumbai,Restaurant_10,Biryani,17,2.2,Low,Rainy,27.0,22.0,Cancelled,,Evening
+2638,Pune,Restaurant_3,South Indian,15,10.7,Medium,Foggy,16.0,45.0,Delivered,3.0,Afternoon
+2639,Delhi,Restaurant_3,Burger,11,9.9,High,Rainy,14.0,55.0,Delivered,2.0,Morning
+2640,Bangalore,Restaurant_7,Biryani,21,5.9,Medium,Clear,30.0,30.0,Cancelled,,Night
+2641,Chennai,Restaurant_7,Dessert,20,14.3,Medium,Clear,15.0,52.0,Delivered,3.0,Night
+2642,Bangalore,Restaurant_7,South Indian,11,0.8,High,Rainy,14.0,35.0,Delivered,5.0,Morning
+2643,Bangalore,Restaurant_10,Chinese,18,4.9,High,Clear,19.0,37.0,Delivered,4.0,Evening
+2644,Delhi,Restaurant_8,Burger,17,13.9,Medium,Clear,11.0,47.0,Delivered,2.0,Evening
+2645,Delhi,Restaurant_5,South Indian,19,5.2,High,Clear,19.0,27.0,Delivered,4.0,Evening
+2646,Delhi,Restaurant_5,Pizza,22,4.2,Medium,Clear,22.0,32.0,Delivered,5.0,Night
+2647,Mumbai,Restaurant_4,Burger,18,8.2,High,Clear,16.0,39.0,Cancelled,,Evening
+2648,Pune,Restaurant_7,South Indian,18,12.4,Low,Clear,14.0,37.0,Delivered,4.0,Evening
+2649,Mumbai,Restaurant_10,Pizza,9,2.0,Low,Clear,15.0,10.0,Delivered,5.0,Morning
+2650,Pune,Restaurant_4,Burger,10,14.2,Low,Rainy,6.0,51.0,Delivered,2.0,Morning
+2651,Pune,Restaurant_2,Pizza,12,12.0,High,Clear,18.0,51.0,Delivered,4.0,Afternoon
+2652,Bangalore,Restaurant_4,Pizza,9,3.1,Medium,Clear,24.0,13.0,Delivered,5.0,Morning
+2653,Bangalore,Restaurant_8,Burger,20,10.8,Low,Clear,11.0,37.0,Delivered,5.0,Night
+2654,Pune,Restaurant_9,Burger,19,6.1,Low,Clear,15.0,21.0,Delivered,5.0,Evening
+2655,Pune,Restaurant_3,Pizza,11,6.3,High,Clear,21.0,49.0,Delivered,3.0,Morning
+2656,Mumbai,Restaurant_7,Dessert,20,11.9,High,Clear,7.0,47.0,Delivered,4.0,Night
+2657,Mumbai,Restaurant_9,Burger,11,14.5,Medium,Clear,17.0,47.0,Delivered,4.0,Morning
+2658,Bangalore,Restaurant_4,South Indian,13,2.3,Medium,Rainy,5.0,20.0,Delivered,5.0,Afternoon
+2659,Delhi,Restaurant_10,Biryani,12,6.6,Medium,Clear,20.0,36.0,Delivered,4.0,Afternoon
+2660,Pune,Restaurant_3,Chinese,15,7.5,Medium,Clear,11.0,30.0,Delivered,5.0,Afternoon
+2661,Mumbai,Restaurant_5,Pizza,12,6.0,High,Clear,15.0,31.0,Delivered,5.0,Afternoon
+2662,Bangalore,Restaurant_1,Pizza,17,5.8,Low,Rainy,19.0,32.0,Delivered,4.0,Evening
+2663,Mumbai,Restaurant_3,Chinese,16,1.3,Medium,Foggy,16.0,13.0,Delivered,5.0,Evening
+2664,Pune,Restaurant_8,Dessert,23,10.4,Medium,Rainy,10.0,48.0,Delivered,4.0,Night
+2665,Pune,Restaurant_8,Chinese,10,6.8,Medium,Clear,17.0,39.0,Delivered,3.0,Morning
+2666,Chennai,Restaurant_4,Burger,11,3.3,Medium,Clear,8.0,24.0,Delivered,5.0,Morning
+2667,Delhi,Restaurant_2,Chinese,10,12.3,Medium,Clear,10.0,47.0,Delivered,3.0,Morning
+2668,Chennai,Restaurant_8,Pizza,19,12.1,Low,Foggy,20.0,47.0,Delivered,2.0,Evening
+2669,Bangalore,Restaurant_8,Chinese,10,7.6,Medium,Clear,12.0,41.0,Delivered,4.0,Morning
+2670,Mumbai,Restaurant_10,Biryani,20,4.8,Low,Foggy,19.0,30.0,Delivered,3.0,Night
+2671,Bangalore,Restaurant_4,South Indian,18,9.8,Low,Rainy,18.0,41.0,Delivered,2.0,Evening
+2672,Pune,Restaurant_3,Burger,18,4.7,Low,Rainy,18.0,30.0,Delivered,5.0,Evening
+2673,Chennai,Restaurant_2,Chinese,18,3.9,High,Clear,21.0,25.0,Delivered,5.0,Evening
+2674,Chennai,Restaurant_9,Pizza,11,11.1,Medium,Rainy,19.0,51.0,Delivered,2.0,Morning
+2675,Chennai,Restaurant_1,South Indian,12,1.1,Medium,Clear,17.0,11.0,Delivered,5.0,Afternoon
+2676,Bangalore,Restaurant_7,Burger,13,1.9,High,Clear,17.0,23.0,Delivered,3.0,Afternoon
+2677,Pune,Restaurant_5,Pizza,18,0.6,Medium,Clear,15.0,10.0,Delivered,5.0,Evening
+2678,Mumbai,Restaurant_8,Dessert,12,2.7,Medium,Foggy,12.0,26.0,Cancelled,,Afternoon
+2679,Mumbai,Restaurant_4,Biryani,11,1.5,Medium,Clear,26.0,14.0,Delivered,5.0,Morning
+2680,Bangalore,Restaurant_7,Dessert,22,14.9,Medium,Clear,12.0,56.0,Delivered,2.0,Night
+2681,Chennai,Restaurant_5,Biryani,9,4.7,Medium,Clear,26.0,27.0,Delivered,5.0,Morning
+2682,Delhi,Restaurant_5,Chinese,20,2.7,Medium,Rainy,20.0,31.0,Delivered,4.0,Night
+2683,Bangalore,Restaurant_9,Burger,20,4.0,High,Rainy,13.0,31.0,Delivered,3.0,Night
+2684,Bangalore,Restaurant_9,Chinese,13,14.1,High,Rainy,9.0,66.0,Cancelled,,Afternoon
+2685,Pune,Restaurant_9,Biryani,11,8.0,Low,Clear,31.0,39.0,Delivered,5.0,Morning
+2686,Mumbai,Restaurant_6,Biryani,11,5.8,Low,Clear,21.0,26.0,Delivered,4.0,Morning
+2687,Bangalore,Restaurant_6,Biryani,19,13.2,Medium,Clear,30.0,50.0,Delivered,3.0,Evening
+2688,Bangalore,Restaurant_5,South Indian,19,6.2,Medium,Clear,14.0,29.0,Delivered,5.0,Evening
+2689,Chennai,Restaurant_9,Pizza,20,5.4,Low,Foggy,23.0,23.0,Delivered,5.0,Night
+2690,Chennai,Restaurant_10,Burger,22,3.5,High,Clear,17.0,33.0,Delivered,3.0,Night
+2691,Delhi,Restaurant_8,Chinese,19,6.0,Low,Clear,17.0,15.0,Delivered,5.0,Evening
+2692,Pune,Restaurant_7,Chinese,11,5.1,High,Clear,17.0,31.0,Delivered,3.0,Morning
+2693,Delhi,Restaurant_7,Dessert,12,10.3,High,Rainy,10.0,43.0,Delivered,3.0,Afternoon
+2694,Chennai,Restaurant_6,Biryani,20,4.7,High,Clear,17.0,28.0,Cancelled,,Night
+2695,Mumbai,Restaurant_5,Biryani,12,8.9,Low,Clear,25.0,33.0,Delivered,4.0,Afternoon
+2696,Chennai,Restaurant_4,Biryani,10,1.5,Low,Rainy,21.0,20.0,Delivered,5.0,Morning
+2697,Pune,Restaurant_3,Chinese,19,3.3,Medium,Clear,16.0,22.0,Delivered,5.0,Evening
+2698,Chennai,Restaurant_3,Dessert,16,6.4,Low,Rainy,5.0,31.0,Delivered,5.0,Evening
+2699,Pune,Restaurant_6,Pizza,21,14.1,Medium,Clear,13.0,39.0,Delivered,4.0,Night
+2700,Pune,Restaurant_4,South Indian,19,6.0,Medium,Rainy,20.0,32.0,Delivered,5.0,Evening
+2701,Pune,Restaurant_6,Burger,10,10.1,Low,Clear,16.0,30.0,Delivered,4.0,Morning
+2702,Pune,Restaurant_3,Pizza,22,4.2,Low,Clear,18.0,15.0,Delivered,5.0,Night
+2703,Pune,Restaurant_4,Chinese,12,2.3,High,Foggy,16.0,33.0,Cancelled,,Afternoon
+2704,Mumbai,Restaurant_9,South Indian,14,1.3,Low,Clear,13.0,10.0,Delivered,5.0,Afternoon
+2705,Delhi,Restaurant_5,South Indian,16,4.9,Low,Clear,16.0,17.0,Delivered,4.0,Evening
+2706,Bangalore,Restaurant_7,South Indian,10,2.8,Medium,Clear,11.0,10.0,Delivered,5.0,Morning
+2707,Delhi,Restaurant_10,Biryani,17,3.0,High,Rainy,29.0,32.0,Delivered,5.0,Evening
+2708,Pune,Restaurant_2,Burger,11,11.5,Medium,Clear,11.0,36.0,Delivered,4.0,Morning
+2709,Mumbai,Restaurant_5,Chinese,16,0.7,Low,Foggy,13.0,14.0,Cancelled,,Evening
+2710,Chennai,Restaurant_9,Chinese,14,8.6,Medium,Foggy,15.0,34.0,Delivered,2.0,Afternoon
+2711,Mumbai,Restaurant_3,South Indian,20,6.0,High,Rainy,12.0,42.0,Delivered,3.0,Night
+2712,Pune,Restaurant_9,Chinese,20,7.8,High,Clear,16.0,39.0,Delivered,5.0,Night
+2713,Mumbai,Restaurant_6,Burger,11,8.7,Medium,Clear,10.0,43.0,Delivered,4.0,Morning
+2714,Mumbai,Restaurant_4,Burger,15,5.0,Medium,Rainy,14.0,34.0,Delivered,4.0,Afternoon
+2715,Pune,Restaurant_7,Dessert,15,4.8,Medium,Clear,13.0,16.0,Cancelled,,Afternoon
+2716,Mumbai,Restaurant_8,Dessert,11,11.1,Low,Clear,5.0,29.0,Delivered,5.0,Morning
+2717,Bangalore,Restaurant_6,Pizza,20,13.1,Medium,Clear,17.0,46.0,Delivered,4.0,Night
+2718,Bangalore,Restaurant_5,Burger,19,3.3,High,Clear,14.0,24.0,Delivered,5.0,Evening
+2719,Mumbai,Restaurant_6,Burger,12,1.9,High,Clear,10.0,10.0,Delivered,5.0,Afternoon
+2720,Chennai,Restaurant_5,Burger,15,13.5,Low,Clear,14.0,48.0,Delivered,4.0,Afternoon
+2721,Pune,Restaurant_8,Dessert,11,5.6,Low,Rainy,10.0,32.0,Delivered,5.0,Morning
+2722,Bangalore,Restaurant_1,South Indian,19,8.5,Medium,Clear,18.0,37.0,Delivered,5.0,Evening
+2723,Chennai,Restaurant_7,South Indian,11,5.7,High,Clear,12.0,31.0,Delivered,4.0,Morning
+2724,Mumbai,Restaurant_10,Chinese,23,2.3,High,Clear,11.0,28.0,Delivered,5.0,Night
+2725,Chennai,Restaurant_10,South Indian,20,9.0,Low,Clear,13.0,27.0,Delivered,4.0,Night
+2726,Delhi,Restaurant_2,Biryani,16,8.1,Low,Clear,21.0,29.0,Delivered,5.0,Evening
+2727,Bangalore,Restaurant_9,Dessert,18,3.4,Medium,Rainy,10.0,23.0,Delivered,5.0,Evening
+2728,Mumbai,Restaurant_1,Burger,21,7.1,Medium,Foggy,7.0,42.0,Delivered,3.0,Night
+2729,Pune,Restaurant_10,South Indian,18,12.1,High,Clear,23.0,42.0,Delivered,4.0,Evening
+2730,Mumbai,Restaurant_6,Dessert,11,9.1,Medium,Clear,13.0,42.0,Delivered,4.0,Morning
+2731,Pune,Restaurant_9,South Indian,15,1.9,High,Clear,14.0,25.0,Delivered,5.0,Afternoon
+2732,Mumbai,Restaurant_1,Pizza,20,8.4,Medium,Foggy,21.0,36.0,Delivered,5.0,Night
+2733,Chennai,Restaurant_4,Burger,19,10.7,High,Rainy,5.0,54.0,Delivered,2.0,Evening
+2734,Chennai,Restaurant_4,Pizza,19,12.0,Medium,Foggy,28.0,51.0,Delivered,4.0,Evening
+2735,Chennai,Restaurant_9,Burger,21,9.6,High,Clear,10.0,51.0,Delivered,4.0,Night
+2736,Delhi,Restaurant_5,Dessert,21,2.7,Low,Foggy,8.0,20.0,Delivered,5.0,Night
+2737,Pune,Restaurant_5,Chinese,21,10.8,Medium,Clear,8.0,36.0,Delivered,4.0,Night
+2738,Chennai,Restaurant_6,South Indian,10,10.3,Low,Clear,16.0,34.0,Delivered,4.0,Morning
+2739,Delhi,Restaurant_1,South Indian,18,0.9,Medium,Foggy,10.0,28.0,Delivered,5.0,Evening
+2740,Pune,Restaurant_1,Biryani,20,6.5,Medium,Foggy,25.0,40.0,Delivered,4.0,Night
+2741,Mumbai,Restaurant_9,Pizza,20,5.3,Low,Clear,16.0,26.0,Delivered,5.0,Night
+2742,Delhi,Restaurant_3,South Indian,18,10.2,High,Clear,10.0,49.0,Delivered,4.0,Evening
+2743,Bangalore,Restaurant_4,Dessert,11,3.6,Low,Clear,5.0,20.0,Delivered,5.0,Morning
+2744,Delhi,Restaurant_1,Chinese,20,9.1,High,Clear,16.0,49.0,Delivered,2.0,Night
+2745,Delhi,Restaurant_9,Dessert,19,13.7,High,Clear,5.0,52.0,Delivered,2.0,Evening
+2746,Pune,Restaurant_8,Pizza,10,12.1,Low,Foggy,15.0,35.0,Delivered,4.0,Morning
+2747,Mumbai,Restaurant_2,Biryani,17,13.9,Medium,Rainy,28.0,54.0,Delivered,2.0,Evening
+2748,Bangalore,Restaurant_8,South Indian,11,14.7,Low,Rainy,24.0,47.0,Delivered,2.0,Morning
+2749,Chennai,Restaurant_7,Dessert,14,0.7,Low,Rainy,10.0,10.0,Delivered,5.0,Afternoon
+2750,Chennai,Restaurant_6,Burger,9,9.5,Medium,Clear,8.0,33.0,Delivered,5.0,Morning
+2751,Delhi,Restaurant_1,Chinese,16,6.5,High,Rainy,14.0,55.0,Delivered,2.0,Evening
+2752,Pune,Restaurant_7,Dessert,18,13.0,Low,Clear,8.0,41.0,Delivered,4.0,Evening
+2753,Pune,Restaurant_10,Chinese,19,4.2,Medium,Clear,14.0,25.0,Cancelled,,Evening
+2754,Chennai,Restaurant_7,South Indian,19,14.7,Medium,Clear,18.0,44.0,Delivered,3.0,Evening
+2755,Bangalore,Restaurant_9,Burger,20,9.4,High,Clear,13.0,34.0,Delivered,4.0,Night
+2756,Mumbai,Restaurant_1,Biryani,12,12.0,Low,Rainy,29.0,40.0,Delivered,5.0,Afternoon
+2757,Bangalore,Restaurant_2,Biryani,11,1.7,Medium,Foggy,24.0,28.0,Delivered,5.0,Morning
+2758,Mumbai,Restaurant_9,Burger,21,3.2,Medium,Clear,17.0,23.0,Delivered,3.0,Night
+2759,Chennai,Restaurant_9,Chinese,11,11.5,Medium,Rainy,14.0,51.0,Delivered,4.0,Morning
+2760,Mumbai,Restaurant_6,South Indian,22,0.8,High,Clear,10.0,26.0,Cancelled,,Night
+2761,Pune,Restaurant_6,Dessert,20,12.3,High,Rainy,17.0,54.0,Delivered,1.0,Night
+2762,Delhi,Restaurant_4,Burger,17,0.7,Low,Clear,5.0,17.0,Delivered,5.0,Evening
+2763,Delhi,Restaurant_4,Pizza,22,10.0,Medium,Clear,15.0,35.0,Cancelled,,Night
+2764,Chennai,Restaurant_5,Chinese,10,5.8,Medium,Clear,12.0,35.0,Delivered,4.0,Morning
+2765,Pune,Restaurant_3,Biryani,13,9.4,Medium,Rainy,35.0,45.0,Delivered,5.0,Afternoon
+2766,Bangalore,Restaurant_1,Burger,19,10.6,Medium,Clear,19.0,31.0,Delivered,4.0,Evening
+2767,Pune,Restaurant_1,Biryani,14,5.5,Medium,Foggy,31.0,27.0,Delivered,5.0,Afternoon
+2768,Delhi,Restaurant_7,Chinese,21,2.1,Medium,Clear,14.0,10.0,Delivered,5.0,Night
+2769,Delhi,Restaurant_1,Biryani,10,1.5,High,Foggy,35.0,34.0,Delivered,3.0,Morning
+2770,Pune,Restaurant_1,Burger,18,9.0,Low,Rainy,13.0,36.0,Delivered,5.0,Evening
+2771,Pune,Restaurant_3,Chinese,18,8.0,High,Clear,19.0,29.0,Delivered,5.0,Evening
+2772,Delhi,Restaurant_10,Pizza,19,11.3,Medium,Clear,19.0,43.0,Delivered,4.0,Evening
+2773,Bangalore,Restaurant_4,Burger,12,7.9,Medium,Rainy,12.0,36.0,Delivered,4.0,Afternoon
+2774,Chennai,Restaurant_4,Dessert,15,6.6,High,Rainy,7.0,35.0,Delivered,4.0,Afternoon
+2775,Chennai,Restaurant_2,South Indian,20,6.3,Medium,Rainy,13.0,43.0,Delivered,3.0,Night
+2776,Pune,Restaurant_1,Burger,12,0.9,Medium,Clear,14.0,16.0,Delivered,5.0,Afternoon
+2777,Chennai,Restaurant_3,Chinese,20,5.4,Medium,Clear,16.0,25.0,Delivered,5.0,Night
+2778,Delhi,Restaurant_4,South Indian,18,14.7,Medium,Foggy,14.0,52.0,Delivered,4.0,Evening
+2779,Delhi,Restaurant_3,Burger,20,13.2,High,Clear,18.0,45.0,Delivered,4.0,Night
+2780,Pune,Restaurant_8,Pizza,19,5.3,High,Clear,6.0,27.0,Delivered,5.0,Evening
+2781,Pune,Restaurant_10,Pizza,12,9.0,Low,Clear,20.0,37.0,Delivered,4.0,Afternoon
+2782,Pune,Restaurant_1,Dessert,18,12.8,Low,Rainy,11.0,44.0,Delivered,3.0,Evening
+2783,Bangalore,Restaurant_2,Biryani,21,6.9,Medium,Rainy,30.0,36.0,Delivered,3.0,Night
+2784,Chennai,Restaurant_7,South Indian,16,0.8,Low,Clear,14.0,10.0,Delivered,5.0,Evening
+2785,Pune,Restaurant_4,Chinese,22,1.6,Medium,Clear,16.0,10.0,Delivered,5.0,Night
+2786,Mumbai,Restaurant_8,Chinese,17,7.9,Low,Clear,19.0,31.0,Delivered,4.0,Evening
+2787,Mumbai,Restaurant_3,Biryani,11,14.6,Medium,Clear,31.0,51.0,Cancelled,,Morning
+2788,Delhi,Restaurant_6,Pizza,15,10.6,Low,Clear,17.0,43.0,Delivered,4.0,Afternoon
+2789,Chennai,Restaurant_9,Pizza,22,1.5,Medium,Foggy,19.0,27.0,Delivered,4.0,Night
+2790,Pune,Restaurant_1,Burger,13,3.2,Medium,Clear,19.0,20.0,Delivered,5.0,Afternoon
+2791,Mumbai,Restaurant_1,Dessert,21,11.7,Medium,Clear,5.0,45.0,Delivered,3.0,Night
+2792,Chennai,Restaurant_8,South Indian,21,12.7,High,Foggy,11.0,54.0,Delivered,3.0,Night
+2793,Delhi,Restaurant_3,Dessert,14,9.5,High,Clear,14.0,54.0,Delivered,3.0,Afternoon
+2794,Bangalore,Restaurant_5,Dessert,10,9.8,Medium,Clear,12.0,43.0,Delivered,4.0,Morning
+2795,Chennai,Restaurant_1,Burger,19,0.9,Low,Clear,14.0,11.0,Delivered,5.0,Evening
+2796,Chennai,Restaurant_5,Dessert,13,12.5,High,Clear,6.0,52.0,Delivered,4.0,Afternoon
+2797,Bangalore,Restaurant_6,Biryani,20,11.9,High,Foggy,21.0,61.0,Cancelled,,Night
+2798,Chennai,Restaurant_8,Burger,17,4.3,High,Clear,10.0,34.0,Delivered,5.0,Evening
+2799,Delhi,Restaurant_3,Biryani,17,10.8,Low,Clear,31.0,43.0,Delivered,3.0,Evening
+2800,Delhi,Restaurant_3,Burger,20,3.6,High,Rainy,9.0,24.0,Delivered,4.0,Night
+2801,Bangalore,Restaurant_10,Dessert,15,1.1,Low,Foggy,8.0,17.0,Delivered,5.0,Afternoon
+2802,Pune,Restaurant_9,Biryani,17,3.4,High,Clear,22.0,26.0,Delivered,5.0,Evening
+2803,Mumbai,Restaurant_4,Biryani,15,3.1,High,Clear,28.0,37.0,Delivered,4.0,Afternoon
+2804,Pune,Restaurant_4,Biryani,15,5.4,Low,Foggy,23.0,33.0,Delivered,5.0,Afternoon
+2805,Chennai,Restaurant_7,Burger,18,6.6,High,Clear,12.0,37.0,Delivered,5.0,Evening
+2806,Mumbai,Restaurant_2,Chinese,20,7.9,Medium,Rainy,8.0,46.0,Delivered,4.0,Night
+2807,Bangalore,Restaurant_8,Dessert,15,7.4,High,Rainy,5.0,53.0,Cancelled,,Afternoon
+2808,Bangalore,Restaurant_6,Biryani,18,4.4,Low,Rainy,25.0,25.0,Delivered,5.0,Evening
+2809,Mumbai,Restaurant_3,South Indian,19,0.9,High,Clear,9.0,35.0,Delivered,4.0,Evening
+2810,Delhi,Restaurant_9,Chinese,12,9.3,Low,Clear,23.0,31.0,Delivered,5.0,Afternoon
+2811,Mumbai,Restaurant_5,South Indian,13,6.2,High,Rainy,6.0,40.0,Delivered,4.0,Afternoon
+2812,Chennai,Restaurant_8,Dessert,22,4.8,Medium,Clear,5.0,29.0,Delivered,5.0,Night
+2813,Delhi,Restaurant_7,Dessert,19,13.1,Medium,Clear,8.0,44.0,Delivered,3.0,Evening
+2814,Bangalore,Restaurant_8,Biryani,18,11.3,Low,Clear,24.0,37.0,Delivered,3.0,Evening
+2815,Mumbai,Restaurant_7,Biryani,19,12.9,High,Clear,21.0,59.0,Delivered,3.0,Evening
+2816,Pune,Restaurant_3,Burger,9,7.7,Low,Foggy,8.0,31.0,Delivered,4.0,Morning
+2817,Pune,Restaurant_2,Chinese,19,2.4,Medium,Clear,11.0,11.0,Delivered,5.0,Evening
+2818,Chennai,Restaurant_7,Chinese,18,10.6,Low,Foggy,14.0,40.0,Cancelled,,Evening
+2819,Pune,Restaurant_3,Biryani,18,3.5,High,Clear,33.0,25.0,Delivered,5.0,Evening
+2820,Mumbai,Restaurant_3,Dessert,15,6.9,Low,Clear,8.0,30.0,Delivered,5.0,Afternoon
+2821,Mumbai,Restaurant_2,Biryani,10,1.4,Low,Clear,30.0,15.0,Delivered,5.0,Morning
+2822,Pune,Restaurant_4,Dessert,12,12.5,Low,Rainy,10.0,53.0,Delivered,3.0,Afternoon
+2823,Mumbai,Restaurant_8,Dessert,22,2.3,Medium,Rainy,12.0,29.0,Delivered,4.0,Night
+2824,Chennai,Restaurant_1,Biryani,16,13.6,Low,Clear,14.0,47.0,Delivered,4.0,Evening
+2825,Delhi,Restaurant_1,Pizza,17,13.0,Medium,Foggy,17.0,46.0,Delivered,4.0,Evening
+2826,Chennai,Restaurant_5,Chinese,10,7.2,High,Clear,20.0,42.0,Delivered,3.0,Morning
+2827,Chennai,Restaurant_5,South Indian,9,11.3,High,Rainy,12.0,64.0,Delivered,1.0,Morning
+2828,Mumbai,Restaurant_1,Dessert,19,9.5,Medium,Foggy,15.0,37.0,Delivered,4.0,Evening
+2829,Delhi,Restaurant_6,Dessert,18,12.1,Low,Foggy,14.0,51.0,Delivered,2.0,Evening
+2830,Mumbai,Restaurant_1,Pizza,18,6.8,Medium,Foggy,16.0,31.0,Delivered,5.0,Evening
+2831,Bangalore,Restaurant_5,South Indian,12,11.9,Low,Clear,12.0,33.0,Delivered,3.0,Afternoon
+2832,Mumbai,Restaurant_9,Burger,20,7.2,High,Clear,8.0,39.0,Delivered,4.0,Night
+2833,Mumbai,Restaurant_5,Pizza,11,14.1,Low,Clear,15.0,47.0,Delivered,4.0,Morning
+2834,Mumbai,Restaurant_6,South Indian,12,7.6,Medium,Clear,9.0,37.0,Delivered,4.0,Afternoon
+2835,Delhi,Restaurant_8,Pizza,17,7.2,Medium,Rainy,20.0,32.0,Delivered,4.0,Evening
+2836,Mumbai,Restaurant_1,Dessert,13,11.9,High,Clear,5.0,52.0,Delivered,3.0,Afternoon
+2837,Delhi,Restaurant_2,Chinese,12,12.4,Low,Rainy,17.0,42.0,Delivered,3.0,Afternoon
+2838,Pune,Restaurant_9,Pizza,19,8.5,Medium,Clear,21.0,27.0,Delivered,5.0,Evening
+2839,Bangalore,Restaurant_3,Burger,19,3.1,Low,Clear,5.0,11.0,Delivered,5.0,Evening
+2840,Delhi,Restaurant_6,Biryani,20,7.3,High,Rainy,31.0,40.0,Delivered,4.0,Night
+2841,Pune,Restaurant_5,South Indian,16,14.5,High,Clear,16.0,59.0,Delivered,2.0,Evening
+2842,Delhi,Restaurant_2,Pizza,10,11.4,Medium,Rainy,21.0,53.0,Delivered,4.0,Morning
+2843,Delhi,Restaurant_7,Pizza,13,12.3,Medium,Clear,15.0,36.0,Delivered,4.0,Afternoon
+2844,Bangalore,Restaurant_4,Burger,22,1.0,High,Rainy,14.0,30.0,Delivered,5.0,Night
+2845,Chennai,Restaurant_1,Chinese,18,7.3,Medium,Clear,20.0,25.0,Delivered,5.0,Evening
+2846,Chennai,Restaurant_4,Pizza,19,9.9,Medium,Clear,18.0,41.0,Delivered,4.0,Evening
+2847,Delhi,Restaurant_6,Pizza,8,12.5,Medium,Rainy,26.0,47.0,Delivered,4.0,Morning
+2848,Mumbai,Restaurant_7,Chinese,18,1.2,Medium,Foggy,15.0,15.0,Delivered,5.0,Evening
+2849,Pune,Restaurant_7,Burger,9,12.9,Low,Clear,17.0,44.0,Delivered,4.0,Morning
+2850,Mumbai,Restaurant_7,South Indian,18,8.5,High,Clear,15.0,38.0,Delivered,4.0,Evening
+2851,Mumbai,Restaurant_3,South Indian,21,3.4,Medium,Clear,16.0,20.0,Delivered,5.0,Night
+2852,Delhi,Restaurant_6,Pizza,22,5.1,Low,Clear,11.0,10.0,Delivered,5.0,Night
+2853,Delhi,Restaurant_8,Chinese,18,4.6,High,Rainy,16.0,42.0,Delivered,4.0,Evening
+2854,Delhi,Restaurant_4,Pizza,17,8.2,Medium,Rainy,15.0,44.0,Delivered,4.0,Evening
+2855,Delhi,Restaurant_8,Biryani,22,1.2,Low,Clear,22.0,11.0,Delivered,5.0,Night
+2856,Chennai,Restaurant_2,South Indian,19,2.8,Medium,Clear,21.0,12.0,Delivered,5.0,Evening
+2857,Delhi,Restaurant_10,Dessert,10,12.3,High,Rainy,7.0,63.0,Delivered,2.0,Morning
+2858,Chennai,Restaurant_9,Biryani,17,2.4,High,Clear,21.0,23.0,Delivered,4.0,Evening
+2859,Chennai,Restaurant_9,Pizza,12,3.9,High,Rainy,17.0,33.0,Delivered,5.0,Afternoon
+2860,Delhi,Restaurant_8,Burger,17,7.1,High,Clear,7.0,49.0,Delivered,3.0,Evening
+2861,Bangalore,Restaurant_10,South Indian,17,8.0,Low,Rainy,20.0,30.0,Delivered,5.0,Evening
+2862,Pune,Restaurant_10,Dessert,18,11.6,Medium,Clear,5.0,46.0,Delivered,4.0,Evening
+2863,Mumbai,Restaurant_1,Biryani,15,7.0,High,Rainy,27.0,46.0,Cancelled,,Afternoon
+2864,Chennai,Restaurant_2,South Indian,11,12.0,Medium,Clear,19.0,45.0,Delivered,2.0,Morning
+2865,Pune,Restaurant_6,Chinese,17,9.5,Medium,Clear,13.0,38.0,Delivered,5.0,Evening
+2866,Bangalore,Restaurant_10,Burger,20,2.1,Medium,Rainy,14.0,26.0,Delivered,5.0,Night
+2867,Mumbai,Restaurant_5,Biryani,19,2.8,Medium,Clear,21.0,21.0,Delivered,5.0,Evening
+2868,Mumbai,Restaurant_9,Chinese,14,6.8,High,Clear,25.0,37.0,Delivered,3.0,Afternoon
+2869,Chennai,Restaurant_5,Pizza,22,6.3,Medium,Clear,22.0,36.0,Delivered,4.0,Night
+2870,Delhi,Restaurant_2,Chinese,21,11.3,Medium,Clear,14.0,35.0,Delivered,3.0,Night
+2871,Bangalore,Restaurant_10,Biryani,12,8.9,High,Foggy,22.0,51.0,Delivered,4.0,Afternoon
+2872,Chennai,Restaurant_4,Biryani,9,6.1,Medium,Rainy,25.0,38.0,Delivered,5.0,Morning
+2873,Bangalore,Restaurant_9,Pizza,20,3.0,Low,Clear,17.0,19.0,Delivered,5.0,Night
+2874,Delhi,Restaurant_1,Chinese,20,3.8,Medium,Rainy,23.0,34.0,Cancelled,,Night
+2875,Delhi,Restaurant_1,Chinese,22,8.8,High,Clear,10.0,42.0,Delivered,3.0,Night
+2876,Chennai,Restaurant_7,Pizza,21,6.6,High,Foggy,19.0,31.0,Delivered,5.0,Night
+2877,Delhi,Restaurant_3,Chinese,18,8.0,High,Clear,15.0,40.0,Delivered,5.0,Evening
+2878,Pune,Restaurant_10,South Indian,18,3.0,High,Clear,14.0,23.0,Delivered,5.0,Evening
+2879,Mumbai,Restaurant_2,Pizza,9,10.1,Low,Clear,18.0,30.0,Delivered,4.0,Morning
+2880,Chennai,Restaurant_9,Burger,12,12.9,High,Clear,12.0,46.0,Delivered,4.0,Afternoon
+2881,Bangalore,Restaurant_3,Biryani,17,4.2,High,Clear,28.0,28.0,Delivered,4.0,Evening
+2882,Pune,Restaurant_2,Burger,19,7.6,Low,Clear,14.0,24.0,Delivered,4.0,Evening
+2883,Chennai,Restaurant_8,South Indian,18,14.6,Low,Rainy,16.0,39.0,Delivered,4.0,Evening
+2884,Delhi,Restaurant_10,South Indian,20,5.3,High,Clear,5.0,37.0,Delivered,3.0,Night
+2885,Delhi,Restaurant_6,Dessert,13,9.1,High,Foggy,9.0,58.0,Delivered,3.0,Afternoon
+2886,Delhi,Restaurant_6,Dessert,18,1.8,High,Clear,5.0,28.0,Delivered,5.0,Evening
+2887,Delhi,Restaurant_10,Dessert,10,9.3,High,Rainy,11.0,48.0,Delivered,3.0,Morning
+2888,Bangalore,Restaurant_7,Pizza,16,1.8,Medium,Foggy,24.0,21.0,Delivered,5.0,Evening
+2889,Pune,Restaurant_7,Chinese,20,14.4,Medium,Rainy,11.0,53.0,Delivered,4.0,Night
+2890,Mumbai,Restaurant_6,South Indian,19,10.9,Medium,Foggy,13.0,45.0,Delivered,3.0,Evening
+2891,Bangalore,Restaurant_4,Burger,23,11.9,Low,Rainy,10.0,44.0,Delivered,3.0,Night
+2892,Bangalore,Restaurant_9,Burger,13,10.7,High,Clear,17.0,43.0,Delivered,5.0,Afternoon
+2893,Mumbai,Restaurant_6,Burger,17,9.1,Medium,Rainy,12.0,50.0,Delivered,3.0,Evening
+2894,Mumbai,Restaurant_4,Burger,14,7.0,Medium,Clear,19.0,23.0,Cancelled,,Afternoon
+2895,Delhi,Restaurant_3,Dessert,16,12.9,Medium,Clear,10.0,49.0,Delivered,4.0,Evening
+2896,Bangalore,Restaurant_4,Burger,21,14.4,Medium,Clear,13.0,48.0,Delivered,3.0,Night
+2897,Chennai,Restaurant_3,Chinese,19,7.7,Low,Rainy,15.0,43.0,Delivered,3.0,Evening
+2898,Mumbai,Restaurant_2,Dessert,21,14.0,Low,Clear,11.0,45.0,Delivered,3.0,Night
+2899,Mumbai,Restaurant_5,Burger,12,9.0,Low,Clear,5.0,29.0,Delivered,5.0,Afternoon
+2900,Pune,Restaurant_2,Pizza,21,8.3,Low,Clear,18.0,28.0,Delivered,3.0,Night
+2901,Chennai,Restaurant_6,Biryani,10,7.1,High,Foggy,25.0,42.0,Delivered,3.0,Morning
+2902,Chennai,Restaurant_3,Biryani,21,3.5,Low,Clear,28.0,11.0,Delivered,5.0,Night
+2903,Mumbai,Restaurant_6,Biryani,14,0.6,Low,Clear,24.0,10.0,Delivered,5.0,Afternoon
+2904,Delhi,Restaurant_10,Dessert,13,4.0,Medium,Clear,5.0,14.0,Delivered,5.0,Afternoon
+2905,Pune,Restaurant_9,Burger,18,7.9,Medium,Foggy,12.0,32.0,Delivered,5.0,Evening
+2906,Chennai,Restaurant_1,South Indian,22,6.0,Low,Foggy,10.0,27.0,Delivered,5.0,Night
+2907,Mumbai,Restaurant_6,South Indian,9,7.0,High,Rainy,6.0,45.0,Delivered,3.0,Morning
+2908,Chennai,Restaurant_9,South Indian,14,14.7,High,Foggy,17.0,51.0,Delivered,3.0,Afternoon
+2909,Pune,Restaurant_4,Dessert,21,5.6,Low,Clear,10.0,21.0,Delivered,5.0,Night
+2910,Pune,Restaurant_2,Chinese,16,7.1,Low,Foggy,17.0,33.0,Delivered,5.0,Evening
+2911,Bangalore,Restaurant_4,Pizza,12,2.4,High,Clear,23.0,25.0,Delivered,5.0,Afternoon
+2912,Mumbai,Restaurant_1,Pizza,16,1.2,High,Clear,15.0,20.0,Cancelled,,Evening
+2913,Pune,Restaurant_3,Biryani,15,11.7,Medium,Clear,19.0,40.0,Delivered,4.0,Afternoon
+2914,Bangalore,Restaurant_10,Biryani,21,8.8,Low,Clear,25.0,27.0,Cancelled,,Night
+2915,Bangalore,Restaurant_9,South Indian,20,11.5,Medium,Rainy,13.0,45.0,Delivered,2.0,Night
+2916,Chennai,Restaurant_10,South Indian,17,2.7,Medium,Clear,11.0,21.0,Delivered,5.0,Evening
+2917,Chennai,Restaurant_5,Biryani,23,8.8,Low,Foggy,25.0,46.0,Delivered,4.0,Night
+2918,Bangalore,Restaurant_6,Burger,17,4.2,Medium,Clear,10.0,20.0,Delivered,4.0,Evening
+2919,Chennai,Restaurant_3,Chinese,10,3.8,Medium,Clear,8.0,21.0,Delivered,5.0,Morning
+2920,Pune,Restaurant_5,Chinese,12,0.7,Medium,Clear,13.0,14.0,Delivered,5.0,Afternoon
+2921,Delhi,Restaurant_8,Chinese,16,2.4,High,Rainy,10.0,29.0,Delivered,4.0,Evening
+2922,Pune,Restaurant_6,Chinese,11,5.0,High,Rainy,16.0,44.0,Delivered,5.0,Morning
+2923,Bangalore,Restaurant_4,Biryani,22,2.2,Medium,Clear,22.0,10.0,Delivered,5.0,Night
+2924,Bangalore,Restaurant_2,Pizza,20,14.8,High,Clear,22.0,54.0,Delivered,3.0,Night
+2925,Pune,Restaurant_9,Biryani,12,5.0,Low,Clear,31.0,25.0,Delivered,5.0,Afternoon
+2926,Chennai,Restaurant_1,Chinese,18,2.4,High,Rainy,18.0,31.0,Delivered,4.0,Evening
+2927,Chennai,Restaurant_1,Biryani,19,3.4,Low,Foggy,19.0,16.0,Delivered,5.0,Evening
+2928,Bangalore,Restaurant_4,Chinese,22,9.0,Low,Clear,21.0,33.0,Delivered,5.0,Night
+2929,Mumbai,Restaurant_7,Dessert,21,1.4,Medium,Foggy,14.0,25.0,Delivered,5.0,Night
+2930,Chennai,Restaurant_1,South Indian,18,13.0,Medium,Clear,14.0,47.0,Delivered,3.0,Evening
+2931,Pune,Restaurant_9,Pizza,20,14.4,High,Clear,23.0,52.0,Delivered,2.0,Night
+2932,Chennai,Restaurant_4,Dessert,18,4.1,Medium,Foggy,6.0,30.0,Delivered,5.0,Evening
+2933,Pune,Restaurant_3,Burger,18,7.0,Low,Clear,5.0,23.0,Delivered,5.0,Evening
+2934,Bangalore,Restaurant_1,Biryani,11,0.8,Medium,Clear,22.0,19.0,Delivered,5.0,Morning
+2935,Chennai,Restaurant_10,Burger,11,9.8,Medium,Clear,19.0,45.0,Delivered,5.0,Morning
+2936,Pune,Restaurant_4,Biryani,18,6.5,Medium,Clear,19.0,16.0,Delivered,5.0,Evening
+2937,Bangalore,Restaurant_9,South Indian,12,4.4,Medium,Rainy,14.0,31.0,Delivered,3.0,Afternoon
+2938,Mumbai,Restaurant_10,Dessert,9,3.5,High,Rainy,8.0,26.0,Delivered,4.0,Morning
+2939,Pune,Restaurant_6,South Indian,19,10.0,High,Foggy,12.0,61.0,Delivered,3.0,Evening
+2940,Mumbai,Restaurant_6,Chinese,9,6.5,High,Clear,13.0,34.0,Delivered,4.0,Morning
+2941,Mumbai,Restaurant_1,South Indian,18,3.1,Low,Clear,14.0,19.0,Delivered,5.0,Evening
+2942,Delhi,Restaurant_10,South Indian,18,10.5,High,Clear,12.0,46.0,Cancelled,,Evening
+2943,Chennai,Restaurant_2,Chinese,22,8.7,Medium,Clear,9.0,31.0,Delivered,5.0,Night
+2944,Pune,Restaurant_6,Biryani,17,13.0,Medium,Foggy,26.0,45.0,Delivered,4.0,Evening
+2945,Mumbai,Restaurant_2,Chinese,10,2.2,Medium,Rainy,19.0,32.0,Delivered,5.0,Morning
+2946,Delhi,Restaurant_3,Dessert,18,11.9,High,Clear,11.0,55.0,Delivered,2.0,Evening
+2947,Bangalore,Restaurant_4,South Indian,20,10.3,High,Foggy,11.0,59.0,Delivered,2.0,Night
+2948,Pune,Restaurant_5,Chinese,23,2.2,High,Rainy,10.0,32.0,Delivered,5.0,Night
+2949,Mumbai,Restaurant_9,South Indian,16,10.6,High,Clear,13.0,48.0,Delivered,2.0,Evening
+2950,Chennai,Restaurant_4,Dessert,13,6.9,High,Rainy,14.0,42.0,Delivered,2.0,Afternoon
+2951,Delhi,Restaurant_9,Burger,21,14.2,High,Clear,15.0,54.0,Delivered,2.0,Night
+2952,Mumbai,Restaurant_10,Dessert,12,2.6,Medium,Clear,11.0,14.0,Delivered,5.0,Afternoon
+2953,Chennai,Restaurant_3,Pizza,19,9.8,Low,Clear,22.0,33.0,Delivered,5.0,Evening
+2954,Mumbai,Restaurant_8,Pizza,16,6.0,Medium,Clear,20.0,24.0,Cancelled,,Evening
+2955,Pune,Restaurant_1,Pizza,9,14.4,Low,Clear,18.0,46.0,Delivered,2.0,Morning
+2956,Pune,Restaurant_9,South Indian,14,5.3,Medium,Clear,17.0,27.0,Delivered,5.0,Afternoon
+2957,Pune,Restaurant_9,Biryani,12,14.5,Medium,Clear,23.0,51.0,Delivered,3.0,Afternoon
+2958,Delhi,Restaurant_10,Biryani,19,13.6,Medium,Rainy,19.0,61.0,Delivered,1.0,Evening
+2959,Pune,Restaurant_2,Biryani,22,4.4,High,Foggy,28.0,35.0,Delivered,5.0,Night
+2960,Chennai,Restaurant_4,South Indian,12,12.2,High,Rainy,19.0,60.0,Delivered,2.0,Afternoon
+2961,Mumbai,Restaurant_8,Dessert,20,14.9,Low,Clear,5.0,56.0,Delivered,5.0,Night
+2962,Bangalore,Restaurant_7,Biryani,10,4.2,Medium,Clear,28.0,30.0,Delivered,3.0,Morning
+2963,Chennai,Restaurant_1,Burger,18,6.8,Medium,Clear,19.0,36.0,Delivered,5.0,Evening
+2964,Chennai,Restaurant_5,Pizza,10,8.0,Medium,Clear,18.0,31.0,Delivered,4.0,Morning
+2965,Pune,Restaurant_7,Dessert,22,4.8,High,Clear,5.0,33.0,Delivered,3.0,Night
+2966,Delhi,Restaurant_4,Pizza,20,0.7,Medium,Rainy,18.0,14.0,Delivered,5.0,Night
+2967,Mumbai,Restaurant_1,Biryani,19,3.7,Medium,Rainy,23.0,31.0,Delivered,5.0,Evening
+2968,Delhi,Restaurant_9,Dessert,20,4.6,High,Rainy,6.0,39.0,Delivered,5.0,Night
+2969,Mumbai,Restaurant_5,Chinese,19,6.9,High,Clear,17.0,37.0,Delivered,5.0,Evening
+2970,Mumbai,Restaurant_2,Burger,22,3.0,Low,Clear,6.0,21.0,Delivered,5.0,Night
+2971,Delhi,Restaurant_8,Biryani,19,13.2,High,Rainy,19.0,53.0,Cancelled,,Evening
+2972,Chennai,Restaurant_2,Biryani,21,10.7,Medium,Clear,25.0,48.0,Delivered,4.0,Night
+2973,Mumbai,Restaurant_3,Burger,18,1.7,Low,Clear,12.0,17.0,Delivered,5.0,Evening
+2974,Delhi,Restaurant_10,Burger,11,9.9,Low,Clear,13.0,32.0,Delivered,4.0,Morning
+2975,Mumbai,Restaurant_1,Chinese,18,10.0,Medium,Clear,23.0,37.0,Delivered,4.0,Evening
+2976,Bangalore,Restaurant_2,Biryani,11,14.4,Medium,Clear,25.0,51.0,Delivered,2.0,Morning
+2977,Chennai,Restaurant_7,South Indian,18,0.5,Low,Rainy,16.0,23.0,Delivered,5.0,Evening
+2978,Pune,Restaurant_10,Biryani,17,4.1,Medium,Foggy,21.0,28.0,Delivered,4.0,Evening
+2979,Mumbai,Restaurant_2,Pizza,19,14.0,High,Clear,21.0,56.0,Delivered,2.0,Evening
+2980,Bangalore,Restaurant_6,Dessert,8,14.0,Low,Clear,6.0,43.0,Delivered,4.0,Morning
+2981,Pune,Restaurant_3,Dessert,12,10.9,Low,Rainy,8.0,50.0,Delivered,3.0,Afternoon
+2982,Pune,Restaurant_4,Pizza,17,11.6,High,Clear,18.0,47.0,Delivered,3.0,Evening
+2983,Mumbai,Restaurant_8,Dessert,22,1.8,Low,Clear,12.0,12.0,Delivered,5.0,Night
+2984,Delhi,Restaurant_3,Burger,15,8.0,High,Clear,7.0,47.0,Delivered,3.0,Afternoon
+2985,Mumbai,Restaurant_10,Dessert,16,3.9,Medium,Clear,5.0,23.0,Delivered,5.0,Evening
+2986,Bangalore,Restaurant_6,Dessert,19,3.1,Medium,Rainy,7.0,32.0,Delivered,5.0,Evening
+2987,Pune,Restaurant_1,Pizza,18,12.2,Low,Rainy,20.0,40.0,Delivered,4.0,Evening
+2988,Mumbai,Restaurant_7,Chinese,13,2.5,Low,Clear,16.0,13.0,Cancelled,,Afternoon
+2989,Delhi,Restaurant_8,Dessert,16,7.3,Low,Clear,13.0,34.0,Delivered,3.0,Evening
+2990,Mumbai,Restaurant_8,South Indian,12,14.1,Low,Clear,16.0,40.0,Delivered,4.0,Afternoon
+2991,Chennai,Restaurant_3,Dessert,22,3.2,Medium,Clear,6.0,20.0,Delivered,4.0,Night
+2992,Delhi,Restaurant_10,Chinese,11,14.7,Low,Foggy,6.0,50.0,Delivered,2.0,Morning
+2993,Bangalore,Restaurant_1,Pizza,15,14.9,Medium,Rainy,17.0,51.0,Delivered,2.0,Afternoon
+2994,Pune,Restaurant_9,Chinese,9,8.6,Medium,Clear,19.0,32.0,Delivered,4.0,Morning
+2995,Mumbai,Restaurant_6,Pizza,12,3.0,Low,Rainy,16.0,22.0,Delivered,5.0,Afternoon
+2996,Delhi,Restaurant_9,Burger,20,5.1,Low,Rainy,12.0,27.0,Delivered,5.0,Night
+2997,Chennai,Restaurant_7,Pizza,12,6.7,Low,Rainy,20.0,37.0,Delivered,4.0,Afternoon
+2998,Delhi,Restaurant_1,Burger,10,5.0,Low,Clear,8.0,28.0,Delivered,5.0,Morning
+2999,Chennai,Restaurant_1,Burger,17,4.6,High,Clear,14.0,27.0,Delivered,4.0,Evening
+3000,Bangalore,Restaurant_6,Pizza,8,14.6,Medium,Rainy,25.0,56.0,Delivered,2.0,Morning
